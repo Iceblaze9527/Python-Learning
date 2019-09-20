@@ -1,7 +1,20 @@
 # Codecademy: Inheritance and Polymorphism
+Notes from Learn Python3 lesson in Codecademy
 
 ## Inheritance
 If the bulk of a class’s definition is useful, but we have a new use case that is distinct from how the original class was used, we can _inherit_ from the original class. Think of inheritance as a remix — it sounds a lot like the original, but there’s something… different about it.
+```py
+class User:
+  is_admin = False
+  def __init__(self, username)
+    self.username = username
+
+class Admin(User):
+  is_admin = True
+```
+Above we defined `User` as our _base class_. We want to create a new class that inherits from it, so we created the _subclass_ `Admin`. In the above example, `Admin` has the same constructor as `User`. Only the class variable `is_admin` is set differently between the two.
+
+Sometimes a base class is called a _parent class_. In these terms, the class inheriting from it, the subclass, is also referred to as a _child class_.v
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkzMTExMjkwNF19
+eyJoaXN0b3J5IjpbNTIzNjY3MTldfQ==
 -->
