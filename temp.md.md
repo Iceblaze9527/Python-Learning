@@ -1,4 +1,6 @@
-# Constructors
+# Codecademy:Classes
+Notes from Learn Python3 lesson in Codecademy
+## Constructors
 
 There are several methods that we can define in a Python class that have special behavior. These methods are sometimes called “magic”, because they behave differently from regular methods. Another popular term is _dunder methods_, so-named because they have two underscores (double-underscore abbreviated to “dunder”) on either side of them.
 
@@ -41,9 +43,8 @@ shout3 = Shouter("let it all out")
 ```
 Above we’ve updated our `Shouter` class to take the additional parameter `phrase`. When we created each of our objects we passed an argument to the constructor. The constructor takes the argument `phrase` and, if it’s a string, prints out the all-caps version of `phrase`.
 
-## Str
+## String Representation
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMzM1NDAwODEsLTIwODI0ODQ4MjhdfQ
-==
+eyJoaXN0b3J5IjpbLTI5MzcxNzM3LC0yMDgyNDg0ODI4XX0=
 -->
