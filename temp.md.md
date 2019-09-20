@@ -41,6 +41,9 @@ shout3 = Shouter("let it all out")
 ```
 Above we’ve updated our `Shouter` class to take the additional parameter `phrase`. When we created each of our objects we passed an argument to the constructor. The constructor takes the argument `phrase` and, if it’s a string, prints out the all-caps version of `phrase`.
 
+## Str
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwODI0ODQ4MjhdfQ==
+eyJoaXN0b3J5IjpbLTExMzM1NDAwODEsLTIwODI0ODQ4MjhdfQ
+==
 -->
