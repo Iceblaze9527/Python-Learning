@@ -1,6 +1,5 @@
 # Codecademy:Classes
 Notes from Learn Python3 lesson in Codecademy
-[TOC]
 ## Constructors
 
 There are several methods that we can define in a Python class that have special behavior. These methods are sometimes called “magic”, because they behave differently from regular methods. Another popular term is _dunder methods_, so-named because they have two underscores (double-underscore abbreviated to “dunder”) on either side of them.
@@ -78,5 +77,5 @@ fake_dict2.fake_key = "This too!"
 ## String Representation
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3ODMxMzI4NDldfQ==
+eyJoaXN0b3J5IjpbMTU2NTk4MTY2NSwtMTc4MzEzMjg0OV19
 -->
