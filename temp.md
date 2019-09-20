@@ -75,7 +75,13 @@ fake_dict2.fake_key = "This too!"
 ```
 
 ## String Representation
+We learned about the dunder method `__init__`. Now, we will learn another dunder method called `__repr__`. This is a method we can use to tell Python what we want the _string representation_ of the class to be. `__repr__` can only have one parameter, `self`, and must return a string.
+#### Eg:
+```py
+  def __repr__(self):
+    return "Circle with radius {radius}".format(radius=self.radius)
+```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU2NTk4MTY2NSwtMTc4MzEzMjg0OV19
+eyJoaXN0b3J5IjpbMTA2ODA5ODI0MiwtMTc4MzEzMjg0OV19
 -->
