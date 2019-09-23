@@ -61,7 +61,7 @@ print(drummer.title)
 # prints "Rockstar"
 ```
 
-### 2.2Instance Variable
+### 2.2 Instance Variable
 The data held by an object is referred to as an _instance variable_. Instance variables aren’t shared by all instances of a class — they are variables that are specific to the object they are attached to.
 
 #### Eg:
@@ -77,7 +77,7 @@ fake_dict1.fake_key = "This works!"
 fake_dict2.fake_key = "This too!"
 ```
 
-## String Representation
+## 3. String Representation
 We learned about the dunder method `__init__`. Now, we will learn another dunder method called `__repr__`. This is a method we can use to tell Python what we want the _string representation_ of the class to be. `__repr__` can only have one parameter, `self`, and must return a string.
 
 #### Eg:
@@ -88,5 +88,5 @@ We learned about the dunder method `__init__`. Now, we will learn another dunder
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI5Nzg3ODM1Niw0MjkzNTExODBdfQ==
+eyJoaXN0b3J5IjpbLTI3OTk4OTcsNDI5MzUxMTgwXX0=
 -->
