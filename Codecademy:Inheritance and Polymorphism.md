@@ -47,6 +47,31 @@ class RefrigeratorException(KitchenException):
 In this code, we define three exceptions. First, we define a `KitchenException` that acts as the parent to our other, specific kitchen appliance exceptions. `KitchenException` subclasses `Exception`, so it behaves in the same way that regular `Exception`s do. Afterward we define `MicrowaveException` and `RefrigeratorException` as subclasses.
 
 Since our exceptions are subclassed in this way, we can catch any of `KitchenException`‘s subclasses by catching `KitchenException`. For example:
+
+```py
+def get_food_from_fridge():
+  if refrigerator.cooling == False:
+    raise RefrigeratorException
+  else:
+    return food
+
+def heat_food(food):
+  if microwave.working == False:
+    raise MicrowaveException
+  else:
+    microwave.cook(food)
+    return food
+
+try:
+  food = get_food_from_fridge()
+  food = heat_food(food)
+except KitchenException:
+  food = order_takeout()
+```
+
+In the above example, we attempt to retrieve food from the fridge and heat it in the microwave. If either `RefrigeratorException` or `MicrowaveException` is raised, we opt to order takeout instead. We catch both `RefrigeratorException` and `MicrowaveException` in our try/except block because both are subclasses of `KitchenException`.
+
+Explore Python’s exception hierarchy in the [Python documentation](https://docs.python.org/3/library/exceptions.html#exception-hierarchy)!
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA3NjQ4OTI5NSw1MjM2NjcxOV19
+eyJoaXN0b3J5IjpbLTYyNDE2MzU5LDUyMzY2NzE5XX0=
 -->
