@@ -21,7 +21,27 @@ Sometimes a base class is called a _parent class_. In these terms, the class inh
 There’s one very important family of class definitions built in to the Python language. An _Exception_ is a class that inherits from Python’s `Exception` class.
 
 We can validate this ourselves using the `issubclass()` function. `issubclass()` is a Python built-in function that takes two parameters. `issubclass()` returns `True` if the first argument is a subclass of the second argument. It returns `False` if the first class is not a subclass of the second. `issubclass()` raises a `TypeError` if either argument passed in is not a class.
+```py
+issubclass(ZeroDivisionError, Exception)
+# Returns True
+```
+Above, we checked whether `ZeroDivisionError`, the exception raised when attempting division by zero, is a subclass of `Exception`. It is, so `issubclass` returns `True`.
 
+Why is it beneficial for exceptions to inherit from one another? Let’s consider an example where we create our own exceptions. What if we were creating software that tracks our kitchen appliances? We would be able to design a suite of exceptions for that need:
+```py
+class KitchenException(Exception):
+  """
+  Exception that gets thrown when a kitchen appliance isn't working
+  """
+class MicrowaveException(KitchenException):
+  """
+  Exception for when the microwave stops working
+  """
+class RefrigeratorException(KitchenException):
+  """
+ Exception for when the refrigerator stops working
+ """
+ ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwOTY0MDk2MTQsNTIzNjY3MTldfQ==
+eyJoaXN0b3J5IjpbLTYxNDE0NTQ2LDUyMzY2NzE5XX0=
 -->
