@@ -14,7 +14,14 @@ class Admin(User):
 ```
 Above we defined `User` as our _base class_. We want to create a new class that inherits from it, so we created the _subclass_ `Admin`. In the above example, `Admin` has the same constructor as `User`. Only the class variable `is_admin` is set differently between the two.
 
-Sometimes a base class is called a _parent class_. In these terms, the class inheriting from it, the subclass, is also referred to as a _child class_.v
+Sometimes a base class is called a _parent class_. In these terms, the class inheriting from it, the subclass, is also referred to as a _child class_.
+
+## Exceptions
+
+There’s one very important family of class definitions built in to the Python language. An _Exception_ is a class that inherits from Python’s `Exception` class.
+
+We can validate this ourselves using the `issubclass()` function. `issubclass()` is a Python built-in function that takes two parameters. `issubclass()` returns `True` if the first argument is a subclass of the second argument. It returns `False` if the first class is not a subclass of the second. `issubclass()` raises a `TypeError` if either argument passed in is not a class.
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTIzNjY3MTldfQ==
+eyJoaXN0b3J5IjpbLTIwOTY0MDk2MTQsNTIzNjY3MTldfQ==
 -->
