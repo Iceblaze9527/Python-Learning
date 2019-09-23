@@ -72,6 +72,10 @@ except KitchenException:
 In the above example, we attempt to retrieve food from the fridge and heat it in the microwave. If either `RefrigeratorException` or `MicrowaveException` is raised, we opt to order takeout instead. We catch both `RefrigeratorException` and `MicrowaveException` in our try/except block because both are subclasses of `KitchenException`.
 
 Explore Python’s exception hierarchy in the [Python documentation](https://docs.python.org/3/library/exceptions.html#exception-hierarchy)!
+
+## Overriding Methods
+
+ What if one of the methods needs to be implemented differently? In Python, all we have to do to _override_ a method definition is to offer a new definition for the method in our subclass. An overridden method is one that has a different definition from its parent class.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYyNDE2MzU5LDUyMzY2NzE5XX0=
+eyJoaXN0b3J5IjpbLTc1MDM5NTA1Miw1MjM2NjcxOV19
 -->
