@@ -28,6 +28,7 @@ issubclass(ZeroDivisionError, Exception)
 Above, we checked whether `ZeroDivisionError`, the exception raised when attempting division by zero, is a subclass of `Exception`. It is, so `issubclass` returns `True`.
 
 Why is it beneficial for exceptions to inherit from one another? Let’s consider an example where we create our own exceptions. What if we were creating software that tracks our kitchen appliances? We would be able to design a suite of exceptions for that need:
+
 ```py
 class KitchenException(Exception):
   """
@@ -39,9 +40,13 @@ class MicrowaveException(KitchenException):
   """
 class RefrigeratorException(KitchenException):
   """
- Exception for when the refrigerator stops working
- """
+  Exception for when the refrigerator stops working
+  """
  ```
+
+In this code, we define three exceptions. First, we define a `KitchenException` that acts as the parent to our other, specific kitchen appliance exceptions. `KitchenException` subclasses `Exception`, so it behaves in the same way that regular `Exception`s do. Afterward we define `MicrowaveException` and `RefrigeratorException` as subclasses.
+
+Since our exceptions are subclassed in this way, we can catch any of `KitchenException`‘s subclasses by catching `KitchenException`. For example:
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYxNDE0NTQ2LDUyMzY2NzE5XX0=
+eyJoaXN0b3J5IjpbMTA3NjQ4OTI5NSw1MjM2NjcxOV19
 -->
