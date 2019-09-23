@@ -1,7 +1,7 @@
 # Codecademy: Inheritance and Polymorphism
 Notes from Learn Python3 lesson in Codecademy
 
-## Inheritance
+## 1. Inheritance
 If the bulk of a class’s definition is useful, but we have a new use case that is distinct from how the original class was used, we can _inherit_ from the original class. Think of inheritance as a remix — it sounds a lot like the original, but there’s something… different about it.
 ```py
 class User:
@@ -16,7 +16,7 @@ Above we defined `User` as our _base class_. We want to create a new class that 
 
 Sometimes a base class is called a _parent class_. In these terms, the class inheriting from it, the subclass, is also referred to as a _child class_.
 
-## Exceptions
+## 2. Exceptions
 
 There’s one very important family of class definitions built in to the Python language. An _Exception_ is a class that inherits from Python’s `Exception` class.
 
@@ -73,9 +73,28 @@ In the above example, we attempt to retrieve food from the fridge and heat it in
 
 Explore Python’s exception hierarchy in the [Python documentation](https://docs.python.org/3/library/exceptions.html#exception-hierarchy)!
 
-## Overriding Methods
+## 3. Overriding Methods
 
  What if one of the methods needs to be implemented differently? In Python, all we have to do to _override_ a method definition is to offer a new definition for the method in our subclass. An overridden method is one that has a different definition from its parent class.
+```py
+class User:
+  def __init__(self, username, permissions):
+    self.username = username
+    self.permissions = permissions
+
+  def has_permission_for(self, key):
+    if self.permissions.get(key):
+      return True
+    else:
+      return False
+```
+Above we defined a class `User` which takes a `permissions` parameter in its constructor. Let’s assume `permissions` is a `dict`. `User` has a method `.has_permission_for()` implemented, where it checks to see if a given key is in its `permissions` dictionary. We could then define our `Admin` user like this:
+```py
+class Admin(User):
+  def has_permission_for(self, key):
+    return True
+```
+Here we define an `Admin` class that subclasses `User`. It has all methods, attributes, and functionality that `User` has. However, if you call `has_permission_for` on an instance of `Admin`, it won’t check its `permissions` dictionary. Since this `User` is also an `Admin`, we just say they have permission to see everything!
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc1MDM5NTA1Miw1MjM2NjcxOV19
+eyJoaXN0b3J5IjpbMTczODQ5MDU5Niw1MjM2NjcxOV19
 -->
