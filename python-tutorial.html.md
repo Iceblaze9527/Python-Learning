@@ -49,21 +49,19 @@
 ## Section 2: Hello World
 
   这一篇将讲解如何使用python输出"Hello,world!"  
-  首先，如果你已经安装了anaconda，那么会自带spyder开发环境。
- linux用户可以通过直接运行命令：
+  首先，如果你已经安装了anaconda，那么会自带spyder开发环境。linux用户可以通过直接运行命令：
 
 ```
 $ Spyder
-
 ```
 
   便可以打开spyder开发环境。之后，有两种方法运行语句，一种是在editor中输入语句并点击绿色运行按钮（或使用快捷键F5），或是直接选择Python console写入语句。Python console位置如箭头所示：  
 ![avatar](7.png)
 
   语句如下：
-
+```py
 print("Hello, World!")
-
+```
 > 小贴士：要求严格的代码缩进是python语法的一大特色，就像C语言家族（C、C++、Java等等）中的花括号一样重要。 Python中的代码缩进在一定程度上相当于C中的括号，因此，在print前一定不能多加空格，否则语句将无法执行。
 
 ## Section 3: Python中的数据类型
@@ -85,18 +83,18 @@ print("Hello, World!")
 -   Complex（复数型）
 
   赋值的方法如下:
-
+```
 a = 3000           #整形变量
 b = 2000.0         #浮点型变量
 c = 3e9            #整形变量，即3*10^9
 d = 3.14j          #复数性变量
-
+```
   当然，也可以使用其它进制数对变量进行赋值，如：
-
+```
 a = 0b11           #整形变量，二进制数
 b = 0o76           #整型变量，八进制数
 c = 0xef           #整型变量，十六进制数
-
+```
   **那么，如何进行各进制数之间的转换呢？**
 
 -   使用bin()方法把任意进制数转化为二进制数;
@@ -1449,5 +1447,5 @@ test\['species'\].head()
 [Python中lambda表达式的应用](https://blog.csdn.net/u011197534/article/details/53747316)  
 [Python 基础教程 | 菜鸟教程](http://www.runoob.com/python/python-tutorial.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUwOTkzNDkwOCwtMzk1MjU4ODZdfQ==
+eyJoaXN0b3J5IjpbLTYxNDIyNDMxOCwtMzk1MjU4ODZdfQ==
 -->
