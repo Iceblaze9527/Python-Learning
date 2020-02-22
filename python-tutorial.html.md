@@ -109,31 +109,31 @@ c = 0xef           #整型变量，十六进制数
 **字符串String**  
   字符串是以单引号('')，或双引号("")括起来的一段文本，但引号不包含在字符串范围内。如果在字符串内部也有引号的话，需要添加'或''  
   如：
-
+```py
 print('I\\'m \\"OK\\"!')
 I'm "OK"!
-
+```
   如果在一个字符串内需要换行，可以用以下形式表示：
-
+```py
 print('''line1
 ... line2
 ... line3''')
-
+```
   则会显示：
-
+```sh
 line1
 line2
 line3
-
+```
 **列表List**
 
   列表是python中最常用的数据类型，在一个列表中，可以存储多种数据格式，如string，int，也可以是list本身；列表的使用非常灵活，列表中的每个元素甚至可以存储不同的数据类型，每个元素的大小也不尽相同。如：
-
+```py
 a = \[\]   #初始化空列表
 a.append(1)  #为列表添加一个数据元素
 a.append('s') #为列表添加一个字符串
 a.append(\[1,'s'\]) #为列表添加一个列表元素
-
+```
   我们可以在spyder中观察该列表的数据类型如下：  
 ![avatar](2.png)  
   在Type一栏中，我们发现该List有三种不同的数据类型；从Size一栏，我们发现该List每个元素的大小也有所不同；
@@ -1447,5 +1447,5 @@ test\['species'\].head()
 [Python中lambda表达式的应用](https://blog.csdn.net/u011197534/article/details/53747316)  
 [Python 基础教程 | 菜鸟教程](http://www.runoob.com/python/python-tutorial.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYxNDIyNDMxOCwtMzk1MjU4ODZdfQ==
+eyJoaXN0b3J5IjpbLTE4OTYxNjk0NjIsLTM5NTI1ODg2XX0=
 -->
