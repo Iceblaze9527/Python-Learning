@@ -1,6 +1,6 @@
-# Python Tutorial
+# Python Learning
 
-> Author: Wei Zhang, Haochen Wang
+> Credit to Original Author: Wei Zhang, Haochen Wang
 
 -   [Section 1: Python简介与安装](#section-1-python%E7%AE%80%E4%BB%8B%E4%B8%8E%E5%AE%89%E8%A3%85)
 -   [Section 2: Hello World](#section-2-hello-world)
@@ -111,7 +111,7 @@ c = 0xef           #整型变量，十六进制数
 
 ### Section 3.2: 字符串与列表
 
-#### 字符串String
+#### 3.2.1 字符串String
 字符串是以单引号('')，或双引号("")括起来的一段文本，但引号不包含在字符串范围内。如果在字符串内部也有引号的话，需要添加'或''  
 
 如：
@@ -131,7 +131,7 @@ line1
 line2
 line3
 ```
-#### 列表List
+#### 3.2.2 列表List
 
 列表是python中最常用的数据类型，在一个列表中，可以存储多种数据格式，如string，int，也可以是list本身；列表的使用非常灵活，列表中的每个元素甚至可以存储不同的数据类型，每个元素的大小也不尽相同。如：
 ```py
@@ -146,7 +146,7 @@ a.append([1,'s']) #为列表添加一个列表元素
 
 在Type一栏中，我们发现该List有三种不同的数据类型；从Size一栏，我们发现该List每个元素的大小也有所不同；
 
-#### 列表的初始化
+#### 3.2.3 列表的初始化
 
 可以用以下方式初始化一个列表：
 ```py
@@ -161,7 +161,8 @@ classmates.append('Michael')
 classmates.append('Bob')
 classmates.append('Tracy')
 ```
-#### 列表的访问
+
+#### 3.2.4 列表的访问
 
 可以通过列表索引访问列表中的元素，列表索引从0开始。如：
 
@@ -1459,5 +1460,5 @@ test\['species'\].head()
 [Python中lambda表达式的应用](https://blog.csdn.net/u011197534/article/details/53747316)  
 [Python 基础教程 | 菜鸟教程](http://www.runoob.com/python/python-tutorial.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMzMTkwNzYxOCwtMzk1MjU4ODZdfQ==
+eyJoaXN0b3J5IjpbLTEwNTc4MzU4NDcsLTM5NTI1ODg2XX0=
 -->
