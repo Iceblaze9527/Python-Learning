@@ -1,8 +1,6 @@
-python-tutorial
-
 # Python Tutorial
 
-Author: Wei Zhang, Haochen Wang
+> Author: Wei Zhang, Haochen Wang
 
 -   [Section 1: Python简介与安装](#section-1-python%E7%AE%80%E4%BB%8B%E4%B8%8E%E5%AE%89%E8%A3%85)
 -   [Section 2: Hello World](#section-2-hello-world)
@@ -51,10 +49,8 @@ Author: Wei Zhang, Haochen Wang
 ## Section 2: Hello World
 
   这一篇将讲解如何使用python输出"Hello,world!"  
-  首先，如果你已经安装了anaconda，那么会自带spyder开发环境。Windows用户可以在开始文件夹Anaconda子目录下找到Spyder,如图所示：  
-![avatar](1.png)
-
-  而linux用户可以通过直接运行命令：
+  首先，如果你已经安装了anaconda，那么会自带spyder开发环境。
+ linux用户可以通过直接运行命令：
 
 ```
 $ Spyder
@@ -1453,5 +1449,5 @@ test\['species'\].head()
 [Python中lambda表达式的应用](https://blog.csdn.net/u011197534/article/details/53747316)  
 [Python 基础教程 | 菜鸟教程](http://www.runoob.com/python/python-tutorial.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM5NTI1ODg2XX0=
+eyJoaXN0b3J5IjpbLTUwOTkzNDkwOCwtMzk1MjU4ODZdfQ==
 -->
