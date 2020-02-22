@@ -60,6 +60,7 @@ $ Spyder
 ```
 
 便可以打开spyder开发环境。之后，有两种方法运行语句，一种是在editor中输入语句并点击绿色运行按钮（或使用快捷键F5），或是直接选择Python console写入语句。Python console位置如箭头所示：  
+
 ![avatar](7.png)
 
 语句如下：
@@ -124,7 +125,7 @@ print('''line1
 ... line2
 ... line3''')
 ```
-  则会显示：
+则会显示：
 ```sh
 line1
 line2
@@ -132,23 +133,27 @@ line3
 ```
 **列表List**
 
-  列表是python中最常用的数据类型，在一个列表中，可以存储多种数据格式，如string，int，也可以是list本身；列表的使用非常灵活，列表中的每个元素甚至可以存储不同的数据类型，每个元素的大小也不尽相同。如：
+列表是python中最常用的数据类型，在一个列表中，可以存储多种数据格式，如string，int，也可以是list本身；列表的使用非常灵活，列表中的每个元素甚至可以存储不同的数据类型，每个元素的大小也不尽相同。如：
 ```py
-a = \[\]   #初始化空列表
+a = []   #初始化空列表
 a.append(1)  #为列表添加一个数据元素
 a.append('s') #为列表添加一个字符串
-a.append(\[1,'s'\]) #为列表添加一个列表元素
+a.append([1,'s']) #为列表添加一个列表元素
 ```
-  我们可以在spyder中观察该列表的数据类型如下：  
+
+我们可以在spyder中观察该列表的数据类型如下：  
 ![avatar](2.png)  
-  在Type一栏中，我们发现该List有三种不同的数据类型；从Size一栏，我们发现该List每个元素的大小也有所不同；
+
+在Type一栏中，我们发现该List有三种不同的数据类型；从Size一栏，我们发现该List每个元素的大小也有所不同；
 
 **列表的初始化**  
-  可以用以下方式初始化一个列表：
 
-classmates = \['Michael', 'Bob', 'Tracy'\]
+可以用以下方式初始化一个列表：
+```py
+classmates = ['Michael', 'Bob', 'Tracy']
+```
 
-  也可以初始化一个空列表，然后不断添加元素，如：
+也可以初始化一个空列表，然后不断添加元素，如：
 
 classmates = \[\]
 classmates.append('Michael')
@@ -1452,5 +1457,5 @@ test\['species'\].head()
 [Python中lambda表达式的应用](https://blog.csdn.net/u011197534/article/details/53747316)  
 [Python 基础教程 | 菜鸟教程](http://www.runoob.com/python/python-tutorial.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI1NTg0NTE4OCwtMzk1MjU4ODZdfQ==
+eyJoaXN0b3J5IjpbMzc4NTU5NDM3LC0zOTUyNTg4Nl19
 -->
