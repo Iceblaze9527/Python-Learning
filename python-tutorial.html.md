@@ -40,14 +40,13 @@
 ## Section 1: Python简介与安装
 
 ![](https://www.python.org/static/community_logos/python-logo-generic.svg)
-
 Python是一种动态的、面向对象的脚本语言。经过数十年人们不断的发展，Python已经成为了主流的编程语言之一。当今最流行的多个神经网络框架，以及经典的模式识别算法，都有Python版本的实现。  
   
 Python的安装十分简单，只需在[官网](https://www.python.org/)下载安装包后直接安装即可。在实际应用中，由于我们要用到很多Python扩展包，因此这里建议大家下载[Anaconda](https://www.anaconda.com/)而不是直接使用Python。Anaconda可以在[清华大学开源软件镜像站](https://mirrors.tuna.tsinghua.edu.cn/)下载。  
   
 Windows下安装完成Anaconda后会自动将Python加入到环境变量。Linux在安装时会提醒你是否加入到用户.bashrc文件，如果没有默认添加的话则需要自己手动添加路径到PATH。  
   
-  本教程依据**python3**，从最基础的部分讲解，帮助同学快速上手Python。同学们可以提出意见，我们会按照建议及时更新。
+本教程依据**python3**，从最基础的部分讲解，帮助同学快速上手Python。同学们可以提出意见，我们会按照建议及时更新。
 
 ## Section 2: Hello World
 
@@ -64,9 +63,11 @@ $ Spyder
 ![avatar](7.png)
 
 语句如下：
+
 ```py
 print("Hello, World!")
 ```
+
 > 小贴士：要求严格的代码缩进是python语法的一大特色，就像C语言家族（C、C++、Java等等）中的花括号一样重要。 Python中的代码缩进在一定程度上相当于C中的括号，因此，在print前一定不能多加空格，否则语句将无法执行。
 
 ## Section 3: Python中的数据类型
@@ -88,19 +89,23 @@ Python包含三种主要的数字类型，分别是：
 -   Complex（复数型）
 
 赋值的方法如下:
+
 ```py
 a = 3000           #整形变量
 b = 2000.0         #浮点型变量
 c = 3e9            #整形变量，即3*10^9
 d = 3.14j          #复数性变量
 ```
+
 当然，也可以使用其它进制数对变量进行赋值，如：
+
 ```py
 a = 0b11           #整形变量，二进制数
 b = 0o76           #整型变量，八进制数
 c = 0xef           #整型变量，十六进制数
 ```
-**那么，如何进行各进制数之间的转换呢？**
+
+那么，如何进行各进制数之间的转换呢？
 
 -   使用bin()方法把任意进制数转化为二进制数;
 -   使用oct()方法把任意进制数转化为八进制数;
@@ -115,25 +120,32 @@ c = 0xef           #整型变量，十六进制数
 字符串是以单引号('')，或双引号("")括起来的一段文本，但引号不包含在字符串范围内。如果在字符串内部也有引号的话，需要添加'或''  
 
 如：
+
 ```py
 print('I\\'m \\"OK\\"!')
 I'm "OK"!
 ```
+
 如果在一个字符串内需要换行，可以用以下形式表示：
+
 ```py
 print('''line1
 ... line2
 ... line3''')
 ```
+
 则会显示：
+
 ```sh
 line1
 line2
 line3
 ```
+
 #### 3.2.2 列表List
 
 列表是python中最常用的数据类型，在一个列表中，可以存储多种数据格式，如string，int，也可以是list本身；列表的使用非常灵活，列表中的每个元素甚至可以存储不同的数据类型，每个元素的大小也不尽相同。如：
+
 ```py
 a = []   #初始化空列表
 a.append(1)  #为列表添加一个数据元素
@@ -142,6 +154,7 @@ a.append([1,'s']) #为列表添加一个列表元素
 ```
 
 我们可以在spyder中观察该列表的数据类型如下：  
+
 ![avatar](2.png)  
 
 在Type一栏中，我们发现该List有三种不同的数据类型；从Size一栏，我们发现该List每个元素的大小也有所不同；
@@ -149,6 +162,7 @@ a.append([1,'s']) #为列表添加一个列表元素
 #### 3.2.3 列表的初始化
 
 可以用以下方式初始化一个列表：
+
 ```py
 classmates = ['Michael', 'Bob', 'Tracy']
 ```
@@ -1460,5 +1474,5 @@ test\['species'\].head()
 [Python中lambda表达式的应用](https://blog.csdn.net/u011197534/article/details/53747316)  
 [Python 基础教程 | 菜鸟教程](http://www.runoob.com/python/python-tutorial.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNTc4MzU4NDcsLTM5NTI1ODg2XX0=
+eyJoaXN0b3J5IjpbMTc2Nzg5NDM4MSwtMzk1MjU4ODZdfQ==
 -->
