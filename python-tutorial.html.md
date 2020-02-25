@@ -1170,7 +1170,7 @@ df1:
 a       1       2
 b      aa      bb
 '''
-df1 = pd.DataFrame(\[\[1, 2\], \["aa", "bb"\]\], columns=\["column1", "column2"\], index=\["a", "b"\])
+df1 = pd.DataFrame([[1, 2], ["aa", "bb"]], columns=["column1", "column2"], index=["a", "b"])
 ```
 
 可以使用dict或list生成DataFrame。
@@ -1183,10 +1183,10 @@ df2:
 1   Alpha Co  200  210  215
 2   Blue Inc   50   90   95
 '''
-sales = {'account': \['Jones LLC', 'Alpha Co', 'Blue Inc'\],
-         'Jan': \[150, 200, 50\],
-         'Feb': \[200, 210, 90\],
-         'Mar': \[140, 215, 95\]}
+sales = {'account': ['Jones LLC', 'Alpha Co', 'Blue Inc'],
+         'Jan': [150, 200, 50],
+         'Feb': [200, 210, 90],
+         'Mar': [140, 215, 95]}
 df2 = pd.DataFrame.from_dict(sales)
 
 '''
@@ -1196,10 +1196,10 @@ df3:
 1   Alpha Co  200  210   90
 2   Blue Inc  140  215   95
 '''
-sales = \[('Jones LLC', 150, 200, 50),
+sales = [('Jones LLC', 150, 200, 50),
          ('Alpha Co', 200, 210, 90),
-         ('Blue Inc', 140, 215, 95)\]
-labels = \['account', 'Jan', 'Feb', 'Mar'\]
+         ('Blue Inc', 140, 215, 95)]
+labels = ['account', 'Jan', 'Feb', 'Mar']
 df3 = pd.DataFrame.from_records(sales, columns=labels)
 ```
 
@@ -1208,15 +1208,16 @@ DataFrame的数据访问通过loc或者iloc来访问。
 -   loc：通过行和列的索引来访问数据
 -   iloc：通过行和列的下标来访问数据
 
-
+```py
 data = {'note': \['A', 'B', 'C', 'D', 'E', 'F'\], 'NO.': \[1, 2, 3, 4, 5, 6\]}
 df4 = pd.DataFrame.from_dict(data)
 print("df4.columns\\n{}\\n".format(df4.columns))
 print("df4.index\\n{}\\n".format(df4.index))
 print("Note C, D is:\\n{}\\n".format(df4.loc\[\[0, 1\], "note"\]))
 print("Note C, D is:\\n{}\\n".format(df4.iloc\[\[0, 1\], 0\]))
+```
 
-  第一行代码访问了行索引为0和1，列索引为“note”的元素。第二行代码访问了行下标为0和1（对于df4来说，行索引和行下标刚好是一样的，所以这里都是0和1，但它们却是不同的含义），列下标为0的元素。上面的代码输出如下：
+第一行代码访问了行索引为0和1，列索引为“note”的元素。第二行代码访问了行下标为0和1（对于df4来说，行索引和行下标刚好是一样的，所以这里都是0和1，但它们却是不同的含义），列下标为0的元素。上面的代码输出如下：
 
 df4.columns
 Index(\['note', 'NO.'\], dtype='object')
@@ -1463,7 +1464,7 @@ test\['species'\].head()
 [Python中lambda表达式的应用](https://blog.csdn.net/u011197534/article/details/53747316)  
 [Python 基础教程 | 菜鸟教程](http://www.runoob.com/python/python-tutorial.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MDA1NzU4OTgsLTE3NzUyMDMwODAsMT
-E0ODQ0MTM4MCwtMTUxNTE3OTc0LC0xMzA5MjQ4NDIxLDE3Njc4
-OTQzODEsLTM5NTI1ODg2XX0=
+eyJoaXN0b3J5IjpbLTYyODI4NTkyMSwtMTc3NTIwMzA4MCwxMT
+Q4NDQxMzgwLC0xNTE1MTc5NzQsLTEzMDkyNDg0MjEsMTc2Nzg5
+NDM4MSwtMzk1MjU4ODZdfQ==
 -->
