@@ -1268,6 +1268,7 @@ df.to_csv("data_new.txt", sep = "t", index = False, header = False)
 
 Matplotlib是Python中最常用的可视化工具之一，这里只对最简单的散点图和曲线图做简单示例，绘制其它图形的命令请大家自己查询。
 
+```py
 import numpy as np
 import matplotlib as mpl
 import matplotlib.pyplot as plt
@@ -1308,8 +1309,10 @@ plt.scatter(x, y_data)
 
 \# 将当前figure的图保存到文件result.png
 plt.savefig('result.png')
+```
 
-生成的图片如下图所示  
+生成的图片如下图所示 
+ 
 ![data](data.png)  
 ![model](model.png)  
 ![data&model](data_&_model.png)
@@ -1382,55 +1385,55 @@ from sklearn.ensemble import RandomForestClassifier
 import pandas as pd
 import numpy as np
 
-\# Set random seed
+# Set random seed
 np.random.seed(0)
 
-\# load数据
+# load数据
 iris = load_iris()
 
-\# 创建一个4个特征的df
+# 创建一个4个特征的df
 df = pd.DataFrame(iris.data, columns=iris.feature_names)
 
-\# 添加一列名字
-df\['species'\] = pd.Categorical.from_codes(iris.target, iris.target_names)
+# 添加一列名字
+df['species'] = pd.Categorical.from_codes(iris.target, iris.target_names)
 
-\# 分训练集和测试集
-df\['is_train'\] = np.random.uniform(0, 1, len(df)) <= .75
+# 分训练集和测试集
+df['is_train'] = np.random.uniform(0, 1, len(df)) <= .75
 
-\# View the top 5 rows
+# View the top 5 rows
 df.head()
 
-\# 分训练集和测试集
-train, test = df\[df\['is_train'\]==True\], df\[df\['is_train'\]==False\]
+# 分训练集和测试集
+train, test = df[df['is_train']==True], df[df['is_train']==False]
 
-\# Show the number of observations for the test and training dataframes
+# Show the number of observations for the test and training dataframes
 print('Number of observations in the training data:', len(train))
 print('Number of observations in the test data:',len(test))
 
-\# 提取出feature
-features = df.columns\[:4\]
+# 提取出feature
+features = df.columns[:4]
 
-\# 转化花的名字到0，1，2
-y = pd.factorize(train\['species'\])\[0\]
+# 转化花的名字到0，1，2
+y = pd.factorize(train['species'])[0]
 
-\# 创建RF
+# 创建RF
 clf = RandomForestClassifier(n_jobs=2, random_state=0)
 
-\# 训练
-clf.fit(train\[features\], y)
+# 训练
+clf.fit(train[features], y)
 
-\# 预测
-clf.predict(test\[features\])
+# 预测
+clf.predict(test[features])
 
-\# 查看预测概率
-clf.predict_proba(test\[features\])\[0:10\]
+# 查看预测概率
+clf.predict_proba(test[features])[0:10]
 
-\# 将名字转化过来
-preds = iris.target_names\[clf.predict(test\[features\])\]
-\# 看一下前五个
-preds\[0:5\]
-\# 看一下真实名字
-test\['species'\].head()
+# 将名字转化过来
+preds = iris.target_names[clf.predict(test[features])]
+# 看一下前五个
+preds[0:5]
+# 看一下真实名字
+test['species'].head()
 ```
 
 ## 鸣谢
@@ -1446,7 +1449,7 @@ test\['species'\].head()
 [Python中lambda表达式的应用](https://blog.csdn.net/u011197534/article/details/53747316)  
 [Python 基础教程 | 菜鸟教程](http://www.runoob.com/python/python-tutorial.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjUxMTY4MjkzLC0xNzc1MjAzMDgwLDExND
-g0NDEzODAsLTE1MTUxNzk3NCwtMTMwOTI0ODQyMSwxNzY3ODk0
-MzgxLC0zOTUyNTg4Nl19
+eyJoaXN0b3J5IjpbLTEyOTYxNDExNjQsLTE3NzUyMDMwODAsMT
+E0ODQ0MTM4MCwtMTUxNTE3OTc0LC0xMzA5MjQ4NDIxLDE3Njc4
+OTQzODEsLTM5NTI1ODg2XX0=
 -->
