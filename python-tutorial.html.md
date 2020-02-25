@@ -177,13 +177,15 @@ classmates.append('Tracy')
 
 可以通过列表索引访问列表中的元素，列表索引从0开始。如：
 
-classmates = \['Michael', 'Bob', 'Tracy'\]
-print(classmates\[0\])
+```py
+classmates = ['Michael', 'Bob', 'Tracy']
+print(classmates[0])
 
-\# 输出结果：
+# 输出结果：
 Michael
+```
 
-  如果要访问多个列表元素，可以使用以下方式：
+如果要访问多个列表元素，可以使用以下方式：
 
 classmates = \['Michael', 'Bob', 'Tracy'\]
 print(classmates\[0:2\])
@@ -258,16 +260,18 @@ Key一般是唯一的，value可以不唯一，以下是dict的一个常见示�
 
 ```py
 dict = {'a': 1, 'b': 2, 'b': '3'} #key唯一，故若多次赋值，则以后赋值为准；
-print(dict\['b'\])
+print(dict['b'])
 
-\# 输出结果：
+# 输出结果：
 3
-
+```
+```py
 print(dict)
 \# 输出结果:
 {'a': 1, 'b': '3'}
+```
 
-  这里是一个dict的插入和删除示例，dict可以直接添加未出现的key，删除需要用到del命令。
+这里是一个dict的插入和删除示例，dict可以直接添加未出现的key，删除需要用到del命令。
 
 dict = {'Name': 'Zara', 'Age': 7, 'Class': 'First'}
 dict\['School'\] = "RUNOOB" \# 插入
@@ -1474,6 +1478,6 @@ test\['species'\].head()
 [Python中lambda表达式的应用](https://blog.csdn.net/u011197534/article/details/53747316)  
 [Python 基础教程 | 菜鸟教程](http://www.runoob.com/python/python-tutorial.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzYxMzQyODcwLC0xNTE1MTc5NzQsLTEzMD
-kyNDg0MjEsMTc2Nzg5NDM4MSwtMzk1MjU4ODZdfQ==
+eyJoaXN0b3J5IjpbMTg2MTY0MjMzNCwtMTUxNTE3OTc0LC0xMz
+A5MjQ4NDIxLDE3Njc4OTQzODEsLTM5NTI1ODg2XX0=
 -->
