@@ -576,7 +576,8 @@ add(1,2)
 
   Lambda表达式可以和其它函数配合使用，从而用非常简洁的一句话实现一些函数功能，例如：
 
-**和map()配合使用**  
+#### 和map()配合使用
+
 ![avatar](3.png)  
   map()函数可以将一个list中的所有元素都执行某个函数操作，与lambda表达式相结合，可以用一句简单的代码执行本应需要几行代码才能完成的功能，例如将一个list中所有tuple中的第一个元素取出：
 
@@ -588,7 +589,8 @@ print(a_1)
 \# 输出结果：
 \['a', 'b', 'c', 'd'\]
 
-**和filter()配合使用**  
+#### 和filter()配合使用  
+
 ![avatar](4.png)  
   filter()函数可以将list中满足某个条件的元素筛选出来，我们可以和lambda表达式结合，筛选出一个list中所有小于4的数字：
 
@@ -600,9 +602,11 @@ print(a_1)
 \# 输出结果：
 \[1, 2, 3\]
 
-**和reduce()配合使用**  
+#### 和reduce()配合使用 
+
 ![avatar](5.png)  
-  reduce()函数是对序列中的元素进行累计操作，下面这个例子将一个list中所有元素进行累加：
+
+reduce()函数是对序列中的元素进行累计操作，下面这个例子将一个list中所有元素进行累加：
 
 #该程序会将list中所有元素累加起来
 from functools import reduce
@@ -613,8 +617,9 @@ print(a_1)
 \# 输出结果：
 28
 
-**和sorted()配合使用**  
-  sorted()函数是对list元素按照lambda表达式给定规律进行排序，因此可以和lambda表达式结合，对一个list中所有元素距离5的远近进行从近到远排序：
+#### 和sorted()配合使用 
+
+sorted()函数是对list元素按照lambda表达式给定规律进行排序，因此可以和lambda表达式结合，对一个list中所有元素距离5的远近进行从近到远排序：
 
 #该程序会将list中所有元素按照距离5的远近进行排序
 a = \[1, 2, 3, 4, 5, 6, 7, 8, 9\]
@@ -626,7 +631,7 @@ print(a_1)
 
 ### Section 6.3: set()
 
-  set()会创建一个无序不重复集合，可以认为set是dict中的key这一部分，即set中的每一个元素都是一个key，元素之间不会相互重复。如果对一个字符串做set运算，则会把重复字符删去；以下是关于set的一个实例：
+set()会创建一个无序不重复集合，可以认为set是dict中的key这一部分，即set中的每一个元素都是一个key，元素之间不会相互重复。如果对一个字符串做set运算，则会把重复字符删去；以下是关于set的一个实例：
 
 >>> x = set('runoob')
 >>> y = set('google')
@@ -791,11 +796,11 @@ else:
   Emessage = r'''Parameter  must be 0 or 1!'''
   raise parameterError(Emessage)
 
-  我们首先定义了一个parameterError的类，继承于Exception。触发自定义的异常需要先自定义类似的一个类，然后在程序中使用raise。若运行上面的代码，则会触发以下的异常。
+我们首先定义了一个parameterError的类，继承于Exception。触发自定义的异常需要先自定义类似的一个类，然后在程序中使用raise。若运行上面的代码，则会触发以下的异常。
 
 parameterError: Parameter  must be 0 or 1!
 
-  如果我们事前知道可能会出现的异常，并知道如何处理，那么就可以使用try语句来处理异常。try语句的语法如下：
+如果我们事前知道可能会出现的异常，并知道如何处理，那么就可以使用try语句来处理异常。try语句的语法如下：
 
 try:
   可能会出错的代码
@@ -804,7 +809,7 @@ except：
 finally：
   最后的语句
 
-  try中代码是可能出错的代码，except语句中有已经定义好的异常（可以是多个异常），如果出现了相应的错误，则会调到except语句执行，最后执行finally语句（finally可有可无，但如果有的话则一定会执行）。假如我们有一段代码需要执行，代码中可能出现除0错误(ZeroDivisionError)和变量错误(TypeError)，下面的代码演示了如何去用try去处理这些错误。
+try中代码是可能出错的代码，except语句中有已经定义好的异常（可以是多个异常），如果出现了相应的错误，则会调到except语句执行，最后执行finally语句（finally可有可无，但如果有的话则一定会执行）。假如我们有一段代码需要执行，代码中可能出现除0错误(ZeroDivisionError)和变量错误(TypeError)，下面的代码演示了如何去用try去处理这些错误。
 
 try:
   a = "10"
@@ -820,7 +825,7 @@ except ZeroDivisionError as e:
 finally:
     print('finally...')
 
-  上述代码中，通过改变try中a的值，可以模拟两种错误。两种错误的输出如下。此处请大家根据try的语法自行分析代码运行过程。
+上述代码中，通过改变try中a的值，可以模拟两种错误。两种错误的输出如下。此处请大家根据try的语法自行分析代码运行过程。
 
 \# a = "10"
 TypeError message is: unsupported operand type(s) for /: 'int' and 'str'
@@ -1450,7 +1455,7 @@ test['species'].head()
 [Python中lambda表达式的应用](https://blog.csdn.net/u011197534/article/details/53747316)  
 [Python 基础教程 | 菜鸟教程](http://www.runoob.com/python/python-tutorial.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE2NDEwNDk5OCwtMTc3NTIwMzA4MCwxMT
+eyJoaXN0b3J5IjpbLTY1NzQwNjk2NCwtMTc3NTIwMzA4MCwxMT
 Q4NDQxMzgwLC0xNTE1MTc5NzQsLTEzMDkyNDg0MjEsMTc2Nzg5
 NDM4MSwtMzk1MjU4ODZdfQ==
 -->
