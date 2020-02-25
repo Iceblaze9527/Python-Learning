@@ -686,7 +686,7 @@ print(haski2.gender)
 
 输出如下：
 
-```
+```py
 Tom
 Male
 
@@ -698,9 +698,9 @@ Female
 
 在类中，我们还可以定义各种各样的方法。方法的定义除了第一个参数仍为self外，其它与函数的定义完全相同。下面的例子我们给dog类附加run和bark的方法。
 
-```
+```py
 class dog():
-  def \_\_init\_\_(self, name = "Tom", gender = "Male"):
+  def __init__(self, name = "Tom", gender = "Male"):
     self.name = name
     self.gender = gender
     self.sound = "wow, wow~~"
@@ -719,23 +719,26 @@ haski.bark()
 
 输出如下：
 
-```
+```py
 Tom Male
 dog is running.
 wow, wow~~
-``
-  使用类的一个好处是当我们需要定义一个新的类时，可以直接继承已有的类。新的class称为子类（Subclass），而被继承的class称为基类、父类或超类（Base class、Super class）。当我们定义一个类的时候，python3默认是继承python的object类。  
-  以下是对于继承的一个简单例子。
+```
 
-\# define a class named animal
+使用类的一个好处是当我们需要定义一个新的类时，可以直接继承已有的类。新的class称为子类（Subclass），而被继承的class称为基类、父类或超类（Base class、Super class）。当我们定义一个类的时候，python3默认是继承python的object类。  
+
+以下是对于继承的一个简单例子。
+
+```py
+# define a class named animal
 class animal():
-  def \_\_init\_\_(self, name):
+  def __init__(self, name):
     self.name = name
 
   def run(self):
     print("Animal is running......")
 
-\# define a new class named dog
+# define a new class named dog
 class dog(animal):
   def run(self):
     print("dog is running.")
@@ -751,8 +754,9 @@ print(haski1.name, haski2.name)
 haski1.run()
 haski2.run()
 haski2.bark()
+```
 
-  结果输出如下：
+结果输出如下：
 
 \# ...表示输出结果相同，这里省去不再占用篇幅
 \[..., 'name', 'run'\]
@@ -1476,6 +1480,6 @@ test\['species'\].head()
 [Python中lambda表达式的应用](https://blog.csdn.net/u011197534/article/details/53747316)  
 [Python 基础教程 | 菜鸟教程](http://www.runoob.com/python/python-tutorial.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI2OTEwMTI1MiwtMTUxNTE3OTc0LC0xMz
+eyJoaXN0b3J5IjpbMTcwMzkzNjA0MiwtMTUxNTE3OTc0LC0xMz
 A5MjQ4NDIxLDE3Njc4OTQzODEsLTM5NTI1ODg2XX0=
 -->
