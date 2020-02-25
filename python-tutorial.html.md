@@ -1316,37 +1316,9 @@ plt.savefig('result.png')
 
 ## Section 14：sklearn模块
 
-![sklearn](sklearn.png)  
+这里综合上面所涉及的numpy，pandas和matplotlib模块，以线性回归为例给大家做示例。  
 
-sklearn模块集成了总多的机器学习算法，包括线性回归，SVM等。sklearn的[官网](https://scikit-learn.org/stable/)给出了不同算法的分类，并给出了教程。这里综合上面所涉及的numpy，pandas和matplotlib模块，以线性回归为例给大家做示例。  
-  线性拟合的关键词是LinearRegression，通过阅读其介绍页面，可以得到以下的方法总结。
-
-Methods
-
-Discription
-
-fit(X, y\[, sample_weight\])
-
-Fit linear model.
-
-get_params(\[deep\])
-
-Get parameters for this estimator.
-
-predict(X)
-
-Predict using the linear model
-
-score(X, y\[, sample_weight\])
-
-Returns the coefficient of determination R2R^2R2 of the prediction.
-
-set_params(**params)
-
-Set the parameters of this estimator.
-
-  我们可以通过fit()方法来拟合模型，用predict()方法来进行预测，并可以可以查看R2R^2R2。
-
+```py
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
@@ -1378,8 +1350,9 @@ y_pre = reg.predict(X_train)
 plt.figure('data')
 plt.plot(x, y, '.')
 plt.plot(x, y_pre)
+```
 
-  输出结果如下所示，从以下结果可以看出，LR所得到的的R2R^2R2为0.987714：
+输出结果如下所示，从以下结果可以看出，LR所得到的的R2R^2R2为0.987714：
 
        x          y
 0    0.0   0.496714
@@ -1469,7 +1442,7 @@ test\['species'\].head()
 [Python中lambda表达式的应用](https://blog.csdn.net/u011197534/article/details/53747316)  
 [Python 基础教程 | 菜鸟教程](http://www.runoob.com/python/python-tutorial.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MTA3MjEzMjksLTE3NzUyMDMwODAsMT
+eyJoaXN0b3J5IjpbLTEyNTg2MzUyMjMsLTE3NzUyMDMwODAsMT
 E0ODQ0MTM4MCwtMTUxNTE3OTc0LC0xMzA5MjQ4NDIxLDE3Njc4
 OTQzODEsLTM5NTI1ODg2XX0=
 -->
