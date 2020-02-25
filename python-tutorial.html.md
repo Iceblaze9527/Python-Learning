@@ -42,6 +42,48 @@
 ![](https://www.python.org/static/community_logos/python-logo-generic.svg)
 Anaconda可以在[清华大学开源软件镜像站](https://mirrors.tuna.tsinghua.edu.cn/)下载。  
 
+```sh
+code .condarc
+```
+```c
+ssl_verify: true
+
+channels:
+
+- defaults
+
+show_channel_urls: true
+
+channel_alias: https://mirrors.tuna.tsinghua.edu.cn/anaconda
+
+default_channels:
+
+- https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/main
+
+- https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/free
+
+- https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/r
+
+- https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/pro
+
+- https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/msys2
+
+custom_channels:
+
+conda-forge: https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud
+
+msys2: https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud
+
+bioconda: https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud
+
+menpo: https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud
+
+pytorch: https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud
+
+simpleitk: https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud
+```
+
+
 ## Section 2: Hello World
 
 这一篇将讲解如何使用python输出"Hello,world!"  
@@ -1468,6 +1510,6 @@ test\['species'\].head()
 [Python中lambda表达式的应用](https://blog.csdn.net/u011197534/article/details/53747316)  
 [Python 基础教程 | 菜鸟教程](http://www.runoob.com/python/python-tutorial.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMDkyNDg0MjEsMTc2Nzg5NDM4MSwtMz
-k1MjU4ODZdfQ==
+eyJoaXN0b3J5IjpbLTE4Mzk5OTYwMTUsLTEzMDkyNDg0MjEsMT
+c2Nzg5NDM4MSwtMzk1MjU4ODZdfQ==
 -->
