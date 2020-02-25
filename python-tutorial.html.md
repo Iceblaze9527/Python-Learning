@@ -1221,7 +1221,7 @@ print("Note C, D is:\n{}\n".format(df4.iloc[[0, 1], 0]))
 
 ```py
 df4.columns
-Index(\['note', 'NO.'\], dtype='object')
+Index(['note', 'NO.'], dtype='object')
 
 df4.index
 RangeIndex(start=0, stop=6, step=1)
@@ -1236,13 +1236,13 @@ Note C, D is:
 1    B
 Name: note, dtype: object
 
-  其它的数据方式，请大家自己学习。
 ```
 
 ### Section 12.2: 文件操作
 
-  pandas库提供了一系列的read_函数来读取各种格式的文件，常用的有read\_table, read\_csv等。  
-  假如我们有一个data.txt文件，里边的数据如下：
+pandas库提供了一系列的read_函数来读取各种格式的文件，常用的有``read_table``, ``read_csv``等。  
+
+假如我们有一个data.txt文件，里边的数据如下：
 
 ```
 1 2 3
@@ -1250,7 +1250,7 @@ Name: note, dtype: object
 
 ```
 
-  以下代码我们读入这个数据，更改后输出到另一个文件。
+以下代码我们读入这个数据，更改后输出到另一个文件。
 
 import pandas as pd
 df = pd.read_csv("data.txt", sep="\\s", header=None, engine='python', names = \["col1", "col2", "col3"\])
@@ -1466,7 +1466,7 @@ test\['species'\].head()
 [Python中lambda表达式的应用](https://blog.csdn.net/u011197534/article/details/53747316)  
 [Python 基础教程 | 菜鸟教程](http://www.runoob.com/python/python-tutorial.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI2NTA2MDA3NiwtMTc3NTIwMzA4MCwxMT
-Q4NDQxMzgwLC0xNTE1MTc5NzQsLTEzMDkyNDg0MjEsMTc2Nzg5
-NDM4MSwtMzk1MjU4ODZdfQ==
+eyJoaXN0b3J5IjpbLTE0NjM0MzI2MjAsLTE3NzUyMDMwODAsMT
+E0ODQ0MTM4MCwtMTUxNTE3OTc0LC0xMzA5MjQ4NDIxLDE3Njc4
+OTQzODEsLTM5NTI1ODg2XX0=
 -->
