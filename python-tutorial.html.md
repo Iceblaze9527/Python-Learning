@@ -1324,21 +1324,21 @@ import pandas as pd
 import matplotlib.pyplot as plt
 from sklearn.linear_model import LinearRegression
 
-\# 使用numpy模拟生成数据
+# 使用numpy模拟生成数据
 np.random.seed(42)
 x = np.linspace(0, 10, 11)
 y = 2*x + np.random.normal(scale=1, size=11)
 
-\# 将数据转化为DataFrame
+# 将数据转化为DataFrame
 data = {'x': list(x), 'y': list(y)}
 df = pd.DataFrame.from_dict(data)
 
 print(df)
 
-X_train = df\[\["x"\]\].values
-Y_train = df\[\["y"\]\].values
+X_train = df[["x"]].values
+Y_train = df[["y"]].values
 
-\# 线性拟合
+# 线性拟合
 reg = LinearRegression().fit(X_train, Y_train)
 print("Linear Regression with cross terms R^2: %f" % reg.score(X_train, Y_train))
 print("Linear Regression coef:", reg.coef_)
@@ -1346,14 +1346,15 @@ print("Linear Regression intercept:", reg.intercept_)
 
 y_pre = reg.predict(X_train)
 
-\# 使用matplotlib作图
+# 使用matplotlib作图
 plt.figure('data')
 plt.plot(x, y, '.')
 plt.plot(x, y_pre)
 ```
 
-输出结果如下所示，从以下结果可以看出，LR所得到的的R2R^2R2为0.987714：
+输出结果如下所示，从以下结果可以看出，LR所得到的的$R^2$为0.987714：
 
+```
        x          y
 0    0.0   0.496714
 1    1.0   1.861736
@@ -1442,7 +1443,7 @@ test\['species'\].head()
 [Python中lambda表达式的应用](https://blog.csdn.net/u011197534/article/details/53747316)  
 [Python 基础教程 | 菜鸟教程](http://www.runoob.com/python/python-tutorial.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNTg2MzUyMjMsLTE3NzUyMDMwODAsMT
+eyJoaXN0b3J5IjpbLTEwNDc5NTA0MjksLTE3NzUyMDMwODAsMT
 E0ODQ0MTM4MCwtMTUxNTE3OTc0LC0xMzA5MjQ4NDIxLDE3Njc4
 OTQzODEsLTM5NTI1ODg2XX0=
 -->
