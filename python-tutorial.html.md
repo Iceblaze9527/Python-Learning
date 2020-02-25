@@ -1176,7 +1176,7 @@ df1 = pd.DataFrame(\[\[1, 2\], \["aa", "bb"\]\], columns=\["column1", "column2"\
 
 可以使用dict或list生成DataFrame。
 
-```
+```py
 '''
 df2:
      account  Jan  Feb  Mar
@@ -1202,11 +1202,13 @@ sales = \[('Jones LLC', 150, 200, 50),
          ('Blue Inc', 140, 215, 95)\]
 labels = \['account', 'Jan', 'Feb', 'Mar'\]
 df3 = pd.DataFrame.from_records(sales, columns=labels)
+```
 
-  DataFrame的数据访问通过loc或者iloc来访问。
+DataFrame的数据访问通过loc或者iloc来访问。
 
 -   loc：通过行和列的索引来访问数据
 -   iloc：通过行和列的下标来访问数据
+
 
 data = {'note': \['A', 'B', 'C', 'D', 'E', 'F'\], 'NO.': \[1, 2, 3, 4, 5, 6\]}
 df4 = pd.DataFrame.from_dict(data)
@@ -1462,7 +1464,7 @@ test\['species'\].head()
 [Python中lambda表达式的应用](https://blog.csdn.net/u011197534/article/details/53747316)  
 [Python 基础教程 | 菜鸟教程](http://www.runoob.com/python/python-tutorial.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMxMzU2OTMxLDExNDg0NDEzODAsLTE1MT
-UxNzk3NCwtMTMwOTI0ODQyMSwxNzY3ODk0MzgxLC0zOTUyNTg4
-Nl19
+eyJoaXN0b3J5IjpbLTUwNzYzMjUyMCwxMTQ4NDQxMzgwLC0xNT
+E1MTc5NzQsLTEzMDkyNDg0MjEsMTc2Nzg5NDM4MSwtMzk1MjU4
+ODZdfQ==
 -->
