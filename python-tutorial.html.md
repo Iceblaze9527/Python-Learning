@@ -255,24 +255,26 @@ print(dict)
 
 这里是一个dict的插入和删除示例，dict可以直接添加未出现的key，删除需要用到del命令。
 
+```py
 dict = {'Name': 'Zara', 'Age': 7, 'Class': 'First'}
-dict\['School'\] = "RUNOOB" \# 插入
+dict['School'] = "RUNOOB" # 插入
 print(dict)
 
-\# 输出结果：
+# 输出结果：
 {'Name': 'Zara', 'Age': 7, 'Class': 'First', 'School': 'RUNOOB'}
 
-del dict\['Name'\]
+del dict['Name']
 print(dict)
 
-\# 输出结果：
+# 输出结果：
 {'Age': 7, 'Class': 'First', 'School': 'RUNOOB'}
+```
 
 ## Section 4: 条件、循环
 
 ### Section 4.1: 条件语句
 
-  Python中的条件语句按照以下的语法规则书写：
+Python中的条件语句按照以下的语法规则书写：
 
 if <条件判断1>:
     <执行1>
@@ -1460,6 +1462,6 @@ test\['species'\].head()
 [Python中lambda表达式的应用](https://blog.csdn.net/u011197534/article/details/53747316)  
 [Python 基础教程 | 菜鸟教程](http://www.runoob.com/python/python-tutorial.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQxOTM4OTE5MCwtMTUxNTE3OTc0LC0xMz
+eyJoaXN0b3J5IjpbLTE1MDc3MjkzMSwtMTUxNTE3OTc0LC0xMz
 A5MjQ4NDIxLDE3Njc4OTQzODEsLTM5NTI1ODg2XX0=
 -->
