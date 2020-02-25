@@ -343,11 +343,11 @@ Tracy
 Bob
 Lucy
 
-  如果要同时循环两个list，如何实现？
+如果要同时循环两个list，如何实现？
 
 ### Section 4.3: while循环语句
 
-  while循环语句的写法与其它语言没有太多差别，这里给出一个基本的例子：
+while循环语句的写法与其它语言没有太多差别，这里给出一个基本的例子：
 
 i = 0
 while i < 3:
@@ -363,8 +363,8 @@ while i < 3:
 
 ### Section 4.4: break、continue语句
 
-  break与continue语句用法和C语言基本相同。  
-  break语句执行会使得程序跳出循环。
+break与continue语句用法和C语言基本相同。  
+break语句执行会使得程序跳出循环。
 
 \# break
 i = 0
@@ -379,7 +379,7 @@ while i < 100:
 1
 2
 
-  continue语句的执行会使得程序跳出本层循环。如下面这个例子中，本应输出数字1的语句被跳过，故只输出了数字2和3。
+continue语句的执行会使得程序跳出本层循环。如下面这个例子中，本应输出数字1的语句被跳过，故只输出了数字2和3。
 
 \# continue
 i = 0
@@ -397,7 +397,7 @@ while i < 3:
 
 ### Section 5.1: 函数定义
 
-  如我们要简单定义一个加法函数，则格式如下所示，需要在函数开头声明中添加def关键字，并声明传入参数。需要说明的是，python并不要求在开头声明输出参数，只需要在return语句后声明输出参数即可。不要忘记在声明的最后添加冒号。
+如我们要简单定义一个加法函数，则格式如下所示，需要在函数开头声明中添加def关键字，并声明传入参数。需要说明的是，python并不要求在开头声明输出参数，只需要在return语句后声明输出参数即可。不要忘记在声明的最后添加冒号。
 
 def sum(a,b): #参数a和b传入函数
 \# 函数功能:对a和b求和。
@@ -406,7 +406,7 @@ def sum(a,b): #参数a和b传入函数
     c = a + b
     return c #返回参数c
 
-  如果要一次性的返回多个函数值，则可以在return后依次排出多个参数的变量名。
+如果要一次性的返回多个函数值，则可以在return后依次排出多个参数的变量名。
 
 def sum_multi(a,b):
 \# 函数功能：对a和b求和求积
@@ -418,7 +418,7 @@ def sum_multi(a,b):
 
 ### Section 5.2: 函数调用
 
-  调用函数时，通常来说输入参数个数与类型要与定义函数时相符合，如下面的例子中，调用sum函数和sum_multi函数传入了两个数字型参数，因此，在主函数中，也需要对应两个数字型参数。
+调用函数时，通常来说输入参数个数与类型要与定义函数时相符合，如下面的例子中，调用sum函数和sum_multi函数传入了两个数字型参数，因此，在主函数中，也需要对应两个数字型参数。
 
 def sum(a,b): #参数a和b传入函数
     c = a + b
@@ -440,7 +440,7 @@ print(c,d)
 5
 5,6
 
-  如果传入参数数量与类型不一致，则会出现个数不等报错：
+如果传入参数数量与类型不一致，则会出现个数不等报错：
 
 sum(1)
 Traceback (most recent call last):
@@ -450,7 +450,7 @@ Traceback (most recent call last):
 
 TypeError: sum() missing 1 required positional argument: 'b'
 
-  或是类型不符报错：
+或是类型不符报错：
 
 sum(\[1,2\],1)
 Traceback (most recent call last):
@@ -463,7 +463,7 @@ Traceback (most recent call last):
 
 TypeError: can only concatenate list (not "int") to list
 
-  还需要注意的是，函数传入参数是按照顺序排列的，如下面的例子中，由于顺序的问题，将主程序中b的值传给了函数里的a，主程序中a的值传给了函数里的b，因此相减结果为-1。
+还需要注意的是，函数传入参数是按照顺序排列的，如下面的例子中，由于顺序的问题，将主程序中b的值传给了函数里的a，主程序中a的值传给了函数里的b，因此相减结果为-1。
 
 def minus(a,b):
     c = a - b
@@ -478,7 +478,7 @@ print(c)
 
 ### Section 5.3: 函数参数传递
 
-  在python中，strings, tuples, 和 numbers 是不可更改的对象，而 list，dict 等则是可以更改的对象。以下两个例子将说明对这两类对象在函数中做出修改后的结果：
+在python中，strings, tuples, 和 numbers 是不可更改的对象，而 list，dict 等则是可以更改的对象。以下两个例子将说明对这两类对象在函数中做出修改后的结果：
 
 def ChangeInt( a ):
     a = 10
@@ -501,12 +501,13 @@ print(mylist)
 \# 输出如下：
 \[10, 20, 30, \[1, 2, 3, 4\]\]   #注意到list发生改变
 
-  写程序时需要注意list,dict是在函数中会被修改的对象，以免出现错误。
+写程序时需要注意list,dict是在函数中会被修改的对象，以免出现错误。
 
 ### Section 5.4: 关键字参数、默认参数、不定长参数
 
-  以下是三类特殊函数传递的实例，希望给大家做一参考。  
-  在前面的例子中，参数需要按顺序传入，但是关键字传入参数仅与关键字相互对应。下面的例子说明了如何设置关键字参数：
+以下是三类特殊函数传递的实例，希望给大家做一参考。  
+
+在前面的例子中，参数需要按顺序传入，但是关键字传入参数仅与关键字相互对应。下面的例子说明了如何设置关键字参数：
 
 \## 关键字参数：参数传递与关键字匹配，与顺序无关
 def printinfo( name, age ):
@@ -520,7 +521,7 @@ printinfo(age = 50, name = "miki")
 Name:  miki
 Age:  50
 
-  在函数定义时，可以直接设置默认参数。如果设置了默认参数，则可以在主函数中不传递这个参数，以函数定义时的默认值为准；但若主程序中给定了这个参数的值，则函数运行时以主程序给定的参数值为准。我们可以看下面的例子：
+在函数定义时，可以直接设置默认参数。如果设置了默认参数，则可以在主函数中不传递这个参数，以函数定义时的默认值为准；但若主程序中给定了这个参数的值，则函数运行时以主程序给定的参数值为准。我们可以看下面的例子：
 
 \## 默认参数： 初始化函数参数值，允许在主函数中不输入该参数
 def printinfo( name, age = 35):
@@ -537,7 +538,7 @@ Age:  35
 Name:  miki
 Age:  50
 
-  这里是一个很有意思的应用，可以向函数里传递不定长度的一到N个参数，下面的例子中，主程序可以向函数传递一个参数，也可以向函数传递多个参数。
+这里是一个很有意思的应用，可以向函数里传递不定长度的一到N个参数，下面的例子中，主程序可以向函数传递一个参数，也可以向函数传递多个参数。
 
 \## 不定长参数：允许传入长度不定的参数值
 def printinfo( arg1, *vartuple ):
@@ -559,12 +560,12 @@ printinfo( 70, 60, 50 )
 
 ### Section 6.1: lambda表达式
 
-  Lambda表达式是一种简写的函数形式，可以使得程序更紧致。lambda表达式的基本形式是：
+Lambda表达式是一种简写的函数形式，可以使得程序更紧致。lambda表达式的基本形式是：
 
   lambda argument_list: expression
 
-  这里，使用lambda关键字后，先需要声明传入参数，然后声明对传入参数所完成的操作。  
-  比如，我们可以用lambda表达式完成一个加法函数的功能。
+这里，使用lambda关键字后，先需要声明传入参数，然后声明对传入参数所完成的操作。  
+比如，我们可以用lambda表达式完成一个加法函数的功能。
 
 add = lambda x, y : x+y
 add(1,2)
@@ -574,12 +575,13 @@ add(1,2)
 
 ### Section 6.2: lambda表达式与map，reduce，filter以及sorted的配合使用
 
-  Lambda表达式可以和其它函数配合使用，从而用非常简洁的一句话实现一些函数功能，例如：
+Lambda表达式可以和其它函数配合使用，从而用非常简洁的一句话实现一些函数功能，例如：
 
 #### 和map()配合使用
 
 ![avatar](3.png)  
-  map()函数可以将一个list中的所有元素都执行某个函数操作，与lambda表达式相结合，可以用一句简单的代码执行本应需要几行代码才能完成的功能，例如将一个list中所有tuple中的第一个元素取出：
+
+map()函数可以将一个list中的所有元素都执行某个函数操作，与lambda表达式相结合，可以用一句简单的代码执行本应需要几行代码才能完成的功能，例如将一个list中所有tuple中的第一个元素取出：
 
 \# 该程序可以将a中所有tuple的第一个元素取出
 a = \[('a',1),('b',2),('c',3),('d',4)\]
@@ -592,7 +594,8 @@ print(a_1)
 #### 和filter()配合使用  
 
 ![avatar](4.png)  
-  filter()函数可以将list中满足某个条件的元素筛选出来，我们可以和lambda表达式结合，筛选出一个list中所有小于4的数字：
+
+filter()函数可以将list中满足某个条件的元素筛选出来，我们可以和lambda表达式结合，筛选出一个list中所有小于4的数字：
 
 \# 该程序会将list中所有小于4的数筛选出来
 a = \[1,2,3,4,5,6,7\]
@@ -1455,7 +1458,7 @@ test['species'].head()
 [Python中lambda表达式的应用](https://blog.csdn.net/u011197534/article/details/53747316)  
 [Python 基础教程 | 菜鸟教程](http://www.runoob.com/python/python-tutorial.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY1NzQwNjk2NCwtMTc3NTIwMzA4MCwxMT
-Q4NDQxMzgwLC0xNTE1MTc5NzQsLTEzMDkyNDg0MjEsMTc2Nzg5
-NDM4MSwtMzk1MjU4ODZdfQ==
+eyJoaXN0b3J5IjpbNTU5MjY0OTAsLTE3NzUyMDMwODAsMTE0OD
+Q0MTM4MCwtMTUxNTE3OTc0LC0xMzA5MjQ4NDIxLDE3Njc4OTQz
+ODEsLTM5NTI1ODg2XX0=
 -->
