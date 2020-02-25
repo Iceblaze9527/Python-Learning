@@ -671,7 +671,7 @@ Tom
 
 ```py
 class dog():
-  def \_\_init\_\_(self, name = "Tom", gender = "Male"):
+  def __init__(self, name = "Tom", gender = "Male"):
     self.name = name
     self.gender = gender
 
@@ -685,6 +685,7 @@ print(haski2.gender)
 ```
 
 输出如下：
+
 ```
 Tom
 Male
@@ -692,9 +693,12 @@ Male
 Ada
 Female
 ```
-  在上例中，我们在类中通过\_\_init\_\_()定义了name和gender两个属性，并给予初始值"Tom"和"Male"，如果我们在后面的类实例化中没有传参，那么将会使用这两个默认的参数。\_\_init\_\_()的第一个参数一定是self，表示创建的实例本身。haski1使用了默认参数。对于haski2，我们通过传参将其定义为一只名为Ada的母哈士奇。  
-  在类中，我们还可以定义各种各样的方法。方法的定义除了第一个参数仍为self外，其它与函数的定义完全相同。下面的例子我们给dog类附加run和bark的方法。
 
+在上例中，我们在类中通过``__init__()``定义了name和gender两个属性，并给予初始值"Tom"和"Male"，如果我们在后面的类实例化中没有传参，那么将会使用这两个默认的参数。``__init__()``的第一个参数一定是self，表示创建的实例本身。haski1使用了默认参数。对于haski2，我们通过传参将其定义为一只名为Ada的母哈士奇。  
+
+在类中，我们还可以定义各种各样的方法。方法的定义除了第一个参数仍为self外，其它与函数的定义完全相同。下面的例子我们给dog类附加run和bark的方法。
+
+```
 class dog():
   def \_\_init\_\_(self, name = "Tom", gender = "Male"):
     self.name = name
@@ -711,13 +715,15 @@ haski = dog()
 print(haski.name, haski.gender)
 haski.run()
 haski.bark()
+```
 
-  输出如下：
+输出如下：
 
+```
 Tom Male
 dog is running.
 wow, wow~~
-
+``
   使用类的一个好处是当我们需要定义一个新的类时，可以直接继承已有的类。新的class称为子类（Subclass），而被继承的class称为基类、父类或超类（Base class、Super class）。当我们定义一个类的时候，python3默认是继承python的object类。  
   以下是对于继承的一个简单例子。
 
@@ -1470,6 +1476,6 @@ test\['species'\].head()
 [Python中lambda表达式的应用](https://blog.csdn.net/u011197534/article/details/53747316)  
 [Python 基础教程 | 菜鸟教程](http://www.runoob.com/python/python-tutorial.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MjQxNTQ3MTIsLTE1MTUxNzk3NCwtMT
-MwOTI0ODQyMSwxNzY3ODk0MzgxLC0zOTUyNTg4Nl19
+eyJoaXN0b3J5IjpbLTI2OTEwMTI1MiwtMTUxNTE3OTc0LC0xMz
+A5MjQ4NDIxLDE3Njc4OTQzODEsLTM5NTI1ODg2XX0=
 -->
