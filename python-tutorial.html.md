@@ -45,9 +45,8 @@ Anaconda可以在[清华大学开源软件镜像站](https://mirrors.tuna.tsingh
 ```sh
 code .condarc
 ```
-```c
+```yml
 ssl_verify: true
-
 channels:
 
 - defaults
@@ -1510,6 +1509,6 @@ test\['species'\].head()
 [Python中lambda表达式的应用](https://blog.csdn.net/u011197534/article/details/53747316)  
 [Python 基础教程 | 菜鸟教程](http://www.runoob.com/python/python-tutorial.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4Mzk5OTYwMTUsLTEzMDkyNDg0MjEsMT
-c2Nzg5NDM4MSwtMzk1MjU4ODZdfQ==
+eyJoaXN0b3J5IjpbMTUyNjIwMjcwMiwtMTMwOTI0ODQyMSwxNz
+Y3ODk0MzgxLC0zOTUyNTg4Nl19
 -->
