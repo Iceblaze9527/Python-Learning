@@ -104,12 +104,12 @@ c = 0xef           #整型变量，十六进制数
 
 那么，如何进行各进制数之间的转换呢？
 
--   使用bin()方法把任意进制数转化为二进制数;
--   使用oct()方法把任意进制数转化为八进制数;
--   使用int()方法把任意进制数转化为十进制数;
--   使用hex()方法把任意进制数转化为十六进制数;
+-   使用``bin()``方法把任意进制数转化为二进制数;
+-   使用``oct()``方法把任意进制数转化为八进制数;
+-   使用``int()``方法把任意进制数转化为十进制数;
+-   使用``hex()``方法把任意进制数转化为十六进制数;
 
-> 小贴士： 除使用int()转换结果为整型以外，其它转换结果全部为字符串；
+> 小贴士： 除使用``int()``转换结果为整型以外，其它转换结果全部为字符串；
 
 ### Section 3.2: 字符串与列表
 
@@ -1471,6 +1471,6 @@ test\['species'\].head()
 [Python中lambda表达式的应用](https://blog.csdn.net/u011197534/article/details/53747316)  
 [Python 基础教程 | 菜鸟教程](http://www.runoob.com/python/python-tutorial.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MTUxNzk3NCwtMTMwOTI0ODQyMSwxNz
-Y3ODk0MzgxLC0zOTUyNTg4Nl19
+eyJoaXN0b3J5IjpbMTU1Nzg2MjY5OCwtMTUxNTE3OTc0LC0xMz
+A5MjQ4NDIxLDE3Njc4OTQzODEsLTM5NTI1ODg2XX0=
 -->
