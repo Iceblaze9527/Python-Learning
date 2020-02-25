@@ -187,22 +187,28 @@ Michael
 
 如果要访问多个列表元素，可以使用以下方式：
 
-classmates = \['Michael', 'Bob', 'Tracy'\]
-print(classmates\[0:2\])
+```py
+classmates = ['Michael', 'Bob', 'Tracy']
+print(classmates[0:2])
+```
 
-  输出的结果如下，**需要注意的是访问的元素是从索引范围起始到索引范围终止前一位的元素**，这里就是访问的列表内索引为0和1的两个元素。
+输出的结果如下，**需要注意的是访问的元素是从索引范围起始到索引范围终止前一位的元素**，这里就是访问的列表内索引为0和1的两个元素。
 
-\['Michael', 'Bob'\]
+```py
+['Michael', 'Bob']
+```
 
-  当然，也可以访问多维list。比如在下面的例子中，Michael和Tracy在一起了，于是我们为他们设置了一个单独的list，这时我们可以通过以下方式访问Michael：
+当然，也可以访问多维list。比如在下面的例子中，Michael和Tracy在一起了，于是我们为他们设置了一个单独的list，这时我们可以通过以下方式访问Michael：
 
-classmates = \[\['Michael','Tracy'\], 'Bob'\]
-print(classmates\[0\]\[0\])
+```py
+classmates = [['Michael','Tracy'\], 'Bob'\]
+print(classmates[0][0\])
 
-\# 输出结果：
+# 输出结果：
 Michael
+```
 
-  除此之外，python还支持从后向前访问元素，如下面的例子，会输出倒数第一个元素
+除此之外，python还支持从后向前访问元素，如下面的例子，会输出倒数第一个元素
 
 classmates = \['Michael', 'Bob', 'Tracy'\]
 print(classmates\[-1\])
@@ -1478,6 +1484,6 @@ test\['species'\].head()
 [Python中lambda表达式的应用](https://blog.csdn.net/u011197534/article/details/53747316)  
 [Python 基础教程 | 菜鸟教程](http://www.runoob.com/python/python-tutorial.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg2MTY0MjMzNCwtMTUxNTE3OTc0LC0xMz
+eyJoaXN0b3J5IjpbMTg5MDgyOTEzNywtMTUxNTE3OTc0LC0xMz
 A5MjQ4NDIxLDE3Njc4OTQzODEsLTM5NTI1ODg2XX0=
 -->
