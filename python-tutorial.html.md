@@ -2,41 +2,6 @@
 
 > Credit to Original Author: Wei Zhang, Haochen Wang
 
--   [Section 1: Python简介与安装](#section-1-python%E7%AE%80%E4%BB%8B%E4%B8%8E%E5%AE%89%E8%A3%85)
-	- [Section 1.1: 配置镜像源](#section-11)
--   [Section 3: Python中的数据类型](#section-3-python%E4%B8%AD%E7%9A%84%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B)
-    -   [Section 3.1: 数字Numbers](#section-31-%E6%95%B0%E5%AD%97numbers)
-    -   [Section 3.2: 字符串与列表](#section-32-%E5%AD%97%E7%AC%A6%E4%B8%B2%E4%B8%8E%E5%88%97%E8%A1%A8)
-    -   [Section 3.3: 元组Tuple](#section-33-%E5%85%83%E7%BB%84tuple)
-    -   [Section 3.4: 字典Dict](#section-34-%E5%AD%97%E5%85%B8dict)
--   [Section 4: 条件、循环](#section-4-%E6%9D%A1%E4%BB%B6-%E5%BE%AA%E7%8E%AF)
-    -   [Section 4.1: 条件语句](#section-41-%E6%9D%A1%E4%BB%B6%E8%AF%AD%E5%8F%A5)
-    -   [Section 4.2: for - in 循环语句](#section-42-for-in-%E5%BE%AA%E7%8E%AF%E8%AF%AD%E5%8F%A5)
-    -   [Section 4.3: while循环语句](#section-43-while%E5%BE%AA%E7%8E%AF%E8%AF%AD%E5%8F%A5)
-    -   [Section 4.4: break、continue语句](#section-44-break-continue%E8%AF%AD%E5%8F%A5)
--   [Section 5: 函数](#section-5-%E5%87%BD%E6%95%B0)
-    -   [Section 5.1: 函数定义](#section-51-%E5%87%BD%E6%95%B0%E5%AE%9A%E4%B9%89)
-    -   [Section 5.2: 函数调用](#section-52-%E5%87%BD%E6%95%B0%E8%B0%83%E7%94%A8)
-    -   [Section 5.3: 函数参数传递](#section-53-%E5%87%BD%E6%95%B0%E5%8F%82%E6%95%B0%E4%BC%A0%E9%80%92)
-    -   [Section 5.4: 关键字参数、默认参数、不定长参数](#section-54-%E5%85%B3%E9%94%AE%E5%AD%97%E5%8F%82%E6%95%B0-%E9%BB%98%E8%AE%A4%E5%8F%82%E6%95%B0-%E4%B8%8D%E5%AE%9A%E9%95%BF%E5%8F%82%E6%95%B0)
--   [Section 6： lambda表达式及一些其它语法知识点](#section-6-lambda%E8%A1%A8%E8%BE%BE%E5%BC%8F%E5%8F%8A%E4%B8%80%E4%BA%9B%E5%85%B6%E5%AE%83%E8%AF%AD%E6%B3%95%E7%9F%A5%E8%AF%86%E7%82%B9)
-    -   [Section 6.1: lambda表达式](#section-61-lambda%E8%A1%A8%E8%BE%BE%E5%BC%8F)
-    -   [Section 6.2: lambda表达式与map，reduce，filter以及sorted的配合使用](#section-62-lambda%E8%A1%A8%E8%BE%BE%E5%BC%8F%E4%B8%8Emapreducefilter%E4%BB%A5%E5%8F%8Asorted%E7%9A%84%E9%85%8D%E5%90%88%E4%BD%BF%E7%94%A8)
-    -   [Section 6.3: set()](#section-63-set)
--   [Section 7: Python的类及其特性](#section-7-python%E7%9A%84%E7%B1%BB%E5%8F%8A%E5%85%B6%E7%89%B9%E6%80%A7)
--   [Section 8: 错误和异常处理](#section-8-%E9%94%99%E8%AF%AF%E5%92%8C%E5%BC%82%E5%B8%B8%E5%A4%84%E7%90%86)
--   [Section 9: 文件操作](#section-9-%E6%96%87%E4%BB%B6%E6%93%8D%E4%BD%9C)
--   [Section 10: 安装和使用第三方模块](#section-10-%E5%AE%89%E8%A3%85%E5%92%8C%E4%BD%BF%E7%94%A8%E7%AC%AC%E4%B8%89%E6%96%B9%E6%A8%A1%E5%9D%97)
--   [Section 11: numpy模块](#section-11-numpy%E6%A8%A1%E5%9D%97)
-    -   [Section 11.1: 数组和矩阵操作](#section-111-%E6%95%B0%E7%BB%84%E5%92%8C%E7%9F%A9%E9%98%B5%E6%93%8D%E4%BD%9C)
-    -   [Section 11.2: 随机数操作](#section-112-%E9%9A%8F%E6%9C%BA%E6%95%B0%E6%93%8D%E4%BD%9C)
--   [Section 12: pandas模块](#section-12-pandas%E6%A8%A1%E5%9D%97)
-    -   [Section 12.1: DataFrame](#section-121-dataframe)
-    -   [Section 12.2: 文件操作](#section-122-%E6%96%87%E4%BB%B6%E6%93%8D%E4%BD%9C)
--   [Section 13：Matplotlib模块](#section-13matplotlib%E6%A8%A1%E5%9D%97)
--   [Section 14：sklearn模块](#section-14sklearn%E6%A8%A1%E5%9D%97)
--   [鸣谢](#%E9%B8%A3%E8%B0%A2)
-
 ## Section 1: Python安装
 
 ![](https://www.python.org/static/community_logos/python-logo-generic.svg)
@@ -219,29 +184,33 @@ Tracy
 ```
 
 #### 3.2.5列表的插入、删除  
-  列表的插入和删除可以参考以下的例子：
-  ``
-\# 插入操作
-classmates = \['Michael', 'Bob', 'Tracy'\]
-classmates.insert(1, 'Jack')  \# 这里会把'Jack'添加到索引为1的位置
+
+列表的插入和删除可以参考以下的例子：
+
+```py
+# 插入操作
+classmates = ['Michael', 'Bob', 'Tracy']
+classmates.insert(1, 'Jack') # 这里会把'Jack'添加到索引为1的位置
 print(classmates)  
 
-\# 输出结果：
-\['Michael', 'Jack', 'Bob', 'Tracy'\]
+# 输出结果：
+['Michael', 'Jack', 'Bob', 'Tracy']
 
-\# 删除操作
-classmates.pop(1)  \# 这里会把索引为1的元素删除
+# 删除操作
+classmates.pop(1)  # 这里会把索引为1的元素删除
 print(classmates)
 
-\# 输出结果：
-\['Michael', 'Bob', 'Tracy'\]
+# 输出结果：
+['Michael', 'Bob', 'Tracy']
+```
 
 > 小贴士：需要注意的是，在插入和删除元素后，List元素的索引也会随之改变，在写循环时要小心这一点。
 
 ### Section 3.3: 元组Tuple
 
 Tuple与List有一定的相似之处，但最大的不同之处在于，Tuple一旦定义，则无法修改。  
-  Tuple的初始化方法如下：
+
+Tuple的初始化方法如下：
 
 classmates = ('Michael', 'Bob', 'Tracy')
 
@@ -1486,6 +1455,6 @@ test\['species'\].head()
 [Python中lambda表达式的应用](https://blog.csdn.net/u011197534/article/details/53747316)  
 [Python 基础教程 | 菜鸟教程](http://www.runoob.com/python/python-tutorial.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMDMwMDA1MDYsLTE1MTUxNzk3NCwtMT
-MwOTI0ODQyMSwxNzY3ODk0MzgxLC0zOTUyNTg4Nl19
+eyJoaXN0b3J5IjpbMTQ5OTY0NDgyLC0xNTE1MTc5NzQsLTEzMD
+kyNDg0MjEsMTc2Nzg5NDM4MSwtMzk1MjU4ODZdfQ==
 -->
