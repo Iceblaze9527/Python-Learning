@@ -119,7 +119,7 @@ c = 0xef           #整型变量，十六进制数
 如：
 
 ```py
-print('I\\'m \\"OK\\"!')
+print('I\'m \"OK\"!')
 I'm "OK"!
 ```
 
@@ -248,12 +248,15 @@ print(classmates)
 
 ### Section 3.4: 字典Dict
 
-  Dict变量包含key和value两部分，其基本格式为：
+Dict变量包含key和value两部分，其基本格式为：
 
+```py
 d = {key1 : value1, key2 : value2 }
+```
 
-  Key一般是唯一的，value可以不唯一，以下是dict的一个常见示例：
+Key一般是唯一的，value可以不唯一，以下是dict的一个常见示例：
 
+```py
 dict = {'a': 1, 'b': 2, 'b': '3'} #key唯一，故若多次赋值，则以后赋值为准；
 print(dict\['b'\])
 
@@ -1471,6 +1474,6 @@ test\['species'\].head()
 [Python中lambda表达式的应用](https://blog.csdn.net/u011197534/article/details/53747316)  
 [Python 基础教程 | 菜鸟教程](http://www.runoob.com/python/python-tutorial.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU1Nzg2MjY5OCwtMTUxNTE3OTc0LC0xMz
-A5MjQ4NDIxLDE3Njc4OTQzODEsLTM5NTI1ODg2XX0=
+eyJoaXN0b3J5IjpbNzYxMzQyODcwLC0xNTE1MTc5NzQsLTEzMD
+kyNDg0MjEsMTc2Nzg5NDM4MSwtMzk1MjU4ODZdfQ==
 -->
