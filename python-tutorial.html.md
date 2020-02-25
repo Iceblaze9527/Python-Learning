@@ -1091,8 +1091,9 @@ numpy中的矩阵关键词为matrix，matrix可以使用多维的array代替，�
 
 ### Section 11.2: 随机数操作
 
-  在科学计算中，会经常用到随机数，比如初始化神经网络的权重等。numpy中提供了很多的统计分布和随机数操作。
+在科学计算中，会经常用到随机数，比如初始化神经网络的权重等。numpy中提供了很多的统计分布和随机数操作。
 
+```py
 import numpy as np
 import numpy.random as random
 
@@ -1140,14 +1141,15 @@ b = random.permutation(a)
 \# 对a进行in-place乱序
 random.shuffle(a)
 
-  除numpy外，[scipy](https://www.scipy.org/)也是一个集成了众多科学计算操作的常用模块，有兴趣的同学可以自行学习。
+```
 
 ## Section 12: pandas模块
 
 ### Section 12.1: DataFrame
 
-  pandas模块提供了快速，灵活和富有表现力的数据结构。这里对其中的DataFrame进行简单介绍。
+pandas模块提供了快速，灵活和富有表现力的数据结构。这里对其中的DataFrame进行简单介绍。
 
+```py
 import pandas as pd
 '''生成以下形式的DataFrame
 df:
@@ -1158,9 +1160,11 @@ c        8        9       10       11
 d       12       13       14       15
 '''
 df = pd.DataFrame(np.arange(16).reshape(4,4), columns=\["column1", "column2", "column3", "column4"\], index=\["a", "b", "c", "d"\])
+```
 
-  DataFrame中可以存在不同格式的数据。
+DataFrame中可以存在不同格式的数据。
 
+```py
 '''
 df1:
         column1 column2
@@ -1168,9 +1172,11 @@ a       1       2
 b      aa      bb
 '''
 df1 = pd.DataFrame(\[\[1, 2\], \["aa", "bb"\]\], columns=\["column1", "column2"\], index=\["a", "b"\])
+```
 
-  可以使用dict或list生成DataFrame。
+可以使用dict或list生成DataFrame。
 
+```
 '''
 df2:
      account  Jan  Feb  Mar
@@ -1456,6 +1462,7 @@ test\['species'\].head()
 [Python中lambda表达式的应用](https://blog.csdn.net/u011197534/article/details/53747316)  
 [Python 基础教程 | 菜鸟教程](http://www.runoob.com/python/python-tutorial.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE0ODQ0MTM4MCwtMTUxNTE3OTc0LC0xMz
-A5MjQ4NDIxLDE3Njc4OTQzODEsLTM5NTI1ODg2XX0=
+eyJoaXN0b3J5IjpbMTMxMzU2OTMxLDExNDg0NDEzODAsLTE1MT
+UxNzk3NCwtMTMwOTI0ODQyMSwxNzY3ODk0MzgxLC0zOTUyNTg4
+Nl19
 -->
