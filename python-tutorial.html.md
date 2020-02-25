@@ -37,11 +37,9 @@
 -   [Section 14：sklearn模块](#section-14sklearn%E6%A8%A1%E5%9D%97)
 -   [鸣谢](#%E9%B8%A3%E8%B0%A2)
 
-## Section 1: Python简介与安装
+## Section 1: Python安装
 
 ![](https://www.python.org/static/community_logos/python-logo-generic.svg)
-Python是一种动态的、面向对象的脚本语言。经过数十年人们不断的发展，Python已经成为了主流的编程语言之一。当今最流行的多个神经网络框架，以及经典的模式识别算法，都有Python版本的实现。  
-  
 Python的安装十分简单，只需在[官网](https://www.python.org/)下载安装包后直接安装即可。在实际应用中，由于我们要用到很多Python扩展包，因此这里建议大家下载[Anaconda](https://www.anaconda.com/)而不是直接使用Python。Anaconda可以在[清华大学开源软件镜像站](https://mirrors.tuna.tsinghua.edu.cn/)下载。  
   
 Windows下安装完成Anaconda后会自动将Python加入到环境变量。Linux在安装时会提醒你是否加入到用户.bashrc文件，如果没有默认添加的话则需要自己手动添加路径到PATH。  
@@ -1474,5 +1472,6 @@ test\['species'\].head()
 [Python中lambda表达式的应用](https://blog.csdn.net/u011197534/article/details/53747316)  
 [Python 基础教程 | 菜鸟教程](http://www.runoob.com/python/python-tutorial.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc2Nzg5NDM4MSwtMzk1MjU4ODZdfQ==
+eyJoaXN0b3J5IjpbNDc3MDY1MjEyLDE3Njc4OTQzODEsLTM5NT
+I1ODg2XX0=
 -->
