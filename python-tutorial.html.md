@@ -3,7 +3,7 @@
 > Credit to Original Author: Wei Zhang, Haochen Wang
 
 -   [Section 1: Python简介与安装](#section-1-python%E7%AE%80%E4%BB%8B%E4%B8%8E%E5%AE%89%E8%A3%85)
-	- [Section 1.1: ]
+	- [Section 1.1: 配置镜像源](#section-1)
 -   [Section 2: Hello World](#section-2-hello-world)
 -   [Section 3: Python中的数据类型](#section-3-python%E4%B8%AD%E7%9A%84%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B)
     -   [Section 3.1: 数字Numbers](#section-31-%E6%95%B0%E5%AD%97numbers)
@@ -43,7 +43,7 @@
 ![](https://www.python.org/static/community_logos/python-logo-generic.svg)
 Anaconda可以在[清华大学开源软件镜像站](https://mirrors.tuna.tsinghua.edu.cn/)下载。  
 
-### Section 1配置镜像源
+### Section 1.1: 配置镜像源
 ```sh
 code .condarc
 ```
@@ -1494,6 +1494,6 @@ test\['species'\].head()
 [Python中lambda表达式的应用](https://blog.csdn.net/u011197534/article/details/53747316)  
 [Python 基础教程 | 菜鸟教程](http://www.runoob.com/python/python-tutorial.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYzNTUxNDc4MywtMTMwOTI0ODQyMSwxNz
+eyJoaXN0b3J5IjpbLTUwMzI2NzU4NywtMTMwOTI0ODQyMSwxNz
 Y3ODk0MzgxLC0zOTUyNTg4Nl19
 -->
