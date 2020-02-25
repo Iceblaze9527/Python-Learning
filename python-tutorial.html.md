@@ -924,56 +924,26 @@ g.close()
 
 ```
 
-  以上内容对open()，close()，readlines()，write()方法进行了简单介绍，更多的文件操作方法可以参考此处[教程](http://www.runoob.com/python3/python3-file-methods.html)。除了Python自带的这些函数之外，[pandas模块](https://pandas.pydata.org/)也提供了很多的文件操作。
-
-## Section 10: 安装和使用第三方模块
-
-Python拥有十分强大的标准模块和丰富的第三方模块，并且安装十分方便。你可以到[PyPI](https://pypi.org/)网站寻找你想要下载的各种第三方模块。并使用pip命令进行安装。  
-
-以[numpy](https://pypi.org/project/numpy/)为例，你只需要在系统命令行输入以下命令就可以安装。  
-
-pip install numpy
-
-  
-
-  Python模块的调用也十分方便，使用import即可导入想要使用的模块，以下代码调用numpy中的array并生成一个2×22\\times22×2的数组。
-
-\# 方法1：import...
-import numpy
-a = numpy.array(\[\[1, 2\], \[3, 4\]\])
-
-\# 方法2：import...as...，as后为numpy的别名
-import numpy as np
-a = np.array(\[\[1, 2\], \[3, 4\]\])
-
-\# 方法3：from...import...，从numpy中调用array类
-from numpy import array
-a = array(\[\[1, 2\], \[3, 4\]\])
-
-print(a)
-
-  结果输出如下：
-
-\[\[1 2\]
- \[3 4\]\]
+以上内容对open()，close()，readlines()，write()方法进行了简单介绍，更多的文件操作方法可以参考此处[教程](http://www.runoob.com/python3/python3-file-methods.html)。除了Python自带的这些函数之外，[pandas模块](https://pandas.pydata.org/)也提供了很多的文件操作。
 
 ## Section 11: numpy模块
 
-  numpy模块是Python中最常用模块之一，它可以实现各种矩阵操作和统计计算。下面对numpy中常用的函数进行介绍。
+numpy模块是Python中最常用模块之一，它可以实现各种矩阵操作和统计计算。下面对numpy中常用的函数进行介绍。
 
 ### Section 11.1: 数组和矩阵操作
 
-  numpy中的基本数据类型是array，array可以通过python中的list生成。下面是对于array的常用操作。
+numpy中的基本数据类型是array，array可以通过python中的list生成。下面是对于array的常用操作。
 
+```py
 import numpy as np
-\# 生成一个数组
-a = np.array(\[1,2,3,4,5\])
+# 生成一个数组
+a = np.array([1,2,3,4,5])
 
-\# 数组大小
+# 数组大小
 np.shape(a)
 a.shape()
 
-\# 寻找最大最小值
+# 寻找最大最小值
 np.max(a)
 a.max()
 np.min(a)
@@ -985,23 +955,24 @@ a = np.array(\[\[1,2,3\], \[4,5,6\], \[7,8,9\]\])
 np.shape(a)
 np.max(a, axis = 0)
 np.min(a, axis = 1)
-a.flatten()  \# 将a变为一维数组
+a.flatten()  # 将a变为一维数组
 
-\# 3x3的浮点型2维数组，并且初始化所有元素值为1
+# 3x3的浮点型2维数组，并且初始化所有元素值为1
 np.ones((3, 3), dtype=np.float)
 
-\# 创建一个一维数组，元素值是把3重复4次，array(\[3, 3, 3, 3\])
+# 创建一个一维数组，元素值是把3重复4次，array([3, 3, 3, 3])
 f = np.repeat(3, 4)
 
-\# 2x2x3的无符号8位整型3维数组，并且初始化所有元素值为0
+# 2x2x3的无符号8位整型3维数组，并且初始化所有元素值为0
 g = np.zeros((2, 2, 3), dtype=np.uint8)
-g.shape                    \# (2, 2, 3)
+g.shape                    # (2, 2, 3)
 h = g.astype(np.float)  \# 用另一种类型表示
 
 l = np.arange(10)      	\# 类似range，array(\[0, 1, 2, 3, 4, 5, 6, 7, 8, 9\])
 m = np.linspace(0, 6, 5)\# 等差数列，0到6之间5个取值，array(\[ 0., 1.5, 3., 4.5, 6.\])
+```
 
-  对于array，默认执行对位运算，涉及到多个array的对位运算需要array的维度一致。
+对于array，默认执行对位运算，涉及到多个array的对位运算需要array的维度一致。
 
 \# 绝对值，1
 a = np.abs(-1)
@@ -1483,6 +1454,6 @@ test\['species'\].head()
 [Python中lambda表达式的应用](https://blog.csdn.net/u011197534/article/details/53747316)  
 [Python 基础教程 | 菜鸟教程](http://www.runoob.com/python/python-tutorial.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzMxMjA5ODUsLTE1MTUxNzk3NCwtMTMwOT
-I0ODQyMSwxNzY3ODk0MzgxLC0zOTUyNTg4Nl19
+eyJoaXN0b3J5IjpbOTYwODg3OTE3LC0xNTE1MTc5NzQsLTEzMD
+kyNDg0MjEsMTc2Nzg5NDM4MSwtMzk1MjU4ODZdfQ==
 -->
