@@ -212,18 +212,22 @@ Tuple与List有一定的相似之处，但最大的不同之处在于，Tuple一
 
 Tuple的初始化方法如下：
 
+```py
 classmates = ('Michael', 'Bob', 'Tracy')
+```
 
-  Tuple的访问方法与List相同，只是无法进行修改；因此，相比于List，Tuple对于工程项目而言更加安全。不过，Tuple本身虽然无法修改，但如果在Tuple内嵌套List，则可以修改List内的元素，如下面的例子：
+Tuple的访问方法与List相同，只是无法进行修改；因此，相比于List，Tuple对于工程项目而言更加安全。不过，Tuple本身虽然无法修改，但如果在Tuple内嵌套List，则可以修改List内的元素，如下面的例子：
 
-classmates = (\['Michael', 'Tracy'\],'Bob')
-classmates\[0\]\[0\] = 'Jack'
+```py
+classmates = (['Michael', 'Tracy'],'Bob')
+classmates[0][0] = 'Jack'
 print(classmates)
 
-\# 输出结果：
-(\['Jack', 'Tracy'\], 'Bob')
+# 输出结果：
+(['Jack', 'Tracy'], 'Bob')
+```
 
-  但本质上来说，这个例子并没有修改Tuple本身，Tuple依旧没有改变。
+但本质上来说，这个例子并没有修改Tuple本身，Tuple依旧没有改变。
 
 ### Section 3.4: 字典Dict
 
@@ -242,9 +246,10 @@ print(dict['b'])
 # 输出结果：
 3
 ```
+
 ```py
 print(dict)
-\# 输出结果:
+# 输出结果:
 {'a': 1, 'b': '3'}
 ```
 
@@ -1455,6 +1460,6 @@ test\['species'\].head()
 [Python中lambda表达式的应用](https://blog.csdn.net/u011197534/article/details/53747316)  
 [Python 基础教程 | 菜鸟教程](http://www.runoob.com/python/python-tutorial.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ5OTY0NDgyLC0xNTE1MTc5NzQsLTEzMD
-kyNDg0MjEsMTc2Nzg5NDM4MSwtMzk1MjU4ODZdfQ==
+eyJoaXN0b3J5IjpbMTQxOTM4OTE5MCwtMTUxNTE3OTc0LC0xMz
+A5MjQ4NDIxLDE3Njc4OTQzODEsLTM5NTI1ODg2XX0=
 -->
