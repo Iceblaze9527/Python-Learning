@@ -950,7 +950,7 @@ np.min(a)
 a.min()
 
 #生成一个3*3的数组
-a = np.array(\[\[1,2,3\], \[4,5,6\], \[7,8,9\]\])
+a = np.array([[1,2,3], [4,5,6], [7,8,9]])
 
 np.shape(a)
 np.max(a, axis = 0)
@@ -1464,7 +1464,7 @@ test\['species'\].head()
 [Python中lambda表达式的应用](https://blog.csdn.net/u011197534/article/details/53747316)  
 [Python 基础教程 | 菜鸟教程](http://www.runoob.com/python/python-tutorial.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUwNzYzMjUyMCwxMTQ4NDQxMzgwLC0xNT
-E1MTc5NzQsLTEzMDkyNDg0MjEsMTc2Nzg5NDM4MSwtMzk1MjU4
-ODZdfQ==
+eyJoaXN0b3J5IjpbLTE3NzUyMDMwODAsMTE0ODQ0MTM4MCwtMT
+UxNTE3OTc0LC0xMzA5MjQ4NDIxLDE3Njc4OTQzODEsLTM5NTI1
+ODg2XX0=
 -->
