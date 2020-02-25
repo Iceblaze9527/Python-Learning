@@ -768,11 +768,7 @@ dog is running.
 wow, wow~~
 ```
 
-在上例中，我们首先生成了一个类animal，然后生成了它的子类dog，并通过animal和dog生成了两个实例haski1和haski2。类dog中并没有直接设置属性name，而可以从它的父类animal中继承name属性。而子类dog中的方法run与父类中的冲突，则直接覆盖了父类的方法。父类animal中没有方法bark，而子类dog中有。如果调用haski1.bark()，则会报错。  
-
-对于类的更多教程，请查看以下的教程。  
-[廖雪峰python教程：面向对象编程](https://www.liaoxuefeng.com/wiki/0014316089557264a6b348958f449949df42a6d3a2e542c000/0014318645694388f1f10473d7f416e9291616be8367ab5000)  
-[The Python Tutorial:Classes](https://docs.python.org/3/tutorial/classes.html)
+在上例中，我们首先生成了一个类``animal``，然后生成了它的子类``dog``，并通过``animal``和``dog``生成了两个实例``haski1``和``haski2``。类``dog``中并没有直接设置属性``name``，而可以从它的父类``animal``中继承``name``属性。而子类``dog``中的方法``run与父类中的冲突，则直接覆盖了父类的方法。父类animal中没有方法bark，而子类dog中有。如果调用haski1.bark()，则会报错。  
 
 ## Section 8: 错误和异常处理
 
@@ -1483,6 +1479,6 @@ test\['species'\].head()
 [Python中lambda表达式的应用](https://blog.csdn.net/u011197534/article/details/53747316)  
 [Python 基础教程 | 菜鸟教程](http://www.runoob.com/python/python-tutorial.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE3OTYxNzk5MywtMTUxNTE3OTc0LC0xMz
-A5MjQ4NDIxLDE3Njc4OTQzODEsLTM5NTI1ODg2XX0=
+eyJoaXN0b3J5IjpbLTEzMjI0NjE5NjMsLTE1MTUxNzk3NCwtMT
+MwOTI0ODQyMSwxNzY3ODk0MzgxLC0zOTUyNTg4Nl19
 -->
