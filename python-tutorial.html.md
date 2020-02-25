@@ -3,8 +3,7 @@
 > Credit to Original Author: Wei Zhang, Haochen Wang
 
 -   [Section 1: Python简介与安装](#section-1-python%E7%AE%80%E4%BB%8B%E4%B8%8E%E5%AE%89%E8%A3%85)
-	- [Section 1.1: 配置镜像源](#section-1)
--   [Section 2: Hello World](#section-2-hello-world)
+	- [Section 1.1: 配置镜像源](#section-11)
 -   [Section 3: Python中的数据类型](#section-3-python%E4%B8%AD%E7%9A%84%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B)
     -   [Section 3.1: 数字Numbers](#section-31-%E6%95%B0%E5%AD%97numbers)
     -   [Section 3.2: 字符串与列表](#section-32-%E5%AD%97%E7%AC%A6%E4%B8%B2%E4%B8%8E%E5%88%97%E8%A1%A8)
@@ -67,28 +66,6 @@ menpo: https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud
 pytorch: https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud
 simpleitk: https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud
 ```
-
-## Section 2: Hello World
-
-这一篇将讲解如何使用python输出"Hello,world!"  
-
-首先，如果你已经安装了anaconda，那么会自带spyder开发环境。linux用户可以通过直接运行命令：
-
-```
-$ Spyder
-```
-
-便可以打开spyder开发环境。之后，有两种方法运行语句，一种是在editor中输入语句并点击绿色运行按钮（或使用快捷键F5），或是直接选择Python console写入语句。Python console位置如箭头所示：  
-
-![avatar](7.png)
-
-语句如下：
-
-```py
-print("Hello, World!")
-```
-
-> 小贴士：要求严格的代码缩进是python语法的一大特色，就像C语言家族（C、C++、Java等等）中的花括号一样重要。 Python中的代码缩进在一定程度上相当于C中的括号，因此，在print前一定不能多加空格，否则语句将无法执行。
 
 ## Section 3: Python中的数据类型
 
@@ -1494,6 +1471,6 @@ test\['species'\].head()
 [Python中lambda表达式的应用](https://blog.csdn.net/u011197534/article/details/53747316)  
 [Python 基础教程 | 菜鸟教程](http://www.runoob.com/python/python-tutorial.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUwMzI2NzU4NywtMTMwOTI0ODQyMSwxNz
+eyJoaXN0b3J5IjpbLTE1MTUxNzk3NCwtMTMwOTI0ODQyMSwxNz
 Y3ODk0MzgxLC0zOTUyNTg4Nl19
 -->
