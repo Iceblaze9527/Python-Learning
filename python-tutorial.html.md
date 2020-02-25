@@ -201,8 +201,8 @@ print(classmates[0:2])
 当然，也可以访问多维list。比如在下面的例子中，Michael和Tracy在一起了，于是我们为他们设置了一个单独的list，这时我们可以通过以下方式访问Michael：
 
 ```py
-classmates = [['Michael','Tracy'\], 'Bob'\]
-print(classmates[0][0\])
+classmates = [['Michael','Tracy'], 'Bob']
+print(classmates[0][0])
 
 # 输出结果：
 Michael
@@ -210,15 +210,17 @@ Michael
 
 除此之外，python还支持从后向前访问元素，如下面的例子，会输出倒数第一个元素
 
-classmates = \['Michael', 'Bob', 'Tracy'\]
-print(classmates\[-1\])
+```py
+classmates = ['Michael', 'Bob', 'Tracy']
+print(classmates[-1])
 
-\# 输出结果：
+# 输出结果：
 Tracy
+```
 
-**列表的插入、删除**  
+#### 3.2.5列表的插入、删除  
   列表的插入和删除可以参考以下的例子：
-
+  ``
 \# 插入操作
 classmates = \['Michael', 'Bob', 'Tracy'\]
 classmates.insert(1, 'Jack')  \# 这里会把'Jack'添加到索引为1的位置
@@ -238,7 +240,7 @@ print(classmates)
 
 ### Section 3.3: 元组Tuple
 
-  Tuple与List有一定的相似之处，但最大的不同之处在于，Tuple一旦定义，则无法修改。  
+Tuple与List有一定的相似之处，但最大的不同之处在于，Tuple一旦定义，则无法修改。  
   Tuple的初始化方法如下：
 
 classmates = ('Michael', 'Bob', 'Tracy')
@@ -1484,6 +1486,6 @@ test\['species'\].head()
 [Python中lambda表达式的应用](https://blog.csdn.net/u011197534/article/details/53747316)  
 [Python 基础教程 | 菜鸟教程](http://www.runoob.com/python/python-tutorial.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg5MDgyOTEzNywtMTUxNTE3OTc0LC0xMz
-A5MjQ4NDIxLDE3Njc4OTQzODEsLTM5NTI1ODg2XX0=
+eyJoaXN0b3J5IjpbLTEwMDMwMDA1MDYsLTE1MTUxNzk3NCwtMT
+MwOTI0ODQyMSwxNzY3ODk0MzgxLC0zOTUyNTg4Nl19
 -->
