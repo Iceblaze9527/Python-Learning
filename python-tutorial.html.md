@@ -768,13 +768,15 @@ dog is running.
 wow, wow~~
 ```
 
-在上例中，我们首先生成了一个类``animal``，然后生成了它的子类``dog``，并通过``animal``和``dog``生成了两个实例``haski1``和``haski2``。类``dog``中并没有直接设置属性``name``，而可以从它的父类``animal``中继承``name``属性。而子类``dog``中的方法``run与父类中的冲突，则直接覆盖了父类的方法。父类animal中没有方法bark，而子类dog中有。如果调用haski1.bark()，则会报错。  
+在上例中，我们首先生成了一个类``animal``，然后生成了它的子类``dog``，并通过``animal``和``dog``生成了两个实例``haski1``和``haski2``。类``dog``中并没有直接设置属性``name``，而可以从它的父类``animal``中继承``name``属性。而子类``dog``中的方法``run``与父类中的冲突，则直接覆盖了父类的方法。父类``animal``中没有方法``bark``，而子类``dog``中有。如果调用``haski1.bark()``，则会报错。  
 
 ## Section 8: 错误和异常处理
 
-  在程序运行过程中，如果出现错误，程序则会返回预先设计好的错误代码。语法错误（忘记加冒号等）是python常见的错误，在写代码时养成良好的习惯可以极大减少此类错误。即便python的语法是正确的，在运行它的时候也会出现各种各样的错误（除0错误等）。运行期检测到的错误被称为异常。  
-  错误和异常处理在程序设计中十分重要，当遇到程序错误或异常的时候，我们有时并不希望程序直接被杀掉，而是继续按照我们设定的方式运行下去。我们先介绍如何自定义和触发异常，然后介绍如何处理异常。  
-  当程序出现错误时，一般都是python自动的引发异常，我们也可以通过raise来引发自定义的异常。下面的例子将教给大家如何自定义异常并触发异常。假设我们通过设备接收外部参数parameter，parameter只能为0或1，0时处理fileOne，1时处理fileTwo，接收其它参数则认为是bug。
+在程序运行过程中，如果出现错误，程序则会返回预先设计好的错误代码。语法错误（忘记加冒号等）是python常见的错误，在写代码时养成良好的习惯可以极大减少此类错误。即便python的语法是正确的，在运行它的时候也会出现各种各样的错误（除0错误等）。运行期检测到的错误被称为异常。  
+
+错误和异常处理在程序设计中十分重要，当遇到程序错误或异常的时候，我们有时并不希望程序直接被杀掉，而是继续按照我们设定的方式运行下去。我们先介绍如何自定义和触发异常，然后介绍如何处理异常。  
+
+当程序出现错误时，一般都是python自动的引发异常，我们也可以通过raise来引发自定义的异常。下面的例子将教给大家如何自定义异常并触发异常。假设我们通过设备接收外部参数parameter，parameter只能为0或1，0时处理fileOne，1时处理fileTwo，接收其它参数则认为是bug。
 
 class parameterError(Exception):
     def \_\_init\_\_(self, message):
@@ -829,12 +831,13 @@ finally...
 
 ## Section 9: 文件操作
 
-  文件操作在Python中是十分常用的，尤其是我们需要从外部读入数据时。这里我们只介绍最常用的文件操作，高阶文件操作请大家自行阅读[Python IO文档](https://docs.python.org/3/tutorial/inputoutput.html)。  
-  Python的文件操作与C/C++类似。Python使用open()方法用于打开一个文件，并返回文件对象，通过该文件对象我们可以实现文件读写。使用open()方法一定要保证关闭文件对象，即调用close()方法。
+文件操作在Python中是十分常用的，尤其是我们需要从外部读入数据时。这里我们只介绍最常用的文件操作，高阶文件操作请大家自行阅读[Python IO文档](https://docs.python.org/3/tutorial/inputoutput.html)。  
+
+Python的文件操作与C/C++类似。Python使用open()方法用于打开一个文件，并返回文件对象，通过该文件对象我们可以实现文件读写。使用open()方法一定要保证关闭文件对象，即调用close()方法。
 
 open(file, mode='r', buffering=-1, encoding=None, errors=None, newline=None, closefd=True, opener=None)
 
-  open()方法主要用到前两个参数，文件名和模式，模式默认为只读。常用的模式如下表所示，更多模式及其介绍请看此处[教程](http://www.runoob.com/python3/python3-file-methods.html)。
+open()方法主要用到前两个参数，文件名和模式，模式默认为只读。常用的模式如下表所示，更多模式及其介绍请看此处[教程](http://www.runoob.com/python3/python3-file-methods.html)。
 
 模式
 
@@ -925,8 +928,9 @@ g.close()
 
 ## Section 10: 安装和使用第三方模块
 
-  Python拥有十分强大的标准模块和丰富的第三方模块，并且安装十分方便。你可以到[PyPI](https://pypi.org/)网站寻找你想要下载的各种第三方模块。并使用pip命令进行安装。  
-  以[numpy](https://pypi.org/project/numpy/)为例，你只需要在系统命令行输入以下命令就可以安装。  
+Python拥有十分强大的标准模块和丰富的第三方模块，并且安装十分方便。你可以到[PyPI](https://pypi.org/)网站寻找你想要下载的各种第三方模块。并使用pip命令进行安装。  
+
+以[numpy](https://pypi.org/project/numpy/)为例，你只需要在系统命令行输入以下命令就可以安装。  
 
 pip install numpy
 
@@ -1479,6 +1483,6 @@ test\['species'\].head()
 [Python中lambda表达式的应用](https://blog.csdn.net/u011197534/article/details/53747316)  
 [Python 基础教程 | 菜鸟教程](http://www.runoob.com/python/python-tutorial.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMjI0NjE5NjMsLTE1MTUxNzk3NCwtMT
-MwOTI0ODQyMSwxNzY3ODk0MzgxLC0zOTUyNTg4Nl19
+eyJoaXN0b3J5IjpbNzMxMjA5ODUsLTE1MTUxNzk3NCwtMTMwOT
+I0ODQyMSwxNzY3ODk0MzgxLC0zOTUyNTg4Nl19
 -->
