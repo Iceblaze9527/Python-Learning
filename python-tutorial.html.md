@@ -1209,16 +1209,17 @@ DataFrame的数据访问通过loc或者iloc来访问。
 -   iloc：通过行和列的下标来访问数据
 
 ```py
-data = {'note': \['A', 'B', 'C', 'D', 'E', 'F'\], 'NO.': \[1, 2, 3, 4, 5, 6\]}
+data = {'note': ['A', 'B', 'C', 'D', 'E', 'F'], 'NO.': [1, 2, 3, 4, 5, 6]}
 df4 = pd.DataFrame.from_dict(data)
-print("df4.columns\\n{}\\n".format(df4.columns))
-print("df4.index\\n{}\\n".format(df4.index))
-print("Note C, D is:\\n{}\\n".format(df4.loc\[\[0, 1\], "note"\]))
-print("Note C, D is:\\n{}\\n".format(df4.iloc\[\[0, 1\], 0\]))
+print("df4.columns\n{}\n".format(df4.columns))
+print("df4.index\n{}\n".format(df4.index))
+print("Note C, D is:\n{}\n".format(df4.loc[[0, 1], "note"]))
+print("Note C, D is:\n{}\n".format(df4.iloc[[0, 1], 0]))
 ```
 
 第一行代码访问了行索引为0和1，列索引为“note”的元素。第二行代码访问了行下标为0和1（对于df4来说，行索引和行下标刚好是一样的，所以这里都是0和1，但它们却是不同的含义），列下标为0的元素。上面的代码输出如下：
 
+```py
 df4.columns
 Index(\['note', 'NO.'\], dtype='object')
 
@@ -1236,6 +1237,7 @@ Note C, D is:
 Name: note, dtype: object
 
   其它的数据方式，请大家自己学习。
+```
 
 ### Section 12.2: 文件操作
 
@@ -1464,7 +1466,7 @@ test\['species'\].head()
 [Python中lambda表达式的应用](https://blog.csdn.net/u011197534/article/details/53747316)  
 [Python 基础教程 | 菜鸟教程](http://www.runoob.com/python/python-tutorial.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYyODI4NTkyMSwtMTc3NTIwMzA4MCwxMT
+eyJoaXN0b3J5IjpbLTI2NTA2MDA3NiwtMTc3NTIwMzA4MCwxMT
 Q4NDQxMzgwLC0xNTE1MTc5NzQsLTEzMDkyNDg0MjEsMTc2Nzg5
 NDM4MSwtMzk1MjU4ODZdfQ==
 -->
