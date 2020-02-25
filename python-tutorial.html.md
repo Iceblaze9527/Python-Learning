@@ -661,13 +661,15 @@ print(haski.name)
 
 ```py
 <class '__main__.dog'>
-<\_\_main\_\_.dog object at 0x000002867C315E10>
+<__main__.dog object at 0x000002867C315E10>
 Tom
 ```
 
 在上例中，我们通过关键词class定义了一个叫做dog的类，直接输出dog的结果显示它为一个类。接下来通过dog类创造出一个实例haski，并赋予其名字"Tom"。直接输出haski则显示的是它的地址。  
-  通过\_\_init\_\_()方法，我们可以在创建类的时候就把想要的属性绑定上去，下面通过\_\_init\_\_()方法将名字等属性绑定到dog类上，\_\_init\_\_()的写法与函数的写法类似，通过def来定义。
 
+通过``__init__()``方法，我们可以在创建类的时候就把想要的属性绑定上去，下面通过``__init__()``方法将名字等属性绑定到dog类上，``__init__()``的写法与函数的写法类似，通过def来定义。
+
+```py
 class dog():
   def \_\_init\_\_(self, name = "Tom", gender = "Male"):
     self.name = name
@@ -680,15 +682,16 @@ print(haski1.gender)
 haski2 = dog("Ada", "Female")
 print(haski2.name)
 print(haski2.gender)
+```
 
-  输出如下：
-
+输出如下：
+```
 Tom
 Male
 
 Ada
 Female
-
+```
   在上例中，我们在类中通过\_\_init\_\_()定义了name和gender两个属性，并给予初始值"Tom"和"Male"，如果我们在后面的类实例化中没有传参，那么将会使用这两个默认的参数。\_\_init\_\_()的第一个参数一定是self，表示创建的实例本身。haski1使用了默认参数。对于haski2，我们通过传参将其定义为一只名为Ada的母哈士奇。  
   在类中，我们还可以定义各种各样的方法。方法的定义除了第一个参数仍为self外，其它与函数的定义完全相同。下面的例子我们给dog类附加run和bark的方法。
 
@@ -1467,6 +1470,6 @@ test\['species'\].head()
 [Python中lambda表达式的应用](https://blog.csdn.net/u011197534/article/details/53747316)  
 [Python 基础教程 | 菜鸟教程](http://www.runoob.com/python/python-tutorial.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE4MjU0MjY4MywtMTUxNTE3OTc0LC0xMz
-A5MjQ4NDIxLDE3Njc4OTQzODEsLTM5NTI1ODg2XX0=
+eyJoaXN0b3J5IjpbLTE5MjQxNTQ3MTIsLTE1MTUxNzk3NCwtMT
+MwOTI0ODQyMSwxNzY3ODk0MzgxLC0zOTUyNTg4Nl19
 -->
