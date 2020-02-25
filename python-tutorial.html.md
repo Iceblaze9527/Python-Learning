@@ -641,9 +641,11 @@ set(\['r', 'b', 'u', 'n'\])
 
 ## Section 7: Python的类及其特性
 
-  作为一种面向对象的语言，类是python中一个重要的概念。类是一个模板，想要使用类就必须要将其实例化。实例化的类被称为对象。由一个类生成的众多对象有相同的方法，但是各自的数据可能不同。  
-  在python中，通过关键词**class**来定义一个类。通过.来给类绑定各种属性。下面的例子创建了一个叫做Animal的类，并生成一个实例。
+作为一种面向对象的语言，类是python中一个重要的概念。类是一个模板，想要使用类就必须要将其实例化。实例化的类被称为对象。由一个类生成的众多对象有相同的方法，但是各自的数据可能不同。  
 
+在python中，通过关键词**class**来定义一个类。通过.来给类绑定各种属性。下面的例子创建了一个叫做Animal的类，并生成一个实例。
+
+```py
 class dog():
   pass
 
@@ -653,14 +655,17 @@ haski.name = "Tom"
 print(dog)
 print(haski)
 print(haski.name)
+```
 
-  输出如下：
+输出如下：
 
-<class '\_\_main\_\_.dog'>
+```py
+<class '__main__.dog'>
 <\_\_main\_\_.dog object at 0x000002867C315E10>
 Tom
+```
 
-  在上例中，我们通过关键词class定义了一个叫做dog的类，直接输出dog的结果显示它为一个类。接下来通过dog类创造出一个实例haski，并赋予其名字"Tom"。直接输出haski则显示的是它的地址。  
+在上例中，我们通过关键词class定义了一个叫做dog的类，直接输出dog的结果显示它为一个类。接下来通过dog类创造出一个实例haski，并赋予其名字"Tom"。直接输出haski则显示的是它的地址。  
   通过\_\_init\_\_()方法，我们可以在创建类的时候就把想要的属性绑定上去，下面通过\_\_init\_\_()方法将名字等属性绑定到dog类上，\_\_init\_\_()的写法与函数的写法类似，通过def来定义。
 
 class dog():
@@ -1462,6 +1467,6 @@ test\['species'\].head()
 [Python中lambda表达式的应用](https://blog.csdn.net/u011197534/article/details/53747316)  
 [Python 基础教程 | 菜鸟教程](http://www.runoob.com/python/python-tutorial.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MDc3MjkzMSwtMTUxNTE3OTc0LC0xMz
+eyJoaXN0b3J5IjpbMTE4MjU0MjY4MywtMTUxNTE3OTc0LC0xMz
 A5MjQ4NDIxLDE3Njc4OTQzODEsLTM5NTI1ODg2XX0=
 -->
