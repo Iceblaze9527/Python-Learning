@@ -966,14 +966,15 @@ f = np.repeat(3, 4)
 # 2x2x3的无符号8位整型3维数组，并且初始化所有元素值为0
 g = np.zeros((2, 2, 3), dtype=np.uint8)
 g.shape                    # (2, 2, 3)
-h = g.astype(np.float)  \# 用另一种类型表示
+h = g.astype(np.float)  # 用另一种类型表示
 
-l = np.arange(10)      	\# 类似range，array(\[0, 1, 2, 3, 4, 5, 6, 7, 8, 9\])
-m = np.linspace(0, 6, 5)\# 等差数列，0到6之间5个取值，array(\[ 0., 1.5, 3., 4.5, 6.\])
+l = np.arange(10)      	# 类似range，array([0, 1, 2, 3, 4, 5, 6, 7, 8, 9])
+m = np.linspace(0, 6, 5)# 等差数列，0到6之间5个取值，array([ 0., 1.5, 3., 4.5, 6.])
 ```
 
 对于array，默认执行对位运算，涉及到多个array的对位运算需要array的维度一致。
 
+```py
 \# 绝对值，1
 a = np.abs(-1)
 
@@ -1084,8 +1085,9 @@ array(\[\[ 0,  1,  2\],
        \[ 9, 10, 11\]\])
 '''
 c - 1
+```
 
-  numpy中的矩阵关键词为matrix，matrix可以使用多维的array代替，具体matrix的有关性质请大家自行查阅python手册。
+numpy中的矩阵关键词为matrix，matrix可以使用多维的array代替，具体matrix的有关性质请大家自行查阅python手册。
 
 ### Section 11.2: 随机数操作
 
@@ -1454,6 +1456,6 @@ test\['species'\].head()
 [Python中lambda表达式的应用](https://blog.csdn.net/u011197534/article/details/53747316)  
 [Python 基础教程 | 菜鸟教程](http://www.runoob.com/python/python-tutorial.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTYwODg3OTE3LC0xNTE1MTc5NzQsLTEzMD
-kyNDg0MjEsMTc2Nzg5NDM4MSwtMzk1MjU4ODZdfQ==
+eyJoaXN0b3J5IjpbMTE0ODQ0MTM4MCwtMTUxNTE3OTc0LC0xMz
+A5MjQ4NDIxLDE3Njc4OTQzODEsLTM5NTI1ODg2XX0=
 -->
