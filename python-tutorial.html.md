@@ -1252,19 +1252,21 @@ pandas库提供了一系列的read_函数来读取各种格式的文件，常用
 
 以下代码我们读入这个数据，更改后输出到另一个文件。
 
+```py
 import pandas as pd
-df = pd.read_csv("data.txt", sep="\\s", header=None, engine='python', names = \["col1", "col2", "col3"\])
+df = pd.read_csv("data.txt", sep="\s", header=None, engine='python', names = ["col1", "col2", "col3"])
 
-df\["col1"\] = \["a", "b"\]
-df\["col2"\] = df\["col3"\] + 3
-\# 通过to_csv()方法输出到新文件
-df.to_csv("data_new.txt", sep = "\\t", index = False, header = False)
+df["col1"] = ["a", "b"]
+df["col2"] = df["col3"] + 3
+# 通过to_csv()方法输出到新文件
+df.to_csv("data_new.txt", sep = "t", index = False, header = False)
+```
 
-  其它的数据操作，大家可以通过[这篇教程](http://python.jobbole.com/89084/)学习。
+其它的数据操作，大家可以通过[这篇教程](http://python.jobbole.com/89084/)学习。
 
 ## Section 13：Matplotlib模块
 
-  Matplotlib是Python中最常用的可视化工具之一，这里只对最简单的散点图和曲线图做简单示例，绘制其它图形的命令请大家自己查询。
+Matplotlib是Python中最常用的可视化工具之一，这里只对最简单的散点图和曲线图做简单示例，绘制其它图形的命令请大家自己查询。
 
 import numpy as np
 import matplotlib as mpl
@@ -1315,7 +1317,8 @@ plt.savefig('result.png')
 ## Section 14：sklearn模块
 
 ![sklearn](sklearn.png)  
-  sklearn模块集成了总多的机器学习算法，包括线性回归，SVM等。sklearn的[官网](https://scikit-learn.org/stable/)给出了不同算法的分类，并给出了教程。这里综合上面所涉及的numpy，pandas和matplotlib模块，以线性回归为例给大家做示例。  
+
+sklearn模块集成了总多的机器学习算法，包括线性回归，SVM等。sklearn的[官网](https://scikit-learn.org/stable/)给出了不同算法的分类，并给出了教程。这里综合上面所涉及的numpy，pandas和matplotlib模块，以线性回归为例给大家做示例。  
   线性拟合的关键词是LinearRegression，通过阅读其介绍页面，可以得到以下的方法总结。
 
 Methods
@@ -1466,7 +1469,7 @@ test\['species'\].head()
 [Python中lambda表达式的应用](https://blog.csdn.net/u011197534/article/details/53747316)  
 [Python 基础教程 | 菜鸟教程](http://www.runoob.com/python/python-tutorial.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NjM0MzI2MjAsLTE3NzUyMDMwODAsMT
+eyJoaXN0b3J5IjpbLTE3MTA3MjEzMjksLTE3NzUyMDMwODAsMT
 E0ODQ0MTM4MCwtMTUxNTE3OTc0LC0xMzA5MjQ4NDIxLDE3Njc4
 OTQzODEsLTM5NTI1ODg2XX0=
 -->
