@@ -867,7 +867,7 @@ a+
 
 打开一个文件用于读写。如果该文件已存在，文件指针将会放在文件的结尾。文件打开时会是追加模式。如果该文件不存在，创建新文件用于读写。
 
-  假如我们在data.txt文件中存储了以下的内容。
+假如我们在data.txt文件中存储了以下的内容。
 
 ```
 1 2 3
@@ -875,19 +875,19 @@ a+
 
 ```
 
-  我们可以调用read()方法将data.txt中所有的内容一次性读取，并存储到str对象中。
+我们可以调用read()方法将data.txt中所有的内容一次性读取，并存储到str对象中。
 
 f = open(r"data.txt", "r")
 text = f.read()
 f.close()
 print(text)
 
-  输出如下：
+输出如下：
 
 1       2       3
 4       5       6
 
-  很多时候我们数据文件很大，那么此时不能够直接将所有的数据放入内存，那么我将就可以按行读取文件。readline()和readlines()方法可以实现该功能。readline()方法每次读出一行内容。readlines()则是读取整个文件到一个迭代器以供我们遍历。下面的例子则是通过readlines()读取文件所有内容。
+很多时候我们数据文件很大，那么此时不能够直接将所有的数据放入内存，那么我将就可以按行读取文件。readline()和readlines()方法可以实现该功能。readline()方法每次读出一行内容。readlines()则是读取整个文件到一个迭代器以供我们遍历。下面的例子则是通过readlines()读取文件所有内容。
 
 f = open(r"data.txt", "r")
 i = 1
@@ -897,13 +897,14 @@ for line in f.readlines():
 
 f.close()
 
-  输出如下：
+输出如下：
 
 No.1 row: 1    2    3
 No.2 row: 4    5    6
 
-  readlines()方法独到的每一行数据都存在一个字符串中，如果需要将每个数据都拿出来，还需要使用split()方法来分割字符串。  
-  Python中写文件通过write()方法实现，将一个字符串传给write()方法就可以实现写文件操作。下面的例子读取data.txt，然后将一列数据加1，第二列加2，第三列加3之后保存到新的文件data_new.txt中。
+readlines()方法独到的每一行数据都存在一个字符串中，如果需要将每个数据都拿出来，还需要使用split()方法来分割字符串。  
+
+Python中写文件通过write()方法实现，将一个字符串传给write()方法就可以实现写文件操作。下面的例子读取data.txt，然后将一列数据加1，第二列加2，第三列加3之后保存到新的文件data_new.txt中。
 
 f = open(r"data.txt", "r")
 g = open(r"data_new.txt", "w")
@@ -916,7 +917,7 @@ for line in f.readlines():
 f.close()
 g.close()
 
-  在文件data_new.txt中存储了新的数据：
+在文件data_new.txt中存储了新的数据：
 
 ```
 2 4 6
@@ -1273,41 +1274,41 @@ import numpy as np
 import matplotlib as mpl
 import matplotlib.pyplot as plt
 
-\# 通过rcParams设置全局横纵轴字体大小
-mpl.rcParams\['xtick.labelsize'\] = 24
-mpl.rcParams\['ytick.labelsize'\] = 24
+# 通过rcParams设置全局横纵轴字体大小
+mpl.rcParams['xtick.labelsize'] = 24
+mpl.rcParams['ytick.labelsize'] = 24
 
 np.random.seed(42)
 
-\# x轴的采样点
+# x轴的采样点
 x = np.linspace(3, 5, 10)
 
-\# 通过下面曲线加上噪声生成数据
+# 通过下面曲线加上噪声生成数据
 y = 0.3*x**3
 y_data = y + np.random.normal(scale=0.3, size=10)
 
-\# figure()指定图表名称
+# figure()指定图表名称
 plt.figure('data')
 
-\# '.'标明画散点图，每个散点的形状是个圆
+# '.'标明画散点图，每个散点的形状是个圆
 plt.plot(x, y_data, '.')
 
-\# 画模型的图，plot函数默认画连线图
+# 画模型的图，plot函数默认画连线图
 plt.figure('model')
 plt.plot(x, y)
 
-\# 两个图画一起
+# 两个图画一起
 plt.figure('data & model')
 
-\# 通过'k'指定线的颜色，lw指定线的宽度
-\# 第三个参数除了颜色也可以指定线形，比如'r--'表示红色虚线
-\# 更多属性可以参考官网：http://matplotlib.org/api/pyplot_api.html
+# 通过'k'指定线的颜色，lw指定线的宽度
+# 第三个参数除了颜色也可以指定线形，比如'r--'表示红色虚线
+# 更多属性可以参考官网：http://matplotlib.org/api/pyplot_api.html
 plt.plot(x, y, 'k', lw=3)
 
-\# scatter可以更容易地生成散点图
+# scatter可以更容易地生成散点图
 plt.scatter(x, y_data)
 
-\# 将当前figure的图保存到文件result.png
+# 将当前figure的图保存到文件result.png
 plt.savefig('result.png')
 ```
 
@@ -1449,7 +1450,7 @@ test['species'].head()
 [Python中lambda表达式的应用](https://blog.csdn.net/u011197534/article/details/53747316)  
 [Python 基础教程 | 菜鸟教程](http://www.runoob.com/python/python-tutorial.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyOTYxNDExNjQsLTE3NzUyMDMwODAsMT
-E0ODQ0MTM4MCwtMTUxNTE3OTc0LC0xMzA5MjQ4NDIxLDE3Njc4
-OTQzODEsLTM5NTI1ODg2XX0=
+eyJoaXN0b3J5IjpbMTE2NDEwNDk5OCwtMTc3NTIwMzA4MCwxMT
+Q4NDQxMzgwLC0xNTE1MTc5NzQsLTEzMDkyNDg0MjEsMTc2Nzg5
+NDM4MSwtMzk1MjU4ODZdfQ==
 -->
