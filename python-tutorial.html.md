@@ -1354,7 +1354,7 @@ plt.plot(x, y_pre)
 
 输出结果如下所示，从以下结果可以看出，LR所得到的的$R^2$为0.987714：
 
-```
+```py
        x          y
 0    0.0   0.496714
 1    1.0   1.861736
@@ -1368,13 +1368,15 @@ plt.plot(x, y_pre)
 9    9.0  18.542560
 10  10.0  19.536582
 Linear Regression with cross terms R^2: 0.987714
-Linear Regression coef: \[\[1.95339387\]\]
-Linear Regression intercept: \[0.59823007\]
+Linear Regression coef: [[1.95339387]]
+Linear Regression intercept: [0.59823007]
+```
 
 ![LR](LR.png)
 
 附加例子：随机森林
 
+```py
 from sklearn.datasets import load_iris
 from sklearn.ensemble import RandomForestClassifier
 import pandas as pd
@@ -1429,6 +1431,7 @@ preds = iris.target_names\[clf.predict(test\[features\])\]
 preds\[0:5\]
 \# 看一下真实名字
 test\['species'\].head()
+```
 
 ## 鸣谢
 
@@ -1443,7 +1446,7 @@ test\['species'\].head()
 [Python中lambda表达式的应用](https://blog.csdn.net/u011197534/article/details/53747316)  
 [Python 基础教程 | 菜鸟教程](http://www.runoob.com/python/python-tutorial.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNDc5NTA0MjksLTE3NzUyMDMwODAsMT
-E0ODQ0MTM4MCwtMTUxNTE3OTc0LC0xMzA5MjQ4NDIxLDE3Njc4
-OTQzODEsLTM5NTI1ODg2XX0=
+eyJoaXN0b3J5IjpbNjUxMTY4MjkzLC0xNzc1MjAzMDgwLDExND
+g0NDEzODAsLTE1MTUxNzk3NCwtMTMwOTI0ODQyMSwxNzY3ODk0
+MzgxLC0zOTUyNTg4Nl19
 -->
