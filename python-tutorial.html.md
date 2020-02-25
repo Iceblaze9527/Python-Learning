@@ -40,11 +40,7 @@
 ## Section 1: Python安装
 
 ![](https://www.python.org/static/community_logos/python-logo-generic.svg)
-Python的安装十分简单，只需在[官网](https://www.python.org/)下载安装包后直接安装即可。在实际应用中，由于我们要用到很多Python扩展包，因此这里建议大家下载[Anaconda](https://www.anaconda.com/)而不是直接使用Python。Anaconda可以在[清华大学开源软件镜像站](https://mirrors.tuna.tsinghua.edu.cn/)下载。  
-  
-Windows下安装完成Anaconda后会自动将Python加入到环境变量。Linux在安装时会提醒你是否加入到用户.bashrc文件，如果没有默认添加的话则需要自己手动添加路径到PATH。  
-  
-本教程依据**python3**，从最基础的部分讲解，帮助同学快速上手Python。同学们可以提出意见，我们会按照建议及时更新。
+Anaconda可以在[清华大学开源软件镜像站](https://mirrors.tuna.tsinghua.edu.cn/)下载。  
 
 ## Section 2: Hello World
 
@@ -1472,6 +1468,6 @@ test\['species'\].head()
 [Python中lambda表达式的应用](https://blog.csdn.net/u011197534/article/details/53747316)  
 [Python 基础教程 | 菜鸟教程](http://www.runoob.com/python/python-tutorial.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDc3MDY1MjEyLDE3Njc4OTQzODEsLTM5NT
-I1ODg2XX0=
+eyJoaXN0b3J5IjpbLTEzMDkyNDg0MjEsMTc2Nzg5NDM4MSwtMz
+k1MjU4ODZdfQ==
 -->
