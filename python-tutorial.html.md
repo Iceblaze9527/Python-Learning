@@ -306,18 +306,18 @@ kid
 ### Section 4.2: for - in 循环语句
 
 for-in循环语句会将一个向量中的第一个维度中的每个元素循环一遍，如下面的例子中，我们将名为names的列表中的每一个元素都遍历了一遍，然后把每个元素都打印了出来。
-
-names = \['Michael', 'Bob', 'Tracy'\]
+```py
+names = ['Michael', 'Bob', 'Tracy']
 for name in names:
     print(name)
 
-\# 输出如下：
+# 输出如下：
 Michael
 Bob
 Tracy
-
+```
 一个for-in语句只会遍历一个维度的每一个元素，如下面的例子中，for-in循环只遍历了第一个维度的每一个元素:
-
+```py
 names = \[\['Michael','Tracy'\],\['Bob', 'Lucy'\]\]
 for name in names:
     print(name)
@@ -325,9 +325,9 @@ for name in names:
 \# 输出如下：
 \['Michael', 'Tracy'\]
 \['Bob', 'Lucy'\]
-
+```
 当然也可以将多个for-in语句嵌套使用，如：
-
+```py
 names = \[\['Michael','Tracy'\],\['Bob', 'Lucy'\]\]
 for name in names:
     print(name)
@@ -345,7 +345,7 @@ Michael
 Tracy
 Bob
 Lucy
-
+```
 如果要同时循环两个list，如何实现？
 
 ### Section 4.3: while循环语句
@@ -1461,8 +1461,8 @@ test['species'].head()
 [Python中lambda表达式的应用](https://blog.csdn.net/u011197534/article/details/53747316)  
 [Python 基础教程 | 菜鸟教程](http://www.runoob.com/python/python-tutorial.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYyMDA4MDcwLC0xMjQ4Mzg3MjIsMTk0Nz
-g1NTA5OCwtMTc3NTIwMzA4MCwxMTQ4NDQxMzgwLC0xNTE1MTc5
-NzQsLTEzMDkyNDg0MjEsMTc2Nzg5NDM4MSwtMzk1MjU4ODZdfQ
-==
+eyJoaXN0b3J5IjpbMTA4Mjg0MzUzOSwtNjIwMDgwNzAsLTEyND
+gzODcyMiwxOTQ3ODU1MDk4LC0xNzc1MjAzMDgwLDExNDg0NDEz
+ODAsLTE1MTUxNzk3NCwtMTMwOTI0ODQyMSwxNzY3ODk0MzgxLC
+0zOTUyNTg4Nl19
 -->
