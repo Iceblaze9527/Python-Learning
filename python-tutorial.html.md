@@ -2,6 +2,7 @@
 
 > Credit to Original Author: Wei Zhang, Haochen Wang
 
+
 ## Section 1: Python & Anaconda
 
 Anaconda可以在[清华大学开源软件镜像站](https://mirrors.tuna.tsinghua.edu.cn/)下载。  
@@ -1457,7 +1458,8 @@ test['species'].head()
 [Python中lambda表达式的应用](https://blog.csdn.net/u011197534/article/details/53747316)  
 [Python 基础教程 | 菜鸟教程](http://www.runoob.com/python/python-tutorial.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNDgzODcyMiwxOTQ3ODU1MDk4LC0xNz
-c1MjAzMDgwLDExNDg0NDEzODAsLTE1MTUxNzk3NCwtMTMwOTI0
-ODQyMSwxNzY3ODk0MzgxLC0zOTUyNTg4Nl19
+eyJoaXN0b3J5IjpbMTEyMDczMDEyOCwtMTI0ODM4NzIyLDE5ND
+c4NTUwOTgsLTE3NzUyMDMwODAsMTE0ODQ0MTM4MCwtMTUxNTE3
+OTc0LC0xMzA5MjQ4NDIxLDE3Njc4OTQzODEsLTM5NTI1ODg2XX
+0=
 -->
