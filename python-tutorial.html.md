@@ -278,7 +278,7 @@ print(dict)
 ### Section 4.1: 条件语句
 
 Python中的条件语句按照以下的语法规则书写：
-
+```py
 if <条件判断1>:
     <执行1>
 elif <条件判断2>:
@@ -287,9 +287,9 @@ elif <条件判断3>:
     <执行3>
 else:
     <执行4>
-
+```
 这里是一个具体的例子：
-
+```py
 age = 3
 if age >= 18:
     print('adult')
@@ -300,8 +300,8 @@ else:
 
 \# 输出如下：
 kid
-
-当然，elif与else并不是必须的，你也可以不使用它们。
+```
+当然，``elif``与``else``并不是必须的，你也可以不使用它们。
 
 ### Section 4.2: for - in 循环语句
 
@@ -1461,8 +1461,8 @@ test['species'].head()
 [Python中lambda表达式的应用](https://blog.csdn.net/u011197534/article/details/53747316)  
 [Python 基础教程 | 菜鸟教程](http://www.runoob.com/python/python-tutorial.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA4Mjg0MzUzOSwtNjIwMDgwNzAsLTEyND
-gzODcyMiwxOTQ3ODU1MDk4LC0xNzc1MjAzMDgwLDExNDg0NDEz
-ODAsLTE1MTUxNzk3NCwtMTMwOTI0ODQyMSwxNzY3ODk0MzgxLC
-0zOTUyNTg4Nl19
+eyJoaXN0b3J5IjpbMTY5Mjk3NTAxMSwxMDgyODQzNTM5LC02Mj
+AwODA3MCwtMTI0ODM4NzIyLDE5NDc4NTUwOTgsLTE3NzUyMDMw
+ODAsMTE0ODQ0MTM4MCwtMTUxNTE3OTc0LC0xMzA5MjQ4NDIxLD
+E3Njc4OTQzODEsLTM5NTI1ODg2XX0=
 -->
