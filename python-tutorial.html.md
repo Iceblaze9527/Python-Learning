@@ -5,6 +5,7 @@
 TODO：
 * Anaconda 配置文件导出
 * 列表的深复制和浅复制
+* Anaconda环境基本操作
 
 ## Section 1: Python & Anaconda
 
@@ -1461,8 +1462,8 @@ test['species'].head()
 [Python中lambda表达式的应用](https://blog.csdn.net/u011197534/article/details/53747316)  
 [Python 基础教程 | 菜鸟教程](http://www.runoob.com/python/python-tutorial.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY5Mjk3NTAxMSwxMDgyODQzNTM5LC02Mj
-AwODA3MCwtMTI0ODM4NzIyLDE5NDc4NTUwOTgsLTE3NzUyMDMw
-ODAsMTE0ODQ0MTM4MCwtMTUxNTE3OTc0LC0xMzA5MjQ4NDIxLD
-E3Njc4OTQzODEsLTM5NTI1ODg2XX0=
+eyJoaXN0b3J5IjpbMTA0MzM0MTQ1MSwxNjkyOTc1MDExLDEwOD
+I4NDM1MzksLTYyMDA4MDcwLC0xMjQ4Mzg3MjIsMTk0Nzg1NTA5
+OCwtMTc3NTIwMzA4MCwxMTQ4NDQxMzgwLC0xNTE1MTc5NzQsLT
+EzMDkyNDg0MjEsMTc2Nzg5NDM4MSwtMzk1MjU4ODZdfQ==
 -->
