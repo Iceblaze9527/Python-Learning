@@ -2,6 +2,9 @@
 
 > Credit to Original Author: Wei Zhang, Haochen Wang
 
+TODO：
+* Anaconda 配置文件导出
+* 列表的深复制和浅复制
 
 ## Section 1: Python & Anaconda
 
@@ -1458,8 +1461,8 @@ test['species'].head()
 [Python中lambda表达式的应用](https://blog.csdn.net/u011197534/article/details/53747316)  
 [Python 基础教程 | 菜鸟教程](http://www.runoob.com/python/python-tutorial.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEyMDczMDEyOCwtMTI0ODM4NzIyLDE5ND
-c4NTUwOTgsLTE3NzUyMDMwODAsMTE0ODQ0MTM4MCwtMTUxNTE3
-OTc0LC0xMzA5MjQ4NDIxLDE3Njc4OTQzODEsLTM5NTI1ODg2XX
-0=
+eyJoaXN0b3J5IjpbLTYyMDA4MDcwLC0xMjQ4Mzg3MjIsMTk0Nz
+g1NTA5OCwtMTc3NTIwMzA4MCwxMTQ4NDQxMzgwLC0xNTE1MTc5
+NzQsLTEzMDkyNDg0MjEsMTc2Nzg5NDM4MSwtMzk1MjU4ODZdfQ
+==
 -->
