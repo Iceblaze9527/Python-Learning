@@ -35,6 +35,13 @@ menpo: https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud
 pytorch: https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud
 simpleitk: https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud
 ```
+### Section 1.1: Anaconda环境基本操作
+
+
+```sh
+conda info --env
+```
+
 
 ## Section 3: Python中的数据类型
 
@@ -1462,8 +1469,9 @@ test['species'].head()
 [Python中lambda表达式的应用](https://blog.csdn.net/u011197534/article/details/53747316)  
 [Python 基础教程 | 菜鸟教程](http://www.runoob.com/python/python-tutorial.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA0MzM0MTQ1MSwxNjkyOTc1MDExLDEwOD
-I4NDM1MzksLTYyMDA4MDcwLC0xMjQ4Mzg3MjIsMTk0Nzg1NTA5
-OCwtMTc3NTIwMzA4MCwxMTQ4NDQxMzgwLC0xNTE1MTc5NzQsLT
-EzMDkyNDg0MjEsMTc2Nzg5NDM4MSwtMzk1MjU4ODZdfQ==
+eyJoaXN0b3J5IjpbLTEzODkyMTkzODAsMTA0MzM0MTQ1MSwxNj
+kyOTc1MDExLDEwODI4NDM1MzksLTYyMDA4MDcwLC0xMjQ4Mzg3
+MjIsMTk0Nzg1NTA5OCwtMTc3NTIwMzA4MCwxMTQ4NDQxMzgwLC
+0xNTE1MTc5NzQsLTEzMDkyNDg0MjEsMTc2Nzg5NDM4MSwtMzk1
+MjU4ODZdfQ==
 -->
