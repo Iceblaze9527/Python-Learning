@@ -48,9 +48,11 @@ conda create -n <env_name> python=<version>
 ```sh
 conda remove -n <env_name> --all
 ```
-#### 导出Python环境
+#### 导出Python环境配置
 ```sh
+conda env export -f <config_name>.yml
 ```
+#### 导入Python环境配置
 
 
 ## Section 3: Python中的数据类型
@@ -1479,9 +1481,9 @@ test['species'].head()
 [Python中lambda表达式的应用](https://blog.csdn.net/u011197534/article/details/53747316)  
 [Python 基础教程 | 菜鸟教程](http://www.runoob.com/python/python-tutorial.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MzM5NDc0MzksMTA0MzM0MTQ1MSwxNj
-kyOTc1MDExLDEwODI4NDM1MzksLTYyMDA4MDcwLC0xMjQ4Mzg3
-MjIsMTk0Nzg1NTA5OCwtMTc3NTIwMzA4MCwxMTQ4NDQxMzgwLC
-0xNTE1MTc5NzQsLTEzMDkyNDg0MjEsMTc2Nzg5NDM4MSwtMzk1
-MjU4ODZdfQ==
+eyJoaXN0b3J5IjpbMjEzOTAzNjI5NywxMDQzMzQxNDUxLDE2OT
+I5NzUwMTEsMTA4Mjg0MzUzOSwtNjIwMDgwNzAsLTEyNDgzODcy
+MiwxOTQ3ODU1MDk4LC0xNzc1MjAzMDgwLDExNDg0NDEzODAsLT
+E1MTUxNzk3NCwtMTMwOTI0ODQyMSwxNzY3ODk0MzgxLC0zOTUy
+NTg4Nl19
 -->
