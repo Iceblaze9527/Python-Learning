@@ -4,7 +4,7 @@
 
 TODO：
 * 列表的深复制和浅复制
-* jicheng
+* 继承与多态
 
 ## Section 1: Python & Anaconda
 
@@ -38,6 +38,8 @@ simpleitk: https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud
 #### 查看Python环境
 ```sh
 conda info --env
+
+conda env list
 ```
 #### 创建Python环境
 ```sh
@@ -1482,7 +1484,7 @@ test['species'].head()
 [Python中lambda表达式的应用](https://blog.csdn.net/u011197534/article/details/53747316)  
 [Python 基础教程 | 菜鸟教程](http://www.runoob.com/python/python-tutorial.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMDI3NDA1MzEsMTA0MzM0MTQ1MSwxNj
+eyJoaXN0b3J5IjpbLTExNDMzODkyMjgsMTA0MzM0MTQ1MSwxNj
 kyOTc1MDExLDEwODI4NDM1MzksLTYyMDA4MDcwLC0xMjQ4Mzg3
 MjIsMTk0Nzg1NTA5OCwtMTc3NTIwMzA4MCwxMTQ4NDQxMzgwLC
 0xNTE1MTc5NzQsLTEzMDkyNDg0MjEsMTc2Nzg5NDM4MSwtMzk1
