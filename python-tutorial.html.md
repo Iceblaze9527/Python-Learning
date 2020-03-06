@@ -40,8 +40,13 @@ simpleitk: https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud
 ```sh
 conda info --env
 ```
+#### 创建Python环境
 ```sh
-conda create --name <name> python=<version>
+conda create -n <name> python=<version>
+```
+#### 移除Python环境
+```sh
+conda remove -n python35 --all
 ```
 
 ## Section 3: Python中的数据类型
@@ -1470,9 +1475,9 @@ test['species'].head()
 [Python中lambda表达式的应用](https://blog.csdn.net/u011197534/article/details/53747316)  
 [Python 基础教程 | 菜鸟教程](http://www.runoob.com/python/python-tutorial.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIyMDQ4Mjc3MywxMDQzMzQxNDUxLDE2OT
-I5NzUwMTEsMTA4Mjg0MzUzOSwtNjIwMDgwNzAsLTEyNDgzODcy
-MiwxOTQ3ODU1MDk4LC0xNzc1MjAzMDgwLDExNDg0NDEzODAsLT
-E1MTUxNzk3NCwtMTMwOTI0ODQyMSwxNzY3ODk0MzgxLC0zOTUy
-NTg4Nl19
+eyJoaXN0b3J5IjpbLTE0NDk1NDMyMDUsMTA0MzM0MTQ1MSwxNj
+kyOTc1MDExLDEwODI4NDM1MzksLTYyMDA4MDcwLC0xMjQ4Mzg3
+MjIsMTk0Nzg1NTA5OCwtMTc3NTIwMzA4MCwxMTQ4NDQxMzgwLC
+0xNTE1MTc5NzQsLTEzMDkyNDg0MjEsMTc2Nzg5NDM4MSwtMzk1
+MjU4ODZdfQ==
 -->
