@@ -965,6 +965,7 @@ g.close()
 
 numpy模块是Python中最常用模块之一，它可以实现各种矩阵操作和统计计算。下面对numpy中常用的函数进行介绍。
 
+<font color="red">TODO: 数组的拼接,reshape</font>
 
 ### Section 11.1: 数组和矩阵操作
 
@@ -1488,10 +1489,10 @@ test['species'].head()
 [Python中lambda表达式的应用](https://blog.csdn.net/u011197534/article/details/53747316)  
 [Python 基础教程 | 菜鸟教程](http://www.runoob.com/python/python-tutorial.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5ODU4ODE3MjgsMTA0ODc5NTM0NiwtMT
-U0ODc1NjYxOCwtMTE0MzM4OTIyOCwxMDQzMzQxNDUxLDE2OTI5
-NzUwMTEsMTA4Mjg0MzUzOSwtNjIwMDgwNzAsLTEyNDgzODcyMi
-wxOTQ3ODU1MDk4LC0xNzc1MjAzMDgwLDExNDg0NDEzODAsLTE1
-MTUxNzk3NCwtMTMwOTI0ODQyMSwxNzY3ODk0MzgxLC0zOTUyNT
-g4Nl19
+eyJoaXN0b3J5IjpbMzM5NDY2NTY1LDEwNDg3OTUzNDYsLTE1ND
+g3NTY2MTgsLTExNDMzODkyMjgsMTA0MzM0MTQ1MSwxNjkyOTc1
+MDExLDEwODI4NDM1MzksLTYyMDA4MDcwLC0xMjQ4Mzg3MjIsMT
+k0Nzg1NTA5OCwtMTc3NTIwMzA4MCwxMTQ4NDQxMzgwLC0xNTE1
+MTc5NzQsLTEzMDkyNDg0MjEsMTc2Nzg5NDM4MSwtMzk1MjU4OD
+ZdfQ==
 -->
