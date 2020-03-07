@@ -965,6 +965,7 @@ g.close()
 
 numpy模块是Python中最常用模块之一，它可以实现各种矩阵操作和统计计算。下面对numpy中常用的函数进行介绍。
 
+
 ### Section 11.1: 数组和矩阵操作
 
 numpy中的基本数据类型是array，array可以通过python中的list生成。下面是对于array的常用操作。
@@ -1487,9 +1488,10 @@ test['species'].head()
 [Python中lambda表达式的应用](https://blog.csdn.net/u011197534/article/details/53747316)  
 [Python 基础教程 | 菜鸟教程](http://www.runoob.com/python/python-tutorial.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA0ODc5NTM0NiwtMTU0ODc1NjYxOCwtMT
-E0MzM4OTIyOCwxMDQzMzQxNDUxLDE2OTI5NzUwMTEsMTA4Mjg0
-MzUzOSwtNjIwMDgwNzAsLTEyNDgzODcyMiwxOTQ3ODU1MDk4LC
-0xNzc1MjAzMDgwLDExNDg0NDEzODAsLTE1MTUxNzk3NCwtMTMw
-OTI0ODQyMSwxNzY3ODk0MzgxLC0zOTUyNTg4Nl19
+eyJoaXN0b3J5IjpbLTE5ODU4ODE3MjgsMTA0ODc5NTM0NiwtMT
+U0ODc1NjYxOCwtMTE0MzM4OTIyOCwxMDQzMzQxNDUxLDE2OTI5
+NzUwMTEsMTA4Mjg0MzUzOSwtNjIwMDgwNzAsLTEyNDgzODcyMi
+wxOTQ3ODU1MDk4LC0xNzc1MjAzMDgwLDExNDg0NDEzODAsLTE1
+MTUxNzk3NCwtMTMwOTI0ODQyMSwxNzY3ODk0MzgxLC0zOTUyNT
+g4Nl19
 -->
