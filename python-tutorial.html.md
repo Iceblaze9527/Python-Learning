@@ -1125,7 +1125,6 @@ array([[ 0,  1,  2],
 c - 1
 ```
 
-
 numpy中的矩阵关键词为matrix，matrix可以使用多维的array代替，具体matrix的有关性质请大家自行查阅python手册。
 
 ### Section 11.2: 随机数操作
@@ -1488,9 +1487,9 @@ test['species'].head()
 [Python中lambda表达式的应用](https://blog.csdn.net/u011197534/article/details/53747316)  
 [Python 基础教程 | 菜鸟教程](http://www.runoob.com/python/python-tutorial.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMzk3OTE3NzIsLTE1NDg3NTY2MTgsLT
-ExNDMzODkyMjgsMTA0MzM0MTQ1MSwxNjkyOTc1MDExLDEwODI4
-NDM1MzksLTYyMDA4MDcwLC0xMjQ4Mzg3MjIsMTk0Nzg1NTA5OC
-wtMTc3NTIwMzA4MCwxMTQ4NDQxMzgwLC0xNTE1MTc5NzQsLTEz
-MDkyNDg0MjEsMTc2Nzg5NDM4MSwtMzk1MjU4ODZdfQ==
+eyJoaXN0b3J5IjpbMTA0ODc5NTM0NiwtMTU0ODc1NjYxOCwtMT
+E0MzM4OTIyOCwxMDQzMzQxNDUxLDE2OTI5NzUwMTEsMTA4Mjg0
+MzUzOSwtNjIwMDgwNzAsLTEyNDgzODcyMiwxOTQ3ODU1MDk4LC
+0xNzc1MjAzMDgwLDExNDg0NDEzODAsLTE1MTUxNzk3NCwtMTMw
+OTI0ODQyMSwxNzY3ODk0MzgxLC0zOTUyNTg4Nl19
 -->
