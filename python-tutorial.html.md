@@ -14,6 +14,13 @@ numpy TODO:<br/>
 reshape<br/>
 </font>
 
+<font color="purple">
+pandas TODO:<br/>
+DataFrame选取行或列<br/>
+reshape<br/>
+</font>
+
+
 ## Section 1: Python & Anaconda
 
 Anaconda可以在[清华大学开源软件镜像站](https://mirrors.tuna.tsinghua.edu.cn/)下载。  
@@ -1495,10 +1502,10 @@ test['species'].head()
 [Python中lambda表达式的应用](https://blog.csdn.net/u011197534/article/details/53747316)  
 [Python 基础教程 | 菜鸟教程](http://www.runoob.com/python/python-tutorial.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1ODQ5MzYzNDUsMzM5NDY2NTY1LDEwND
-g3OTUzNDYsLTE1NDg3NTY2MTgsLTExNDMzODkyMjgsMTA0MzM0
-MTQ1MSwxNjkyOTc1MDExLDEwODI4NDM1MzksLTYyMDA4MDcwLC
-0xMjQ4Mzg3MjIsMTk0Nzg1NTA5OCwtMTc3NTIwMzA4MCwxMTQ4
-NDQxMzgwLC0xNTE1MTc5NzQsLTEzMDkyNDg0MjEsMTc2Nzg5ND
-M4MSwtMzk1MjU4ODZdfQ==
+eyJoaXN0b3J5IjpbMTE0ODg5MTQ1MywzMzk0NjY1NjUsMTA0OD
+c5NTM0NiwtMTU0ODc1NjYxOCwtMTE0MzM4OTIyOCwxMDQzMzQx
+NDUxLDE2OTI5NzUwMTEsMTA4Mjg0MzUzOSwtNjIwMDgwNzAsLT
+EyNDgzODcyMiwxOTQ3ODU1MDk4LC0xNzc1MjAzMDgwLDExNDg0
+NDEzODAsLTE1MTUxNzk3NCwtMTMwOTI0ODQyMSwxNzY3ODk0Mz
+gxLC0zOTUyNTg4Nl19
 -->
