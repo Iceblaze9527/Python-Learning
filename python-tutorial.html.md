@@ -3,11 +3,16 @@
 > Credit to Original Author: Wei Zhang, Haochen Wang
 
 <font color="red">
-TODO：
-* 列表的深复制和浅复制
-* 继承与多态
-</fn>
-<font color="blue">TODO: 数组的拼接,reshape</font>
+python TODO: <br/>
+列表的深复制和浅复制<br/>
+继承与多态<br/>
+</font>
+
+<font color="blue">
+numpy TODO:<br/>
+数组的拼接<br/>
+reshape<br/>
+</font>
 
 ## Section 1: Python & Anaconda
 
@@ -1490,10 +1495,10 @@ test['species'].head()
 [Python中lambda表达式的应用](https://blog.csdn.net/u011197534/article/details/53747316)  
 [Python 基础教程 | 菜鸟教程](http://www.runoob.com/python/python-tutorial.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzk1OTczMDczLDMzOTQ2NjU2NSwxMDQ4Nz
-k1MzQ2LC0xNTQ4NzU2NjE4LC0xMTQzMzg5MjI4LDEwNDMzNDE0
-NTEsMTY5Mjk3NTAxMSwxMDgyODQzNTM5LC02MjAwODA3MCwtMT
-I0ODM4NzIyLDE5NDc4NTUwOTgsLTE3NzUyMDMwODAsMTE0ODQ0
-MTM4MCwtMTUxNTE3OTc0LC0xMzA5MjQ4NDIxLDE3Njc4OTQzOD
-EsLTM5NTI1ODg2XX0=
+eyJoaXN0b3J5IjpbLTE1ODQ5MzYzNDUsMzM5NDY2NTY1LDEwND
+g3OTUzNDYsLTE1NDg3NTY2MTgsLTExNDMzODkyMjgsMTA0MzM0
+MTQ1MSwxNjkyOTc1MDExLDEwODI4NDM1MzksLTYyMDA4MDcwLC
+0xMjQ4Mzg3MjIsMTk0Nzg1NTA5OCwtMTc3NTIwMzA4MCwxMTQ4
+NDQxMzgwLC0xNTE1MTc5NzQsLTEzMDkyNDg0MjEsMTc2Nzg5ND
+M4MSwtMzk1MjU4ODZdfQ==
 -->
