@@ -1025,10 +1025,11 @@ d = np.exp(3)
 # 2的3次方，8
 f = np.power(2, 3)
 
-# 点积，1*3+2*4=11
-g = np.dot([1, 2], [3, 4])
+# 点积，与矩阵运算定义相同，1*3+2*4=11
+g1 = np.dot([1, 2], [3, 4])
 
-
+# 星积，逐元素相乘
+g2 = np.multiply([1, 2], [3, 4])
 
 # 开方，5
 h = np.sqrt(25)
@@ -1486,9 +1487,9 @@ test['species'].head()
 [Python中lambda表达式的应用](https://blog.csdn.net/u011197534/article/details/53747316)  
 [Python 基础教程 | 菜鸟教程](http://www.runoob.com/python/python-tutorial.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MDg4MTMwMDgsLTExNDMzODkyMjgsMT
-A0MzM0MTQ1MSwxNjkyOTc1MDExLDEwODI4NDM1MzksLTYyMDA4
-MDcwLC0xMjQ4Mzg3MjIsMTk0Nzg1NTA5OCwtMTc3NTIwMzA4MC
-wxMTQ4NDQxMzgwLC0xNTE1MTc5NzQsLTEzMDkyNDg0MjEsMTc2
-Nzg5NDM4MSwtMzk1MjU4ODZdfQ==
+eyJoaXN0b3J5IjpbLTMxMzM2NTEwLC0xMTQzMzg5MjI4LDEwND
+MzNDE0NTEsMTY5Mjk3NTAxMSwxMDgyODQzNTM5LC02MjAwODA3
+MCwtMTI0ODM4NzIyLDE5NDc4NTUwOTgsLTE3NzUyMDMwODAsMT
+E0ODQ0MTM4MCwtMTUxNTE3OTc0LC0xMzA5MjQ4NDIxLDE3Njc4
+OTQzODEsLTM5NTI1ODg2XX0=
 -->
