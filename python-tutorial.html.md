@@ -1028,6 +1028,8 @@ f = np.power(2, 3)
 # 点积，1*3+2*4=11
 g = np.dot([1, 2], [3, 4])
 
+
+
 # 开方，5
 h = np.sqrt(25)
 
@@ -1484,9 +1486,9 @@ test['species'].head()
 [Python中lambda表达式的应用](https://blog.csdn.net/u011197534/article/details/53747316)  
 [Python 基础教程 | 菜鸟教程](http://www.runoob.com/python/python-tutorial.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNDMzODkyMjgsMTA0MzM0MTQ1MSwxNj
-kyOTc1MDExLDEwODI4NDM1MzksLTYyMDA4MDcwLC0xMjQ4Mzg3
-MjIsMTk0Nzg1NTA5OCwtMTc3NTIwMzA4MCwxMTQ4NDQxMzgwLC
-0xNTE1MTc5NzQsLTEzMDkyNDg0MjEsMTc2Nzg5NDM4MSwtMzk1
-MjU4ODZdfQ==
+eyJoaXN0b3J5IjpbLTE4MDg4MTMwMDgsLTExNDMzODkyMjgsMT
+A0MzM0MTQ1MSwxNjkyOTc1MDExLDEwODI4NDM1MzksLTYyMDA4
+MDcwLC0xMjQ4Mzg3MjIsMTk0Nzg1NTA5OCwtMTc3NTIwMzA4MC
+wxMTQ4NDQxMzgwLC0xNTE1MTc5NzQsLTEzMDkyNDg0MjEsMTc2
+Nzg5NDM4MSwtMzk1MjU4ODZdfQ==
 -->
