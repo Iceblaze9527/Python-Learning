@@ -7,17 +7,19 @@ python TODO: <br/>
 列表的深复制和浅复制<br/>
 继承与多态<br/>
 </font>
-
+<br/>
 <font color="blue">
 numpy TODO:<br/>
 数组的拼接<br/>
 reshape<br/>
+多维数组的切片(slicing)和索引(indexing)<br/>
+enumerate 遍历numpy数组<br/>
 </font>
-
+<br/>
 <font color="purple">
 pandas TODO:<br/>
 DataFrame选取行或列<br/>
-reshape<br/>
+更改列的数据类型<br/>
 </font>
 
 
@@ -1502,7 +1504,7 @@ test['species'].head()
 [Python中lambda表达式的应用](https://blog.csdn.net/u011197534/article/details/53747316)  
 [Python 基础教程 | 菜鸟教程](http://www.runoob.com/python/python-tutorial.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE0ODg5MTQ1MywzMzk0NjY1NjUsMTA0OD
+eyJoaXN0b3J5IjpbMTM4NjY2MzAwOSwzMzk0NjY1NjUsMTA0OD
 c5NTM0NiwtMTU0ODc1NjYxOCwtMTE0MzM4OTIyOCwxMDQzMzQx
 NDUxLDE2OTI5NzUwMTEsMTA4Mjg0MzUzOSwtNjIwMDgwNzAsLT
 EyNDgzODcyMiwxOTQ3ODU1MDk4LC0xNzc1MjAzMDgwLDExNDg0
