@@ -66,6 +66,11 @@ conda create -n <env_name> python=<version>
 ```sh
 conda remove -n <env_name> --all
 ```
+#### 重命名环境
+```sh
+conda create --name <new_name> --clone <old_name>
+conda remove --name <old_name> --all
+```
 #### 导出Python环境配置
 ```sh
 conda env export -f <config_name.yml (or.yaml)>
@@ -1504,10 +1509,10 @@ test['species'].head()
 [Python中lambda表达式的应用](https://blog.csdn.net/u011197534/article/details/53747316)  
 [Python 基础教程 | 菜鸟教程](http://www.runoob.com/python/python-tutorial.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM4NjY2MzAwOSwzMzk0NjY1NjUsMTA0OD
-c5NTM0NiwtMTU0ODc1NjYxOCwtMTE0MzM4OTIyOCwxMDQzMzQx
-NDUxLDE2OTI5NzUwMTEsMTA4Mjg0MzUzOSwtNjIwMDgwNzAsLT
-EyNDgzODcyMiwxOTQ3ODU1MDk4LC0xNzc1MjAzMDgwLDExNDg0
-NDEzODAsLTE1MTUxNzk3NCwtMTMwOTI0ODQyMSwxNzY3ODk0Mz
-gxLC0zOTUyNTg4Nl19
+eyJoaXN0b3J5IjpbMTMzMTU1Nzk5OSwxMzg2NjYzMDA5LDMzOT
+Q2NjU2NSwxMDQ4Nzk1MzQ2LC0xNTQ4NzU2NjE4LC0xMTQzMzg5
+MjI4LDEwNDMzNDE0NTEsMTY5Mjk3NTAxMSwxMDgyODQzNTM5LC
+02MjAwODA3MCwtMTI0ODM4NzIyLDE5NDc4NTUwOTgsLTE3NzUy
+MDMwODAsMTE0ODQ0MTM4MCwtMTUxNTE3OTc0LC0xMzA5MjQ4ND
+IxLDE3Njc4OTQzODEsLTM5NTI1ODg2XX0=
 -->
