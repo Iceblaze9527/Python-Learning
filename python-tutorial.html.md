@@ -1377,124 +1377,6 @@ plt.savefig('result.png')
 ![model](model.png)  
 ![data&model](data_&_model.png)
 
-## Section 14：sklearn模块
-
-这里综合上面所涉及的numpy，pandas和matplotlib模块，以线性回归为例给大家做示例。  
-
-```py
-import numpy as np
-import pandas as pd
-import matplotlib.pyplot as plt
-from sklearn.linear_model import LinearRegression
-
-# 使用numpy模拟生成数据
-np.random.seed(42)
-x = np.linspace(0, 10, 11)
-y = 2*x + np.random.normal(scale=1, size=11)
-
-# 将数据转化为DataFrame
-data = {'x': list(x), 'y': list(y)}
-df = pd.DataFrame.from_dict(data)
-
-print(df)
-
-X_train = df[["x"]].values
-Y_train = df[["y"]].values
-
-# 线性拟合
-reg = LinearRegression().fit(X_train, Y_train)
-print("Linear Regression with cross terms R^2: %f" % reg.score(X_train, Y_train))
-print("Linear Regression coef:", reg.coef_)
-print("Linear Regression intercept:", reg.intercept_)
-
-y_pre = reg.predict(X_train)
-
-# 使用matplotlib作图
-plt.figure('data')
-plt.plot(x, y, '.')
-plt.plot(x, y_pre)
-```
-
-输出结果如下所示，从以下结果可以看出，LR所得到的的$R^2$为0.987714：
-
-```py
-       x          y
-0    0.0   0.496714
-1    1.0   1.861736
-2    2.0   4.647689
-3    3.0   7.523030
-4    4.0   7.765847
-5    5.0   9.765863
-6    6.0  13.579213
-7    7.0  14.767435
-8    8.0  15.530526
-9    9.0  18.542560
-10  10.0  19.536582
-Linear Regression with cross terms R^2: 0.987714
-Linear Regression coef: [[1.95339387]]
-Linear Regression intercept: [0.59823007]
-```
-
-![LR](LR.png)
-
-附加例子：随机森林
-
-```py
-from sklearn.datasets import load_iris
-from sklearn.ensemble import RandomForestClassifier
-import pandas as pd
-import numpy as np
-
-# Set random seed
-np.random.seed(0)
-
-# load数据
-iris = load_iris()
-
-# 创建一个4个特征的df
-df = pd.DataFrame(iris.data, columns=iris.feature_names)
-
-# 添加一列名字
-df['species'] = pd.Categorical.from_codes(iris.target, iris.target_names)
-
-# 分训练集和测试集
-df['is_train'] = np.random.uniform(0, 1, len(df)) <= .75
-
-# View the top 5 rows
-df.head()
-
-# 分训练集和测试集
-train, test = df[df['is_train']==True], df[df['is_train']==False]
-
-# Show the number of observations for the test and training dataframes
-print('Number of observations in the training data:', len(train))
-print('Number of observations in the test data:',len(test))
-
-# 提取出feature
-features = df.columns[:4]
-
-# 转化花的名字到0，1，2
-y = pd.factorize(train['species'])[0]
-
-# 创建RF
-clf = RandomForestClassifier(n_jobs=2, random_state=0)
-
-# 训练
-clf.fit(train[features], y)
-
-# 预测
-clf.predict(test[features])
-
-# 查看预测概率
-clf.predict_proba(test[features])[0:10]
-
-# 将名字转化过来
-preds = iris.target_names[clf.predict(test[features])]
-# 看一下前五个
-preds[0:5]
-# 看一下真实名字
-test['species'].head()
-```
 
 ## 鸣谢
 
@@ -1509,10 +1391,11 @@ test['species'].head()
 [Python中lambda表达式的应用](https://blog.csdn.net/u011197534/article/details/53747316)  
 [Python 基础教程 | 菜鸟教程](http://www.runoob.com/python/python-tutorial.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMzMTU1Nzk5OSwxMzg2NjYzMDA5LDMzOT
-Q2NjU2NSwxMDQ4Nzk1MzQ2LC0xNTQ4NzU2NjE4LC0xMTQzMzg5
-MjI4LDEwNDMzNDE0NTEsMTY5Mjk3NTAxMSwxMDgyODQzNTM5LC
-02MjAwODA3MCwtMTI0ODM4NzIyLDE5NDc4NTUwOTgsLTE3NzUy
-MDMwODAsMTE0ODQ0MTM4MCwtMTUxNTE3OTc0LC0xMzA5MjQ4ND
-IxLDE3Njc4OTQzODEsLTM5NTI1ODg2XX0=
+eyJoaXN0b3J5IjpbMjEzMTY5Mzc3NCwxMzMxNTU3OTk5LDEzOD
+Y2NjMwMDksMzM5NDY2NTY1LDEwNDg3OTUzNDYsLTE1NDg3NTY2
+MTgsLTExNDMzODkyMjgsMTA0MzM0MTQ1MSwxNjkyOTc1MDExLD
+EwODI4NDM1MzksLTYyMDA4MDcwLC0xMjQ4Mzg3MjIsMTk0Nzg1
+NTA5OCwtMTc3NTIwMzA4MCwxMTQ4NDQxMzgwLC0xNTE1MTc5Nz
+QsLTEzMDkyNDg0MjEsMTc2Nzg5NDM4MSwtMzk1MjU4ODZdfQ==
+
 -->
