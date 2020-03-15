@@ -1012,7 +1012,7 @@ np.min(a, axis = 1)
 a = np.array([[1,2,3], [4,5,6], [7,8,9]])
 
 # 将a变为一维数组
-a.flatten()# return a cop  
+a.flatten()# return a copy  
 a.ravel()# A copy is made only if needed.
 
 # 3x3的浮点型2维数组，并且初始化所有元素值为1
@@ -1391,11 +1391,11 @@ plt.savefig('result.png')
 [Python中lambda表达式的应用](https://blog.csdn.net/u011197534/article/details/53747316)  
 [Python 基础教程 | 菜鸟教程](http://www.runoob.com/python/python-tutorial.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDIzNDgxODA4LDIxMzE2OTM3NzQsMTMzMT
-U1Nzk5OSwxMzg2NjYzMDA5LDMzOTQ2NjU2NSwxMDQ4Nzk1MzQ2
-LC0xNTQ4NzU2NjE4LC0xMTQzMzg5MjI4LDEwNDMzNDE0NTEsMT
-Y5Mjk3NTAxMSwxMDgyODQzNTM5LC02MjAwODA3MCwtMTI0ODM4
-NzIyLDE5NDc4NTUwOTgsLTE3NzUyMDMwODAsMTE0ODQ0MTM4MC
-wtMTUxNTE3OTc0LC0xMzA5MjQ4NDIxLDE3Njc4OTQzODEsLTM5
-NTI1ODg2XX0=
+eyJoaXN0b3J5IjpbMTQzNTIzNDAxMywyMTMxNjkzNzc0LDEzMz
+E1NTc5OTksMTM4NjY2MzAwOSwzMzk0NjY1NjUsMTA0ODc5NTM0
+NiwtMTU0ODc1NjYxOCwtMTE0MzM4OTIyOCwxMDQzMzQxNDUxLD
+E2OTI5NzUwMTEsMTA4Mjg0MzUzOSwtNjIwMDgwNzAsLTEyNDgz
+ODcyMiwxOTQ3ODU1MDk4LC0xNzc1MjAzMDgwLDExNDg0NDEzOD
+AsLTE1MTUxNzk3NCwtMTMwOTI0ODQyMSwxNzY3ODk0MzgxLC0z
+OTUyNTg4Nl19
 -->
