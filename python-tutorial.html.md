@@ -1110,7 +1110,6 @@ a**2
 array([[  1,   4,  27],
        [  4,  25, 216]])
 '''
-a**b
 
 c = np.array([
     [1, 2, 3],
@@ -1391,11 +1390,11 @@ plt.savefig('result.png')
 [Python中lambda表达式的应用](https://blog.csdn.net/u011197534/article/details/53747316)  
 [Python 基础教程 | 菜鸟教程](http://www.runoob.com/python/python-tutorial.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEzMTY5Mzc3NCwxMzMxNTU3OTk5LDEzOD
-Y2NjMwMDksMzM5NDY2NTY1LDEwNDg3OTUzNDYsLTE1NDg3NTY2
-MTgsLTExNDMzODkyMjgsMTA0MzM0MTQ1MSwxNjkyOTc1MDExLD
-EwODI4NDM1MzksLTYyMDA4MDcwLC0xMjQ4Mzg3MjIsMTk0Nzg1
-NTA5OCwtMTc3NTIwMzA4MCwxMTQ4NDQxMzgwLC0xNTE1MTc5Nz
-QsLTEzMDkyNDg0MjEsMTc2Nzg5NDM4MSwtMzk1MjU4ODZdfQ==
-
+eyJoaXN0b3J5IjpbLTEzOTEyNzIxMDEsMjEzMTY5Mzc3NCwxMz
+MxNTU3OTk5LDEzODY2NjMwMDksMzM5NDY2NTY1LDEwNDg3OTUz
+NDYsLTE1NDg3NTY2MTgsLTExNDMzODkyMjgsMTA0MzM0MTQ1MS
+wxNjkyOTc1MDExLDEwODI4NDM1MzksLTYyMDA4MDcwLC0xMjQ4
+Mzg3MjIsMTk0Nzg1NTA5OCwtMTc3NTIwMzA4MCwxMTQ4NDQxMz
+gwLC0xNTE1MTc5NzQsLTEzMDkyNDg0MjEsMTc2Nzg5NDM4MSwt
+Mzk1MjU4ODZdfQ==
 -->
