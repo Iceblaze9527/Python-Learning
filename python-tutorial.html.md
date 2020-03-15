@@ -1005,14 +1005,14 @@ np.max(a)
 a.max()
 np.min(a)
 a.min()
+np.max(a, axis = 0)
+np.min(a, axis = 1)
 
 #生成一个3*3的数组
 a = np.array([[1,2,3], [4,5,6], [7,8,9]])
 
-np.shape(a)
-np.max(a, axis = 0)
-np.min(a, axis = 1)
 a.flatten()  # 将a变为一维数组
+
 
 # 3x3的浮点型2维数组，并且初始化所有元素值为1
 np.ones((3, 3), dtype=np.float)
@@ -1390,7 +1390,7 @@ plt.savefig('result.png')
 [Python中lambda表达式的应用](https://blog.csdn.net/u011197534/article/details/53747316)  
 [Python 基础教程 | 菜鸟教程](http://www.runoob.com/python/python-tutorial.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzOTEyNzIxMDEsMjEzMTY5Mzc3NCwxMz
+eyJoaXN0b3J5IjpbLTExMTEwODU0MTgsMjEzMTY5Mzc3NCwxMz
 MxNTU3OTk5LDEzODY2NjMwMDksMzM5NDY2NTY1LDEwNDg3OTUz
 NDYsLTE1NDg3NTY2MTgsLTExNDMzODkyMjgsMTA0MzM0MTQ1MS
 wxNjkyOTc1MDExLDEwODI4NDM1MzksLTYyMDA4MDcwLC0xMjQ4
