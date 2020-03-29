@@ -52,13 +52,17 @@ pytorch: https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud
 simpleitk: https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud
 ```
 ### Section 1.2: Anaconda包和环境基本操作
-#### 升级所有包
+#### 升级所有package
 ```
 conda update --all
 ```
 #### 升级单个的package
 ```
 conda update package_name
+```
+#### 删除单个package
+```
+conda remove package_name
 ```
 #### 查看Python环境
 ```sh
@@ -1399,7 +1403,7 @@ plt.savefig('result.png')
 [Python中lambda表达式的应用](https://blog.csdn.net/u011197534/article/details/53747316)  
 [Python 基础教程 | 菜鸟教程](http://www.runoob.com/python/python-tutorial.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMTc4OTAxNzIsMTQzNTIzNDAxMywyMT
+eyJoaXN0b3J5IjpbLTEwMTI5OTM4MTksMTQzNTIzNDAxMywyMT
 MxNjkzNzc0LDEzMzE1NTc5OTksMTM4NjY2MzAwOSwzMzk0NjY1
 NjUsMTA0ODc5NTM0NiwtMTU0ODc1NjYxOCwtMTE0MzM4OTIyOC
 wxMDQzMzQxNDUxLDE2OTI5NzUwMTEsMTA4Mjg0MzUzOSwtNjIw
