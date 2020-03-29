@@ -51,7 +51,15 @@ menpo: https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud
 pytorch: https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud
 simpleitk: https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud
 ```
-### Section 1.2: Anaconda环境基本操作
+### Section 1.2: Anaconda包和环境基本操作
+#### 升级所有包
+```
+conda update --all
+```
+#### 升级单个的package
+```
+conda update package_name
+```
 #### 查看Python环境
 ```sh
 conda info --env
@@ -1391,11 +1399,11 @@ plt.savefig('result.png')
 [Python中lambda表达式的应用](https://blog.csdn.net/u011197534/article/details/53747316)  
 [Python 基础教程 | 菜鸟教程](http://www.runoob.com/python/python-tutorial.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQzNTIzNDAxMywyMTMxNjkzNzc0LDEzMz
-E1NTc5OTksMTM4NjY2MzAwOSwzMzk0NjY1NjUsMTA0ODc5NTM0
-NiwtMTU0ODc1NjYxOCwtMTE0MzM4OTIyOCwxMDQzMzQxNDUxLD
-E2OTI5NzUwMTEsMTA4Mjg0MzUzOSwtNjIwMDgwNzAsLTEyNDgz
-ODcyMiwxOTQ3ODU1MDk4LC0xNzc1MjAzMDgwLDExNDg0NDEzOD
-AsLTE1MTUxNzk3NCwtMTMwOTI0ODQyMSwxNzY3ODk0MzgxLC0z
-OTUyNTg4Nl19
+eyJoaXN0b3J5IjpbLTEyMTc4OTAxNzIsMTQzNTIzNDAxMywyMT
+MxNjkzNzc0LDEzMzE1NTc5OTksMTM4NjY2MzAwOSwzMzk0NjY1
+NjUsMTA0ODc5NTM0NiwtMTU0ODc1NjYxOCwtMTE0MzM4OTIyOC
+wxMDQzMzQxNDUxLDE2OTI5NzUwMTEsMTA4Mjg0MzUzOSwtNjIw
+MDgwNzAsLTEyNDgzODcyMiwxOTQ3ODU1MDk4LC0xNzc1MjAzMD
+gwLDExNDg0NDEzODAsLTE1MTUxNzk3NCwtMTMwOTI0ODQyMSwx
+NzY3ODk0MzgxXX0=
 -->
