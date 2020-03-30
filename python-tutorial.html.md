@@ -4,6 +4,7 @@
 
 <font color="red">
 python TODO: <br/>
+字符串格式化
 列表的深复制和浅复制<br/>
 继承与多态<br/>
 </font>
@@ -162,6 +163,10 @@ print('''line1
 line1
 line2
 line3
+```
+#### 字符串格式化
+```
+print("I'm %s. I'm %d year old" % ('Vamei', 99))
 ```
 
 #### 3.2.2 列表List
@@ -1403,11 +1408,11 @@ plt.savefig('result.png')
 [Python中lambda表达式的应用](https://blog.csdn.net/u011197534/article/details/53747316)  
 [Python 基础教程 | 菜鸟教程](http://www.runoob.com/python/python-tutorial.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMTI5OTM4MTksMTQzNTIzNDAxMywyMT
-MxNjkzNzc0LDEzMzE1NTc5OTksMTM4NjY2MzAwOSwzMzk0NjY1
-NjUsMTA0ODc5NTM0NiwtMTU0ODc1NjYxOCwtMTE0MzM4OTIyOC
-wxMDQzMzQxNDUxLDE2OTI5NzUwMTEsMTA4Mjg0MzUzOSwtNjIw
-MDgwNzAsLTEyNDgzODcyMiwxOTQ3ODU1MDk4LC0xNzc1MjAzMD
-gwLDExNDg0NDEzODAsLTE1MTUxNzk3NCwtMTMwOTI0ODQyMSwx
-NzY3ODk0MzgxXX0=
+eyJoaXN0b3J5IjpbLTQ4MTUzMTAzNCwtMTAxMjk5MzgxOSwxND
+M1MjM0MDEzLDIxMzE2OTM3NzQsMTMzMTU1Nzk5OSwxMzg2NjYz
+MDA5LDMzOTQ2NjU2NSwxMDQ4Nzk1MzQ2LC0xNTQ4NzU2NjE4LC
+0xMTQzMzg5MjI4LDEwNDMzNDE0NTEsMTY5Mjk3NTAxMSwxMDgy
+ODQzNTM5LC02MjAwODA3MCwtMTI0ODM4NzIyLDE5NDc4NTUwOT
+gsLTE3NzUyMDMwODAsMTE0ODQ0MTM4MCwtMTUxNTE3OTc0LC0x
+MzA5MjQ4NDIxXX0=
 -->
