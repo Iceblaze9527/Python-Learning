@@ -5,6 +5,7 @@
 <font color="red">
 python TODO: <br/>
 字符串格式化<br/>
+字符串.zfill()<br/>
 列表的深复制和浅复制<br/>
 继承与多态<br/>
 </font>
@@ -1408,11 +1409,11 @@ plt.savefig('result.png')
 [Python中lambda表达式的应用](https://blog.csdn.net/u011197534/article/details/53747316)  
 [Python 基础教程 | 菜鸟教程](http://www.runoob.com/python/python-tutorial.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjQxMzc1ODcsLTEwMTI5OTM4MTksMTQzNT
-IzNDAxMywyMTMxNjkzNzc0LDEzMzE1NTc5OTksMTM4NjY2MzAw
-OSwzMzk0NjY1NjUsMTA0ODc5NTM0NiwtMTU0ODc1NjYxOCwtMT
-E0MzM4OTIyOCwxMDQzMzQxNDUxLDE2OTI5NzUwMTEsMTA4Mjg0
-MzUzOSwtNjIwMDgwNzAsLTEyNDgzODcyMiwxOTQ3ODU1MDk4LC
-0xNzc1MjAzMDgwLDExNDg0NDEzODAsLTE1MTUxNzk3NCwtMTMw
-OTI0ODQyMV19
+eyJoaXN0b3J5IjpbMTcxMzU0NjkzNyw2NDEzNzU4NywtMTAxMj
+k5MzgxOSwxNDM1MjM0MDEzLDIxMzE2OTM3NzQsMTMzMTU1Nzk5
+OSwxMzg2NjYzMDA5LDMzOTQ2NjU2NSwxMDQ4Nzk1MzQ2LC0xNT
+Q4NzU2NjE4LC0xMTQzMzg5MjI4LDEwNDMzNDE0NTEsMTY5Mjk3
+NTAxMSwxMDgyODQzNTM5LC02MjAwODA3MCwtMTI0ODM4NzIyLD
+E5NDc4NTUwOTgsLTE3NzUyMDMwODAsMTE0ODQ0MTM4MCwtMTUx
+NTE3OTc0XX0=
 -->
