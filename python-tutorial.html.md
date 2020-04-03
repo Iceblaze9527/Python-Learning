@@ -7,7 +7,7 @@ python TODO: <br/>
 字符串格式化<br/>
 字符串.zfill()<br/>
 列表的深复制和浅复制<br/>
-列表的排序<br/>
+列表的排序.sort(), .sorted()<br/>
 继承与多态<br/>
 os.walk(top[, topdown=True[, onerror=None[, followlinks=False]]])<br/>
 </font>
@@ -1411,11 +1411,11 @@ plt.savefig('result.png')
 [Python中lambda表达式的应用](https://blog.csdn.net/u011197534/article/details/53747316)  
 [Python 基础教程 | 菜鸟教程](http://www.runoob.com/python/python-tutorial.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU2Mzc1MjE2MCwxNzA5MzI3NzQ3LDE3MT
-M1NDY5MzcsNjQxMzc1ODcsLTEwMTI5OTM4MTksMTQzNTIzNDAx
-MywyMTMxNjkzNzc0LDEzMzE1NTc5OTksMTM4NjY2MzAwOSwzMz
-k0NjY1NjUsMTA0ODc5NTM0NiwtMTU0ODc1NjYxOCwtMTE0MzM4
-OTIyOCwxMDQzMzQxNDUxLDE2OTI5NzUwMTEsMTA4Mjg0MzUzOS
-wtNjIwMDgwNzAsLTEyNDgzODcyMiwxOTQ3ODU1MDk4LC0xNzc1
-MjAzMDgwXX0=
+eyJoaXN0b3J5IjpbNzg5NTUzMDEzLC01NjM3NTIxNjAsMTcwOT
+MyNzc0NywxNzEzNTQ2OTM3LDY0MTM3NTg3LC0xMDEyOTkzODE5
+LDE0MzUyMzQwMTMsMjEzMTY5Mzc3NCwxMzMxNTU3OTk5LDEzOD
+Y2NjMwMDksMzM5NDY2NTY1LDEwNDg3OTUzNDYsLTE1NDg3NTY2
+MTgsLTExNDMzODkyMjgsMTA0MzM0MTQ1MSwxNjkyOTc1MDExLD
+EwODI4NDM1MzksLTYyMDA4MDcwLC0xMjQ4Mzg3MjIsMTk0Nzg1
+NTA5OF19
 -->
