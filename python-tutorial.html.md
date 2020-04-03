@@ -18,6 +18,7 @@ numpy TODO:<br/>
 reshape<br/>
 多维数组的切片(slicing)和索引(indexing)<br/>
 enumerate 遍历numpy数组<br/>
+读取.npy文件，numpy.load和numpy.save函数<br/>
 </font>
 <br/>
 <font color="purple">
@@ -1411,11 +1412,11 @@ plt.savefig('result.png')
 [Python中lambda表达式的应用](https://blog.csdn.net/u011197534/article/details/53747316)  
 [Python 基础教程 | 菜鸟教程](http://www.runoob.com/python/python-tutorial.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzg5NTUzMDEzLC01NjM3NTIxNjAsMTcwOT
-MyNzc0NywxNzEzNTQ2OTM3LDY0MTM3NTg3LC0xMDEyOTkzODE5
-LDE0MzUyMzQwMTMsMjEzMTY5Mzc3NCwxMzMxNTU3OTk5LDEzOD
-Y2NjMwMDksMzM5NDY2NTY1LDEwNDg3OTUzNDYsLTE1NDg3NTY2
-MTgsLTExNDMzODkyMjgsMTA0MzM0MTQ1MSwxNjkyOTc1MDExLD
-EwODI4NDM1MzksLTYyMDA4MDcwLC0xMjQ4Mzg3MjIsMTk0Nzg1
-NTA5OF19
+eyJoaXN0b3J5IjpbMTUxNzA5NDMxNywtNTYzNzUyMTYwLDE3MD
+kzMjc3NDcsMTcxMzU0NjkzNyw2NDEzNzU4NywtMTAxMjk5Mzgx
+OSwxNDM1MjM0MDEzLDIxMzE2OTM3NzQsMTMzMTU1Nzk5OSwxMz
+g2NjYzMDA5LDMzOTQ2NjU2NSwxMDQ4Nzk1MzQ2LC0xNTQ4NzU2
+NjE4LC0xMTQzMzg5MjI4LDEwNDMzNDE0NTEsMTY5Mjk3NTAxMS
+wxMDgyODQzNTM5LC02MjAwODA3MCwtMTI0ODM4NzIyLDE5NDc4
+NTUwOThdfQ==
 -->
