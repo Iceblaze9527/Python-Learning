@@ -997,9 +997,6 @@ g.close()
 
 以上内容对open()，close()，readlines()，write()方法进行了简单介绍，更多的文件操作方法可以参考此处[教程](http://www.runoob.com/python3/python3-file-methods.html)。除了Python自带的这些函数之外，[pandas模块](https://pandas.pydata.org/)也提供了很多的文件操作。
 
-
-
-
 ## Section 12: pandas模块
 
 ### Section 12.1: DataFrame
@@ -1189,5 +1186,5 @@ plt.savefig('result.png')
 [Python中lambda表达式的应用](https://blog.csdn.net/u011197534/article/details/53747316)  
 [Python 基础教程 | 菜鸟教程](http://www.runoob.com/python/python-tutorial.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk4MzI5MTc3N119
+eyJoaXN0b3J5IjpbLTExMzc1NzIzOV19
 -->
