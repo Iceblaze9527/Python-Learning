@@ -8,7 +8,7 @@ enumerate 遍历numpy数组
 读取.npy文件，numpy.load和numpy.save函数
 ```
 
-## 1. `array operation`
+## 1. `array objects`
 
 numpy中的基本数据类型是array，array可以通过python中的list生成。下面是对于array的常用操作。
 
@@ -223,5 +223,6 @@ b = random.permutation(a)
 random.shuffle(a)
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI4NDEyMjQ3MCwxMjcyOTIzNDI5XX0=
+eyJoaXN0b3J5IjpbLTY1ODExNTk2MSwtMjg0MTIyNDcwLDEyNz
+I5MjM0MjldfQ==
 -->
