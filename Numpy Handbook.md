@@ -1,4 +1,4 @@
-# Numpy
+# [Numpy](https://numpy.org/doc/stable/)
 ```py
 TODO:
 数组的拼接
@@ -223,5 +223,5 @@ b = random.permutation(a)
 random.shuffle(a)
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI3MjkyMzQyOV19
+eyJoaXN0b3J5IjpbLTI4NDEyMjQ3MCwxMjcyOTIzNDI5XX0=
 -->
