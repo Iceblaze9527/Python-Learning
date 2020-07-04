@@ -8,9 +8,7 @@ enumerate 遍历numpy数组
 读取.npy文件，numpy.load和numpy.save函数
 ```
 
-numpy模块是Python中最常用模块之一，它可以实现各种矩阵操作和统计计算。下面对numpy中常用的函数进行介绍。
-
-### Section 11.1: 数组和矩阵操作
+## 1. `array operation`
 
 numpy中的基本数据类型是array，array可以通过python中的list生成。下面是对于array的常用操作。
 
@@ -225,5 +223,5 @@ b = random.permutation(a)
 random.shuffle(a)
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzA3NDMxNDUzXX0=
+eyJoaXN0b3J5IjpbMTI3MjkyMzQyOV19
 -->
