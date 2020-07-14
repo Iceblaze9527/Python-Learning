@@ -32,29 +32,20 @@ simpleitk: https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud
 * `conda update package_name`: 升级单个的package
 * `conda remove package_name`: 删除单个package
 * `conda env list`: 查看Python环境
+* `conda create -n <env_name> python=<version>`: 创建环境
+* `conda remove -n <env_name> --all`: 移除环境
+* `conda create -n <new_name> --clone <old_name>`: 克隆环境
+* `conda env export -f <config_name.yml (or.yaml)>`: 导出Python环境配置
+* `conda env create -f <config_name.yml (or.yaml)>`
 
+#### 
+```sh
 
-
-```sh
-conda create -n <env_name> python=<version>
-```
-#### 移除Python环境
-```sh
-conda remove -n <env_name> --all
-```
-#### 重命名环境
-```sh
-conda create --name <new_name> --clone <old_name>
-conda remove --name <old_name> --all
-```
-#### 导出Python环境配置
-```sh
-conda env export -f <config_name.yml (or.yaml)>
 ```
 #### 导入Python环境配置
 ```sh
-conda env create -f <config_name.yml (or.yaml)>
+
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MTU3MTc4MjAsMTMwODc0OTYxN119
+eyJoaXN0b3J5IjpbMTM3NDE3NzY5MiwxMzA4NzQ5NjE3XX0=
 -->
