@@ -1,4 +1,4 @@
-# [Python Nomenclature]()
+# [Python Nomenclature](https://visualgit.readthedocs.io/en/latest/pages/naming_convention.html)
 
 ## 1. General
 -   Avoid using names that are too general or too wordy. Strike a good balance between the two.
@@ -50,5 +50,5 @@
 -   Constant names must be fully capitalized
 -   Words in a constant name should be separated by an underscore
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMTk5NDgyOTZdfQ==
+eyJoaXN0b3J5IjpbLTE2Njk5ODQ1NzZdfQ==
 -->
