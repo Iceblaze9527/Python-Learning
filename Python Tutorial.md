@@ -927,141 +927,17 @@ g.close()
 
 以上内容对open()，close()，readlines()，write()方法进行了简单介绍，更多的文件操作方法可以参考此处[教程](http://www.runoob.com/python3/python3-file-methods.html)。除了Python自带的这些函数之外，[pandas模块](https://pandas.pydata.org/)也提供了很多的文件操作。
 
-## Section 12: pandas模块
-
-### Section 12.1: DataFrame
-
-pandas模块提供了快速，灵活和富有表现力的数据结构。这里对其中的DataFrame进行简单介绍。
-
-```py
-import pandas as pd
-'''生成以下形式的DataFrame
-df:
-         column1  column2  column3  column4
-a        0        1        2        3
-b        4        5        6        7
-c        8        9       10       11
-d       12       13       14       15
-'''
-df = pd.DataFrame(np.arange(16).reshape(4,4), columns=\["column1", "column2", "column3", "column4"\], index=\["a", "b", "c", "d"\])
-```
-
-DataFrame中可以存在不同格式的数据。
-
-```py
-'''
-df1:
-        column1 column2
-a       1       2
-b      aa      bb
-'''
-df1 = pd.DataFrame([[1, 2], ["aa", "bb"]], columns=["column1", "column2"], index=["a", "b"])
-```
-
-可以使用dict或list生成DataFrame。
-
-```py
-'''
-df2:
-     account  Jan  Feb  Mar
-0  Jones LLC  150  200  140
-1   Alpha Co  200  210  215
-2   Blue Inc   50   90   95
-'''
-sales = {'account': ['Jones LLC', 'Alpha Co', 'Blue Inc'],
-         'Jan': [150, 200, 50],
-         'Feb': [200, 210, 90],
-         'Mar': [140, 215, 95]}
-df2 = pd.DataFrame.from_dict(sales)
-
-'''
-df3:
-     account  Jan  Feb  Mar
-0  Jones LLC  150  200   50
-1   Alpha Co  200  210   90
-2   Blue Inc  140  215   95
-'''
-sales = [('Jones LLC', 150, 200, 50),
-         ('Alpha Co', 200, 210, 90),
-         ('Blue Inc', 140, 215, 95)]
-labels = ['account', 'Jan', 'Feb', 'Mar']
-df3 = pd.DataFrame.from_records(sales, columns=labels)
-```
-
-DataFrame的数据访问通过loc或者iloc来访问。
-
--   loc：通过行和列的索引来访问数据
--   iloc：通过行和列的下标来访问数据
-
-```py
-data = {'note': ['A', 'B', 'C', 'D', 'E', 'F'], 'NO.': [1, 2, 3, 4, 5, 6]}
-df4 = pd.DataFrame.from_dict(data)
-print("df4.columns\n{}\n".format(df4.columns))
-print("df4.index\n{}\n".format(df4.index))
-print("Note C, D is:\n{}\n".format(df4.loc[[0, 1], "note"]))
-print("Note C, D is:\n{}\n".format(df4.iloc[[0, 1], 0]))
-```
-
-第一行代码访问了行索引为0和1，列索引为“note”的元素。第二行代码访问了行下标为0和1（对于df4来说，行索引和行下标刚好是一样的，所以这里都是0和1，但它们却是不同的含义），列下标为0的元素。上面的代码输出如下：
-
-```py
-df4.columns
-Index(['note', 'NO.'], dtype='object')
-
-df4.index
-RangeIndex(start=0, stop=6, step=1)
-
-Note C, D is:
-0    A
-1    B
-Name: note, dtype: object
-
-Note C, D is:
-0    A
-1    B
-Name: note, dtype: object
-
-```
-
-### Section 12.2: 文件操作
-
-pandas库提供了一系列的read_函数来读取各种格式的文件，常用的有``read_table``, ``read_csv``等。  
-
-假如我们有一个data.txt文件，里边的数据如下：
-
-```
-1 2 3
-4 5 6
-
-```
-
-以下代码我们读入这个数据，更改后输出到另一个文件。
-
-```py
-import pandas as pd
-df = pd.read_csv("data.txt", sep="\s", header=None, engine='python', names = ["col1", "col2", "col3"])
-
-df["col1"] = ["a", "b"]
-df["col2"] = df["col3"] + 3
-# 通过to_csv()方法输出到新文件
-df.to_csv("data_new.txt", sep = "t", index = False, header = False)
-```
-
-其它的数据操作，大家可以通过[这篇教程](http://python.jobbole.com/89084/)学习。
 
 
 ## 鸣谢
 
 本教程在编写过程中，许多例程借鉴了以下博客或教程，在此对其作者们表示感谢。  
 [Python教程](https://www.liaoxuefeng.com/wiki/0014316089557264a6b348958f449949df42a6d3a2e542c000)  
-[NumPy 教程](http://www.runoob.com/numpy/numpy-tutorial.html)  
-[NumPy 官方网站](http://www.numpy.org/)  
-[Matplotlib](https://matplotlib.org/)  
 [Python 数据处理库 pandas 入门教程](http://python.jobbole.com/89084/)  
 [给深度学习入门者的Python快速教程 - Numpy和Matplotlib篇](http://python.jobbole.com/87471/)  
 [Creating Pandas DataFrames from Lists and Dictionaries](https://pbpython.com/pandas-list-dict.html)  
 [Python中lambda表达式的应用](https://blog.csdn.net/u011197534/article/details/53747316)  
 [Python 基础教程 | 菜鸟教程](http://www.runoob.com/python/python-tutorial.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU0OTA0NTUyNiwtMTEzNzU3MjM5XX0=
+eyJoaXN0b3J5IjpbLTIxMDk4NTcwMzMsLTExMzc1NzIzOV19
 -->
