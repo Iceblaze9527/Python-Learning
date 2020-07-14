@@ -2,21 +2,13 @@
 
 > Credit to Original Author: Wei Zhang, Haochen Wang
 
-<font color="red">
-字符串格式化<br/>
-字符串.zfill()<br/>
-列表的深复制和浅复制<br/>
-列表的排序.sort(), .sorted()<br/>
-继承与多态<br/>
-os.walk(top[, topdown=True[, onerror=None[, followlinks=False]]])<br/>
-</font>
-<br/>
-</font>
-<br/>
-<font color="purple">
+* 字符串格式化
+* 字符串.zfill()
+* 列表的深复制和浅复制
+* 列表的排序.sort(), .sorted()
+* 继承与多态
 
-
-## Section 3: Python中的数据类型
+## 1. 数据类型
 Python包含五种主要的数据类型，分别是
 
 -   Numbers(数字)
@@ -925,5 +917,5 @@ g.close()
   
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NjQyODQwNjgsLTExMzc1NzIzOV19
+eyJoaXN0b3J5IjpbODg5NTc3NzY2LC0xMTM3NTcyMzldfQ==
 -->
