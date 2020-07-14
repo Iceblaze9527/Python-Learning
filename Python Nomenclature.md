@@ -1,5 +1,7 @@
 # [Python Nomenclature](https://visualgit.readthedocs.io/en/latest/pages/naming_convention.html)
 
+## 0. [Full version check this link](https://www.python.org/dev/peps/pep-0008/)
+
 ## 1. General
 -   Avoid using names that are too general or too wordy. Strike a good balance between the two.
 -   Bad: data_structure, my_list, info_map, dictionary_for_the_purpose_of_storing_data_representing_word_definitions
@@ -50,5 +52,5 @@
 -   Constant names must be fully capitalized
 -   Words in a constant name should be separated by an underscore
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2Njk5ODQ1NzZdfQ==
+eyJoaXN0b3J5IjpbMTAzNTMwNDY1NV19
 -->
