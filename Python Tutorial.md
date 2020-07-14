@@ -928,16 +928,8 @@ g.close()
 以上内容对open()，close()，readlines()，write()方法进行了简单介绍，更多的文件操作方法可以参考此处[教程](http://www.runoob.com/python3/python3-file-methods.html)。除了Python自带的这些函数之外，[pandas模块](https://pandas.pydata.org/)也提供了很多的文件操作。
 
 
+  
 
-## 鸣谢
-
-本教程在编写过程中，许多例程借鉴了以下博客或教程，在此对其作者们表示感谢。  
-[Python教程](https://www.liaoxuefeng.com/wiki/0014316089557264a6b348958f449949df42a6d3a2e542c000)  
-[Python 数据处理库 pandas 入门教程](http://python.jobbole.com/89084/)  
-[给深度学习入门者的Python快速教程 - Numpy和Matplotlib篇](http://python.jobbole.com/87471/)  
-[Creating Pandas DataFrames from Lists and Dictionaries](https://pbpython.com/pandas-list-dict.html)  
-[Python中lambda表达式的应用](https://blog.csdn.net/u011197534/article/details/53747316)  
-[Python 基础教程 | 菜鸟教程](http://www.runoob.com/python/python-tutorial.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMDk4NTcwMzMsLTExMzc1NzIzOV19
+eyJoaXN0b3J5IjpbLTIwMDI2MDY5NTQsLTExMzc1NzIzOV19
 -->
