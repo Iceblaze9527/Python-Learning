@@ -1,10 +1,12 @@
 # Anaconda
   
+## 0. 下载
 
-### Section 1.1: 配置镜像源
+## 1. 配置TUNA镜像源
 ```sh
-code .condarc
+vi/code .condarc
 ```
+写入：
 ```yml
 ssl_verify: true
 channels:
@@ -66,5 +68,5 @@ conda env export -f <config_name.yml (or.yaml)>
 conda env create -f <config_name.yml (or.yaml)>
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU2MTkxMDQ3OF19
+eyJoaXN0b3J5IjpbMTMwODc0OTYxN119
 -->
