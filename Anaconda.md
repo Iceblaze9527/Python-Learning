@@ -42,8 +42,8 @@ simpleitk: https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud
 * `conda remove -n <env_name> --all`: 移除环境
 * `conda create -n <new_name> --clone <old_name>`: 克隆环境
 * `conda env export -f <config_name.yml (or.yaml)>`: 导出Python环境配置
-* `conda env create -f <config_name.yml (or.yaml)>`: 导入Python环境配置
+* `conda env create -n env_name -f <config_name.yml (or.yaml)>`: 导入Python环境配置
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NjYyMTMwODUsMTc2MjMyMTg5NiwxMz
-A4NzQ5NjE3XX0=
+eyJoaXN0b3J5IjpbMzE3NjE3NzM1LC0xOTY2MjEzMDg1LDE3Nj
+IzMjE4OTYsMTMwODc0OTYxN119
 -->
