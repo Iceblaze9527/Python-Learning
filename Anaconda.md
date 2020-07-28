@@ -4,9 +4,6 @@
 ### 0.1 下载（清华大学镜像源）
 
 ### 0.2 安装
-#### Mac
-
-#### Linux（移步Linux板块）
 
 ## 1. 配置TUNA镜像源
 ```sh
@@ -44,6 +41,6 @@ simpleitk: https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud
 * `conda env export -f <config_name.yml (or.yaml)>`: 导出Python环境配置
 * `conda env create -n env_name -f <config_name.yml (or.yaml)>`: 导入Python环境配置
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzE3NjE3NzM1LC0xOTY2MjEzMDg1LDE3Nj
-IzMjE4OTYsMTMwODc0OTYxN119
+eyJoaXN0b3J5IjpbMTk2NTU1MDcxMSwzMTc2MTc3MzUsLTE5Nj
+YyMTMwODUsMTc2MjMyMTg5NiwxMzA4NzQ5NjE3XX0=
 -->
