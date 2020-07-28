@@ -40,7 +40,12 @@ simpleitk: https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud
 * `conda create -n <new_name> --clone <old_name>`: 克隆环境
 * `conda env export -f <config_name.yml (or.yaml)>`: 导出Python环境配置
 * `conda env create -n env_name -f <config_name.yml (or.yaml)>`: 导入Python环境配置
+* ```
+	conda update conda
+	conda update anaconda
+	```: 升级 anaconda
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk2NTU1MDcxMSwzMTc2MTc3MzUsLTE5Nj
-YyMTMwODUsMTc2MjMyMTg5NiwxMzA4NzQ5NjE3XX0=
+eyJoaXN0b3J5IjpbLTc3NjU3ODk4MCwxOTY1NTUwNzExLDMxNz
+YxNzczNSwtMTk2NjIxMzA4NSwxNzYyMzIxODk2LDEzMDg3NDk2
+MTddfQ==
 -->
