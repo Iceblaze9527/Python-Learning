@@ -4,7 +4,12 @@
 
 1. `$ python`
 2. `>>> from notebook.auth import passwd`
-3. ``
+3. `>>> passwd()`
+4. `Enter password:`
+5. `Verify password:`
+6. `'sha1:a49da6d9c13c:27789bc3865c752e54ca0e339ceb6150bda97b0d'`
+7. `^D to qu`
+8. `$ vim ~/.jupyter/jupyter_notebook_config.py`
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIzODYzODQxNl19
+eyJoaXN0b3J5IjpbLTIwNzcwNDU3Ml19
 -->
