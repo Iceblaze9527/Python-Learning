@@ -50,11 +50,14 @@ conda update anaconda
 * `conda remove -n <env_name> --all`
 * `conda env remove -n <env_name>`
 
-## 3. conda bao
+## 3. conda 包的编译
+https://docs.conda.io/projects/conda-build/en/latest/user-guide/tutorials/build-pkgs.html
+
+https://github.com/wolny/pytorch-3dunet/tree/master/conda-recipe
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNDQ3ODUxOTMsMTU4MTkwNjgxMiwxOT
+eyJoaXN0b3J5IjpbLTIwODg5NjM2NzksMTU4MTkwNjgxMiwxOT
 Y1NTUwNzExLDMxNzYxNzczNSwtMTk2NjIxMzA4NSwxNzYyMzIx
 ODk2LDEzMDg3NDk2MTddfQ==
 -->
