@@ -30,13 +30,12 @@ menpo: https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud
 pytorch: https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud
 simpleitk: https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud
 ```
-## 2 基本操作
+## 2. 基本操作
 * `conda update --all`: 升级所有package
 * `conda update package_name`: 升级单个的package
 * `conda remove package_name`: 删除单个package
 * `conda env list`: 查看Python环境
 * `conda create -n <env_name> python=<version>`: 创建环境
-* `conda remove -n <env_name> --all`: 移除环境
 * `conda create -n <new_name> --clone <old_name>`: 克隆环境
 * `conda env export -f <config_name.yml (or.yaml)>`: 导出Python环境配置
 * `conda env create -n env_name -f <config_name.yml (or.yaml)>`: 导入Python环境配置
@@ -47,8 +46,15 @@ conda update conda
 conda update anaconda
 ```
 
+### 2.2 移除环境
+* `conda remove -n <env_name> --all`
+* `conda env remove -n <env_name>`
+
+## 3. conda bao
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU4MTkwNjgxMiwxOTY1NTUwNzExLDMxNz
-YxNzczNSwtMTk2NjIxMzA4NSwxNzYyMzIxODk2LDEzMDg3NDk2
-MTddfQ==
+eyJoaXN0b3J5IjpbLTIwNDQ3ODUxOTMsMTU4MTkwNjgxMiwxOT
+Y1NTUwNzExLDMxNzYxNzczNSwtMTk2NjIxMzA4NSwxNzYyMzIx
+ODk2LDEzMDg3NDk2MTddfQ==
 -->
