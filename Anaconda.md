@@ -56,8 +56,11 @@ https://docs.conda.io/projects/conda-build/en/latest/user-guide/tutorials/build-
 https://github.com/wolny/pytorch-3dunet/tree/master/conda-recipe
 
 
+https://blog.csdn.net/nima1994/article/details/103064351
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwODg5NjM2NzksMTU4MTkwNjgxMiwxOT
-Y1NTUwNzExLDMxNzYxNzczNSwtMTk2NjIxMzA4NSwxNzYyMzIx
-ODk2LDEzMDg3NDk2MTddfQ==
+eyJoaXN0b3J5IjpbLTExODc4MzY2MjQsLTIwODg5NjM2NzksMT
+U4MTkwNjgxMiwxOTY1NTUwNzExLDMxNzYxNzczNSwtMTk2NjIx
+MzA4NSwxNzYyMzIxODk2LDEzMDg3NDk2MTddfQ==
 -->
