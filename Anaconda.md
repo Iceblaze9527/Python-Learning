@@ -50,17 +50,20 @@ conda update anaconda
 * `conda remove -n <env_name> --all`
 * `conda env remove -n <env_name>`
 
+### 2.3 重置环境
+https://blog.csdn.net/nima1994/article/details/103064351
+
 ## 3. conda 包的编译
 https://docs.conda.io/projects/conda-build/en/latest/user-guide/tutorials/build-pkgs.html
 
 https://github.com/wolny/pytorch-3dunet/tree/master/conda-recipe
 
 
-https://blog.csdn.net/nima1994/article/details/103064351
+
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExODc4MzY2MjQsLTIwODg5NjM2NzksMT
-U4MTkwNjgxMiwxOTY1NTUwNzExLDMxNzYxNzczNSwtMTk2NjIx
-MzA4NSwxNzYyMzIxODk2LDEzMDg3NDk2MTddfQ==
+eyJoaXN0b3J5IjpbMjAxNDI0MzM4MywtMjA4ODk2MzY3OSwxNT
+gxOTA2ODEyLDE5NjU1NTA3MTEsMzE3NjE3NzM1LC0xOTY2MjEz
+MDg1LDE3NjIzMjE4OTYsMTMwODc0OTYxN119
 -->
