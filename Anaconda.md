@@ -51,9 +51,17 @@ conda update anaconda
 * `conda env remove -n <env_name>`
 
 ### 2.3 重置环境
-https://blog.csdn.net/nima1994/article/details/103064351
+1.  `conda list --revisions`  
+    查看历史，按需选择 `REV_NUM` 数值。一般情况下，0表示是第一次安装，包括root环境和conda命令，所以**一般为1或之后**。
+    
+2.  `conda install --revision REV_NUM`  
+    稍等片刻，即可重置。
 
 ## 3. conda 包的编译
+-   Run: `conda build conda-recipe/ -c conda-forge`
+-   Install locally with `conda install --use-local pytorch-3dunet -c conda-forge` (optional)
+
+
 https://docs.conda.io/projects/conda-build/en/latest/user-guide/tutorials/build-pkgs.html
 
 https://github.com/wolny/pytorch-3dunet/tree/master/conda-recipe
@@ -63,7 +71,7 @@ https://github.com/wolny/pytorch-3dunet/tree/master/conda-recipe
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAxNDI0MzM4MywtMjA4ODk2MzY3OSwxNT
-gxOTA2ODEyLDE5NjU1NTA3MTEsMzE3NjE3NzM1LC0xOTY2MjEz
-MDg1LDE3NjIzMjE4OTYsMTMwODc0OTYxN119
+eyJoaXN0b3J5IjpbLTY0NTc4NzcsMjAxNDI0MzM4MywtMjA4OD
+k2MzY3OSwxNTgxOTA2ODEyLDE5NjU1NTA3MTEsMzE3NjE3NzM1
+LC0xOTY2MjEzMDg1LDE3NjIzMjE4OTYsMTMwODc0OTYxN119
 -->
