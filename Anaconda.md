@@ -59,7 +59,7 @@ conda update anaconda
 
 ## 3. conda 包的编译
 -   Run: `conda build conda-recipe/ -c conda-forge`
--   Install locally with `conda install --use-local pytorch-3dunet -c conda-forge` (optional)
+-   Install locally with `conda install --use-local pytorch-3dunet-local -c conda-forge` (optional)
 
 
 https://docs.conda.io/projects/conda-build/en/latest/user-guide/tutorials/build-pkgs.html
@@ -71,7 +71,8 @@ https://github.com/wolny/pytorch-3dunet/tree/master/conda-recipe
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY0NTc4NzcsMjAxNDI0MzM4MywtMjA4OD
-k2MzY3OSwxNTgxOTA2ODEyLDE5NjU1NTA3MTEsMzE3NjE3NzM1
-LC0xOTY2MjEzMDg1LDE3NjIzMjE4OTYsMTMwODc0OTYxN119
+eyJoaXN0b3J5IjpbLTEzNzA5NTIxNzksLTY0NTc4NzcsMjAxND
+I0MzM4MywtMjA4ODk2MzY3OSwxNTgxOTA2ODEyLDE5NjU1NTA3
+MTEsMzE3NjE3NzM1LC0xOTY2MjEzMDg1LDE3NjIzMjE4OTYsMT
+MwODc0OTYxN119
 -->
