@@ -2,7 +2,10 @@
 [Python中lambda表达式的应用](https://blog.csdn.net/u011197534/article/details/53747316)  
 
 Virtualenv使用
+map() 函数：https://www.runoob.com/python/python-func-map.html
+
+Python Errors and Exceptions： https://docs.python.org/3/tutorial/errors.html
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAyODExMjk4MSwtMTYwMzcyNTExNiwtMT
-YwMzcyNTExNl19
+eyJoaXN0b3J5IjpbLTE2ODUyNDkzOTgsMjAyODExMjk4MSwtMT
+YwMzcyNTExNiwtMTYwMzcyNTExNl19
 -->
