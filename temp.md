@@ -10,8 +10,9 @@ and, or, not
 all() and any() https://www.runoob.com/python/python-func-all.html https://www.runoob.com/python/python-func-any.html
 
 if  __name__=='__main__':#本文件作为被导入模块时不被执行
+https://www.zhihu.com/question/49136398
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQzMjA2NjQwMCwyNzk0MDM2NzQsMTc5Nj
+eyJoaXN0b3J5IjpbMTM5OTQ2OTc0OCwyNzk0MDM2NzQsMTc5Nj
 E5ODM1NywyNDAwNzQxOTUsLTE2ODUyNDkzOTgsMjAyODExMjk4
 MSwtMTYwMzcyNTExNiwtMTYwMzcyNTExNl19
 -->
