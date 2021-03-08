@@ -6,8 +6,8 @@ map() 函数：https://www.runoob.com/python/python-func-map.html
 
 Python Errors and Exceptions： https://docs.python.org/3/tutorial/errors.html
 
-all(
+all() and any() https://www.runoob.com/python/python-func-all.html https://www.runoob.com/python/python-func-any.html
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMDUxNTUwNDEsLTE2ODUyNDkzOTgsMj
-AyODExMjk4MSwtMTYwMzcyNTExNiwtMTYwMzcyNTExNl19
+eyJoaXN0b3J5IjpbMjQwMDc0MTk1LC0xNjg1MjQ5Mzk4LDIwMj
+gxMTI5ODEsLTE2MDM3MjUxMTYsLTE2MDM3MjUxMTZdfQ==
 -->
