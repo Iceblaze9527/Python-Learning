@@ -7,7 +7,10 @@ map() 函数：https://www.runoob.com/python/python-func-map.html
 Python Errors and Exceptions： https://docs.python.org/3/tutorial/errors.html
 
 all() and any() https://www.runoob.com/python/python-func-all.html https://www.runoob.com/python/python-func-any.html
+
+if  __name__=='__main__':#本文件作为被导入模块时不被执行
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjQwMDc0MTk1LC0xNjg1MjQ5Mzk4LDIwMj
-gxMTI5ODEsLTE2MDM3MjUxMTYsLTE2MDM3MjUxMTZdfQ==
+eyJoaXN0b3J5IjpbMTc5NjE5ODM1NywyNDAwNzQxOTUsLTE2OD
+UyNDkzOTgsMjAyODExMjk4MSwtMTYwMzcyNTExNiwtMTYwMzcy
+NTExNl19
 -->
