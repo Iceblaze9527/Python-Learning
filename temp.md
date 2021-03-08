@@ -4,7 +4,8 @@
 Virtualenv使用
 map() 函数：https://www.runoob.com/python/python-func-map.html
 
-Python Errors and Exceptions： https://docs.python.org/3/tutorial/errors.html
+Python Errors and Exceptions： 
+https://docs.python.org/3/tutorial/errors.html
 
 and, or, not 
 & | 
@@ -13,7 +14,7 @@ all() and any() https://www.runoob.com/python/python-func-all.html https://www.r
 
 if  __name__=='__main__':#本文件作为被导入模块时不被执行
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjc5NDAzNjc0LDE3OTYxOTgzNTcsMjQwMD
-c0MTk1LC0xNjg1MjQ5Mzk4LDIwMjgxMTI5ODEsLTE2MDM3MjUx
-MTYsLTE2MDM3MjUxMTZdfQ==
+eyJoaXN0b3J5IjpbNzU3MDY2OTI0LDI3OTQwMzY3NCwxNzk2MT
+k4MzU3LDI0MDA3NDE5NSwtMTY4NTI0OTM5OCwyMDI4MTEyOTgx
+LC0xNjAzNzI1MTE2LC0xNjAzNzI1MTE2XX0=
 -->
