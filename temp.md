@@ -5,7 +5,9 @@ Virtualenv使用
 map() 函数：https://www.runoob.com/python/python-func-map.html
 
 Python Errors and Exceptions： https://docs.python.org/3/tutorial/errors.html
+
+all(
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2ODUyNDkzOTgsMjAyODExMjk4MSwtMT
-YwMzcyNTExNiwtMTYwMzcyNTExNl19
+eyJoaXN0b3J5IjpbLTExMDUxNTUwNDEsLTE2ODUyNDkzOTgsMj
+AyODExMjk4MSwtMTYwMzcyNTExNiwtMTYwMzcyNTExNl19
 -->
