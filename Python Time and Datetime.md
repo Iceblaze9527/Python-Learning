@@ -22,6 +22,13 @@
 通常`time.process_time()`也用在测试代码时间上，根据定义，它在整个过程中。返回值的参考点未定义，因此我们测试代码的时候需要调用两次，做差值。
 
 注意`process_time()`不包括`sleep()`休眠时间期间经过的时间。
+
+
+此外Python3.7开始还提供了以上三个方法精确到纳秒的计时。分别是：  
+`time.perf_counter_ns()`  
+`time.process_time_ns()`  
+`time.time_ns()`  
+注意这三个精确到纳秒的方法返回的是整数类型。
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk4MzY2MDc0NF19
+eyJoaXN0b3J5IjpbODIwMjI1NDIzXX0=
 -->
