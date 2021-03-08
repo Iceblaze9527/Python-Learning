@@ -2,19 +2,16 @@
 [Python中lambda表达式的应用](https://blog.csdn.net/u011197534/article/details/53747316)  
 
 Virtualenv使用
-map() 函数：https://www.runoob.com/python/python-func-map.html
 
-Python Errors and Exceptions： 
-https://docs.python.org/3/tutorial/errors.html
+map() 函数：https://www.runoob.com/python/python-func-map.html
 
 and, or, not 
 & | 
-
 all() and any() https://www.runoob.com/python/python-func-all.html https://www.runoob.com/python/python-func-any.html
 
 if  __name__=='__main__':#本文件作为被导入模块时不被执行
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzU3MDY2OTI0LDI3OTQwMzY3NCwxNzk2MT
-k4MzU3LDI0MDA3NDE5NSwtMTY4NTI0OTM5OCwyMDI4MTEyOTgx
-LC0xNjAzNzI1MTE2LC0xNjAzNzI1MTE2XX0=
+eyJoaXN0b3J5IjpbLTQzMjA2NjQwMCwyNzk0MDM2NzQsMTc5Nj
+E5ODM1NywyNDAwNzQxOTUsLTE2ODUyNDkzOTgsMjAyODExMjk4
+MSwtMTYwMzcyNTExNiwtMTYwMzcyNTExNl19
 -->
