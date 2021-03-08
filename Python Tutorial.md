@@ -4,6 +4,8 @@
 
 * 字符串格式化
 * 字符串.zfill()
+* 字符串.split()
+* 
 * 列表的深复制和浅复制
 * 列表的排序.sort(), .sorted()
 * 继承与多态
@@ -917,5 +919,6 @@ g.close()
   
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODg5NTc3NzY2LC0xMTM3NTcyMzldfQ==
+eyJoaXN0b3J5IjpbMTgxMDE0MDAxNCw4ODk1Nzc3NjYsLTExMz
+c1NzIzOV19
 -->
