@@ -17,9 +17,10 @@ https://www.zhihu.com/question/49136398
 
 Python二进制表示和位操作 https://www.jianshu.com/p/3a31065a8e58
 
-
+https://www.u3v3.com/ar/1392
+https://segmentfault.com/q/1010000000176954
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQwNzgwMjE1MiwyMDYxODM0MzE2LC04ND
+eyJoaXN0b3J5IjpbLTcwMzI4ODc3NCwyMDYxODM0MzE2LC04ND
 EzNjE1NzAsLTI3Mjg1MzA2LDI3OTQwMzY3NCwxNzk2MTk4MzU3
 LDI0MDA3NDE5NSwtMTY4NTI0OTM5OCwyMDI4MTEyOTgxLC0xNj
 AzNzI1MTE2LC0xNjAzNzI1MTE2XX0=
