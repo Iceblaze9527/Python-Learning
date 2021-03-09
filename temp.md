@@ -15,9 +15,9 @@ https://www.zhihu.com/question/49136398
 
 补齐字符串长度：https://blog.csdn.net/qq_35711912/article/details/80477950
 
-https://www.jianshu.com/p/3a31065a8e58
+Python二进制表示和位操作 https://www.jianshu.com/p/3a31065a8e58
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY0NTg2NzkzNywtODQxMzYxNTcwLC0yNz
+eyJoaXN0b3J5IjpbMjA2MTgzNDMxNiwtODQxMzYxNTcwLC0yNz
 I4NTMwNiwyNzk0MDM2NzQsMTc5NjE5ODM1NywyNDAwNzQxOTUs
 LTE2ODUyNDkzOTgsMjAyODExMjk4MSwtMTYwMzcyNTExNiwtMT
 YwMzcyNTExNl19
