@@ -16,9 +16,11 @@ https://www.zhihu.com/question/49136398
 补齐字符串长度：https://blog.csdn.net/qq_35711912/article/details/80477950
 
 Python二进制表示和位操作 https://www.jianshu.com/p/3a31065a8e58
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA2MTgzNDMxNiwtODQxMzYxNTcwLC0yNz
-I4NTMwNiwyNzk0MDM2NzQsMTc5NjE5ODM1NywyNDAwNzQxOTUs
-LTE2ODUyNDkzOTgsMjAyODExMjk4MSwtMTYwMzcyNTExNiwtMT
-YwMzcyNTExNl19
+eyJoaXN0b3J5IjpbMTQwNzgwMjE1MiwyMDYxODM0MzE2LC04ND
+EzNjE1NzAsLTI3Mjg1MzA2LDI3OTQwMzY3NCwxNzk2MTk4MzU3
+LDI0MDA3NDE5NSwtMTY4NTI0OTM5OCwyMDI4MTEyOTgxLC0xNj
+AzNzI1MTE2LC0xNjAzNzI1MTE2XX0=
 -->
