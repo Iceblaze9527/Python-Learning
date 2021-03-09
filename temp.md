@@ -13,9 +13,9 @@ all() and any() https://www.runoob.com/python/python-func-all.html https://www.r
 if  __name__=='__main__':#本文件作为被导入模块时不被执行
 https://www.zhihu.com/question/49136398
 
-
+补齐字符串长度：https://blog.csdn.net/qq_35711912/article/details/80477950
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjExOTM3NjU0NiwtMjcyODUzMDYsMjc5ND
+eyJoaXN0b3J5IjpbMTk2NTM3MTc5NywtMjcyODUzMDYsMjc5ND
 AzNjc0LDE3OTYxOTgzNTcsMjQwMDc0MTk1LC0xNjg1MjQ5Mzk4
 LDIwMjgxMTI5ODEsLTE2MDM3MjUxMTYsLTE2MDM3MjUxMTZdfQ
 ==
