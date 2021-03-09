@@ -14,9 +14,11 @@ if  __name__=='__main__':#本文件作为被导入模块时不被执行
 https://www.zhihu.com/question/49136398
 
 补齐字符串长度：https://blog.csdn.net/qq_35711912/article/details/80477950
+
+https://www.jianshu.com/p/3a31065a8e58
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg0MTM2MTU3MCwtMjcyODUzMDYsMjc5ND
-AzNjc0LDE3OTYxOTgzNTcsMjQwMDc0MTk1LC0xNjg1MjQ5Mzk4
-LDIwMjgxMTI5ODEsLTE2MDM3MjUxMTYsLTE2MDM3MjUxMTZdfQ
-==
+eyJoaXN0b3J5IjpbLTY0NTg2NzkzNywtODQxMzYxNTcwLC0yNz
+I4NTMwNiwyNzk0MDM2NzQsMTc5NjE5ODM1NywyNDAwNzQxOTUs
+LTE2ODUyNDkzOTgsMjAyODExMjk4MSwtMTYwMzcyNTExNiwtMT
+YwMzcyNTExNl19
 -->
