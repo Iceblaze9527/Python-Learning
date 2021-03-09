@@ -4,7 +4,7 @@
 
 Virtualenv使用
 
-map() 函数：https://www.runoob.com/python/python-func-map.html
+map() 函数：
 
 and, or, not 
 & | 
@@ -15,7 +15,7 @@ https://www.zhihu.com/question/49136398
 
 补齐字符串长度：https://blog.csdn.net/qq_35711912/article/details/80477950
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk2NTM3MTc5NywtMjcyODUzMDYsMjc5ND
+eyJoaXN0b3J5IjpbLTg0MTM2MTU3MCwtMjcyODUzMDYsMjc5ND
 AzNjc0LDE3OTYxOTgzNTcsMjQwMDc0MTk1LC0xNjg1MjQ5Mzk4
 LDIwMjgxMTI5ODEsLTE2MDM3MjUxMTYsLTE2MDM3MjUxMTZdfQ
 ==
