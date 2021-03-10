@@ -27,12 +27,14 @@ https://www.jianshu.com/p/3a31065a8e58
 https://www.runoob.com/python/python-func-all.html 
 https://www.runoob.com/python/python-func-any.html
 
+### isinstance()
+
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNzQxMDExNzYsMjA2MTgzNDMxNiwtOD
-QxMzYxNTcwLC0yNzI4NTMwNiwyNzk0MDM2NzQsMTc5NjE5ODM1
-NywyNDAwNzQxOTUsLTE2ODUyNDkzOTgsMjAyODExMjk4MSwtMT
-YwMzcyNTExNiwtMTYwMzcyNTExNl19
+eyJoaXN0b3J5IjpbNzYwMTEyMTM1LC0xMDc0MTAxMTc2LDIwNj
+E4MzQzMTYsLTg0MTM2MTU3MCwtMjcyODUzMDYsMjc5NDAzNjc0
+LDE3OTYxOTgzNTcsMjQwMDc0MTk1LC0xNjg1MjQ5Mzk4LDIwMj
+gxMTI5ODEsLTE2MDM3MjUxMTYsLTE2MDM3MjUxMTZdfQ==
 -->
